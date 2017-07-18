@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-and-blog",
+  "description": "samatkins.me portfolio and blog",
+  "version": "1.0.0",
+  "author": "Sam Atkins",
+  "dependencies": {
+    "gatsby-link": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^1.0.1",
+    "gatsby-plugin-sharp": "^1.0.0-beta.7",
+    "gatsby-remark-copy-linked-files": "^1.0.0-beta.6",
+    "gatsby-remark-images": "^1.0.0-beta.6",
+    "gatsby-remark-prismjs": "^1.0.0-beta.6",
+    "gatsby-remark-responsive-iframe": "^1.0.0-beta.6",
+    "gatsby-remark-smartypants": "^1.0.0-beta.6",
+    "gatsby-source-filesystem": "^1.0.0-beta.6",
+    "gatsby-transformer-remark": "^1.0.0-beta.6",
+    "react-typography": "^0.15.0",
+    "typography": "^0.15.8",
+    "typography-breakpoint-constants": "^0.14.0",
+    "typography-plugin-code": "^0.15.9"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
