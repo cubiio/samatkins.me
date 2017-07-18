@@ -1,15 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Nav from '../layouts/Nav'
+import Hero from '../layouts/Hero'
+import Footer from '../layouts/Footer'
 // import Helmet from 'react-helmet'
 
 export default class Index extends React.Component {
   render () {
     return (
       <div>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <Nav />
+        <Hero />
         <Link to='/page-2/'>Go to page 2</Link>
+        <Footer />
       </div>
     )
   }
