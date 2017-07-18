@@ -1,10 +1,20 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Portfolio and blog
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-## Deploy
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Built with...
+
+- [Gatsby](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
+- [React.js](https://facebook.github.io/react/)
+
+## Development
+
+Key commands are:
+
+```bash
+# nvm to set correct version of node, npm and yarn
+nvm use stable
+
+# to start a hot-reloading development environment accessible at localhost:8000
+gatsby develop
+```
