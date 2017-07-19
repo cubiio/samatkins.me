@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SkillsOverview from '../layouts/SkillsOverview'
+import SkillsOverview from '../components/SkillsOverview'
 
 class Hero extends Component {
   render () {

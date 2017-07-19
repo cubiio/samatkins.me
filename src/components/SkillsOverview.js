@@ -12,7 +12,7 @@ class SkillsOverview extends Component {
             <h2>Front-End:</h2>
             <ul className='about__skills'>
               <li>JavaScript</li>
-              <li>React.js</li>
+              <li>React & React Native</li>
               <li>HTML5, Jinja2, Nunjucks</li>
               <li>CSS3 & Sass</li>
             </ul>

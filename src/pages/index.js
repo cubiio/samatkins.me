@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Nav from '../layouts/Nav'
-import Hero from '../layouts/Hero'
-import Footer from '../layouts/Footer'
+import Nav from '../components/Nav'
+import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 // import Helmet from 'react-helmet'
 
 export default class Index extends React.Component {
