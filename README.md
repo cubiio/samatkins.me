@@ -4,7 +4,7 @@
 
 ## Built with...
 
-- Gatsby static site generator: [Docs]](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
+- Gatsby static site generator: [Docs](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
 - [React.js](https://facebook.github.io/react/)
 
 ## Development
@@ -17,4 +17,10 @@ nvm use stable
 
 # to start a hot-reloading development environment accessible at localhost:8000
 gatsby develop
+
+# generate an optimised production build
+gatsby build
+
+# local server for testing production build
+gatsby serve
 ```
