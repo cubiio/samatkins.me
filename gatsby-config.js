@@ -3,6 +3,7 @@ module.exports = {
     title: `Sam's Portfolio and Blog`
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
