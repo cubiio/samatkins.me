@@ -1,0 +1,77 @@
+@import 'variables';
+
+// General styling
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $background-color;
+  color: $text-color;
+  font-family: $general-font;
+}
+
+a {
+  background: $background-color;
+  color: $nav-anchor-color;
+  // color: $text-color;
+  font-family: $general-font;
+  text-decoration: none;
+  transition: .5s;
+
+  :hover {
+    background: $anchor-hover;
+  }
+}
+
+
+.browserupgrade {
+  background: $browser-upgrade;
+  color: $browser-upgrade-text;
+  margin: .2em 0;
+  padding: .2em 0;
+}
+
+// Nav
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  :hover {
+    color: $nav-anchor-color-hover;
+    text-decoration: underline;
+  }
+}
+
+.nav-anchor {
+  color: $nav-anchor-color;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  // display: flex;
+  display: inline-block;
+  flex: 1;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 20%;
+}
