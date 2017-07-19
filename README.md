@@ -4,7 +4,7 @@
 
 ## Built with...
 
-- [Gatsby](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
+- Gatsby static site generator: [Docs]](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
 - [React.js](https://facebook.github.io/react/)
 
 ## Development
