@@ -13,7 +13,6 @@ class SkillsOverview extends Component {
             <ul className='about__skills'>
               <li>JavaScript</li>
               <li>React.js</li>
-              <li>Knockout.js</li>
               <li>HTML5, Jinja2, Nunjucks</li>
               <li>CSS3 & Sass</li>
             </ul>
@@ -23,9 +22,7 @@ class SkillsOverview extends Component {
             <ul className='about__skills'>
               <li>Python</li>
               <li>Python Flask</li>
-              <li>PostgreSQL</li>
-              <li>SQLite</li>
-              <li>Google App Engine</li>
+              <li>SQL</li>
             </ul>
           </div>
           <div className='about__tools about__skills'>
