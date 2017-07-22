@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Sam's Portfolio and Blog`
+    author: 'You!',
+    title: `Gatsby Default (Blog) Starter`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-catch-links',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`
-      }
+        path: `${__dirname}/src/pages/blog`,
+        name: 'pages',
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -31,6 +31,9 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-sharp`
-  ]
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-catch-links`
+  ],
 }
