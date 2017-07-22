@@ -1,23 +1,28 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Link from "gatsby-link"
-import Helmet from "react-helmet"
+import React from 'react';
+import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
-import "../css/typography.css"
+import '../css/typography.css';
+// import '../styles/main.scss'
 
 export default class Template extends React.Component {
   static propTypes = {
     children: PropTypes.func,
-  }
+  };
 
   render() {
+    const { location } = this.props;
+
+    const isRoot = location.pathname === '/';
+
     return (
       <div>
         <Helmet
-          title="Gatsby Default Starter"
+          title="Gatsby Default (Blog) Starter"
           meta={[
-            { name: "description", content: "Sample" },
-            { name: "keywords", content: "sample, something" },
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
           ]}
         />
         <div
@@ -30,18 +35,18 @@ export default class Template extends React.Component {
             style={{
               margin: `0 auto`,
               maxWidth: 960,
-              padding: `1.45rem 1.0875rem`,
+              padding: isRoot ? `1.45rem 1.0875rem` : `1rem 0.75rem`,
             }}
           >
-            <h1 style={{ margin: 0 }}>
+            <h1 style={{ margin: 0, fontSize: isRoot ? `2.5rem` : `2rem` }}>
               <Link
                 to="/"
                 style={{
-                  color: "white",
-                  textDecoration: "none",
+                  color: 'white',
+                  textDecoration: 'none',
                 }}
               >
-                Sam Atkins: Full Stack Web Developer
+                Gatsby Blog!!
               </Link>
             </h1>
           </div>
@@ -57,6 +62,6 @@ export default class Template extends React.Component {
           {this.props.children()}
         </div>
       </div>
-    )
+    );
   }
 }
