@@ -1,6 +1,8 @@
 import React from 'react'
 import GatsbyLink from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 import Link from '../components/Link'
 
@@ -14,19 +16,23 @@ export default function Blog ({ data }) {
         .filter(post => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
           return (
-            <div className='blog-post-preview' key={post.id}>
-              <h1 className='title'>
-                <GatsbyLink to={post.frontmatter.path}>
-                  {post.frontmatter.title}
-                </GatsbyLink>
-              </h1>
-              <h2 className='date'>
-                {post.frontmatter.date}
-              </h2>
-              <p>
-                {post.excerpt}
-              </p>
-              <Link to={post.frontmatter.path}>Read more</Link>
+            <div>
+              <Nav />
+              <div className='blog-post-preview' key={post.id}>
+                <h1 className='title'>
+                  <GatsbyLink to={post.frontmatter.path}>
+                    {post.frontmatter.title}
+                  </GatsbyLink>
+                </h1>
+                <h2 className='date'>
+                  {post.frontmatter.date}
+                </h2>
+                <p>
+                  {post.excerpt}
+                </p>
+                <Link to={post.frontmatter.path}>Read more</Link>
+              </div>
+              <Footer />
             </div>
           )
         })}
