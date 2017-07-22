@@ -52,7 +52,7 @@ export default function Tags({ pathContext }) {
           );
         })}
       </ul>
-      <Link to="/">
+      <Link to="/blog">
         <HomeIcon /> All posts
       </Link>
     </div>
