@@ -16,11 +16,14 @@ Key commands are:
 nvm use stable
 
 # to start a hot-reloading development environment accessible at localhost:8000
-gatsby develop
+yarn start
 
 # generate an optimised production build
-gatsby build
+yarn build
 
 # local server for testing production build
-gatsby serve
+yarn serve
+
+# to run unit tests
+yarn test
 ```
