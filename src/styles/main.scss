@@ -22,10 +22,10 @@ body {
 }
 
 a {
-  // background: $background-color;
+  background: $background-color;
   color: $nav-anchor-color;
-  // color: $text-color;
-  font-family: $general-font;
+  color: $text-color;
+  // font-family: $general-font;
   text-decoration: none;
   transition: .5s;
 

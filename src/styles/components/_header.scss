@@ -1,0 +1,40 @@
+@import './theme/typography';
+@import './theme/colours';
+
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+  min-height: 56px;
+  transition: min-height .3s;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.header-logo {
+  border-radius: 50px;
+  height: 72px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  vertical-align: top;
+}
+
+.header-title {
+  display: inline-block;
+  font-family: $title-font;
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: .75em .25em;
+
+  a {
+    color: $title-text-color;
+  }
+}
