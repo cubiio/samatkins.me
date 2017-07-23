@@ -8,7 +8,10 @@ class Header extends Component {
       <div className='header'>
         <div className='header-inner'>
           <div>
-            <img className='header-logo' src={logo} alt='Logo image - avatar of the author' />
+            <Link to='/'>
+              <img className='header-logo' src={logo} alt='Logo image - avatar of the author'
+              />
+            </Link>
             <h1 className='header-title'>
               <Link
                 to='/'
