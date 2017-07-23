@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    author: 'You!',
-    title: `Gatsby Default (Blog) Starter`,
+    author: 'Sam Atkins',
+    title: `Sam Atkins: Portfolio & Blog`,
   },
   plugins: [
     'gatsby-plugin-catch-links',
