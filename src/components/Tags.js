@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from 'react'
+import Link from 'gatsby-link'
 
-import '../css/tags.css';
+import '../styles/main.scss'
 
-export default function Tags({ list = [] }) {
+export default function Tags ({ list = [] }) {
   return (
-    <ul className="tag-list">
+    <ul className='tag-list'>
       {list.map(tag =>
         <li key={tag}>
           <Link to={`/tags/${tag}`}>
@@ -14,5 +14,5 @@ export default function Tags({ list = [] }) {
         </li>
       )}
     </ul>
-  );
+  )
 }
