@@ -8,7 +8,8 @@ import Tags from '../components/tags'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
-import '../css/blog-post.css'
+// import '../css/blog-post.css'
+import '../styles/main.scss'
 
 export default function Template ({ data, pathContext }) {
   const { markdownRemark: post } = data

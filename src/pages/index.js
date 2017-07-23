@@ -4,7 +4,8 @@ import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 
-import '../css/index.css'
+// import '../css/index.css'
+import '../styles/main.scss'
 
 export default function Index () {
   return (

@@ -6,7 +6,8 @@ import Footer from '../components/Footer'
 
 import Link from '../components/Link'
 
-import '../css/index.css'
+// import '../css/index.css'
+import '../styles/main.scss'
 
 export default function Blog ({ data }) {
   const { edges: posts } = data.allMarkdownRemark

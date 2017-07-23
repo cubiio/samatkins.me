@@ -4,8 +4,8 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header'
-import '../css/typography.css';
-// import '../styles/main.scss'
+// import '../css/typography.css';
+import '../styles/main.scss'
 
 export default class Template extends React.Component {
   static propTypes = {

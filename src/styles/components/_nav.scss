@@ -1,0 +1,37 @@
+@import 'theme/colours';
+
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  :hover {
+    color: $nav-anchor-color-hover;
+    text-decoration: underline;
+  }
+}
+
+.nav-anchor {
+  color: $nav-anchor-color;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  // display: flex;
+  display: inline-block;
+  flex: 1;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 20%;
+}
