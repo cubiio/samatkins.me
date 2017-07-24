@@ -4,16 +4,21 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
-  :hover {
-    color: $nav-anchor-color-hover;
-    text-decoration: underline;
-  }
 }
 
 .nav-anchor {
   color: $nav-anchor-color;
   text-decoration: none;
+
+  a {
+    font-family: $general-font;
+
+    // :hover {
+    //   background: $anchor-hover;
+    //   text-decoration: none;
+    //   transition: .5s;
+    // }
+  }
 }
 
 .nav-list {
@@ -26,7 +31,7 @@
 
 .nav-item {
   box-sizing: border-box;
-  // display: flex;
+  display: flex;
   display: inline-block;
   flex: 1;
   line-height: 24px;

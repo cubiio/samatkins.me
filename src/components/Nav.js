@@ -10,8 +10,12 @@ class Nav extends Component {
           <li className='nav-item'>
             <Link className='nav-anchor' to='/'>Home</Link>
           </li>
-          <li className='nav-item'><Link to='/'>Portfolio</Link></li>
-          <li className='nav-item'><Link to='/blog'>Blog</Link></li>
+          <li className='nav-item'>
+            <Link className='nav-anchor' to='/'>Portfolio</Link>
+          </li>
+          <li className='nav-item'>
+            <Link className='nav-anchor' to='/blog'>Blog</Link>
+          </li>
         </ul>
       </nav>
     )
