@@ -39,7 +39,7 @@
     "preserve": "npm run build",
     "serve": "gatsby serve",
     "start": "gatsby develop",
-    "format": "standard",
+    "format": "standard --fix",
     "test": "echo \"Should probably write some tests!\""
   }
 }
