@@ -2,7 +2,7 @@
 @import './theme/colours';
 
 .header {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+  box-shadow: 0 2px 5px $header-shadow-color;
   min-height: 56px;
   transition: min-height .3s;
   width: 100%;
@@ -36,5 +36,6 @@
 
   a {
     color: $title-text-color;
+    text-decoration: none;
   }
 }
