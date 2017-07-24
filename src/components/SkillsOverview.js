@@ -3,31 +3,31 @@ import React, { Component } from 'react'
 class SkillsOverview extends Component {
   render () {
     return (
-      <div className='about__section'>
-        <div className='about__title'>
-          <h2 className='about__header'>Skills and Experience</h2>
+      <div className='skills-section'>
+        <div>
+          <h2 className='skills-header'>Skills and Experience</h2>
         </div>
-        <div className='about__wrapper'>
-          <div className='about__front'>
+        <div className='skills-wrapper'>
+          <div className='skills-one'>
             <h2>Front-End:</h2>
-            <ul className='about__skills'>
+            <ul>
               <li>JavaScript</li>
               <li>React & React Native</li>
               <li>HTML5, Jinja2, Nunjucks</li>
               <li>CSS3 & Sass</li>
             </ul>
           </div>
-          <div className='about__back about__skills'>
+          <div className='skills-two'>
             <h2>Back-End:</h2>
-            <ul className='about__skills'>
+            <ul>
               <li>Python</li>
               <li>Python Flask</li>
               <li>SQL</li>
             </ul>
           </div>
-          <div className='about__tools about__skills'>
+          <div className='skills-three'>
             <h2>Other Skills:</h2>
-            <ul className='about__skills'>
+            <ul>
               <li>Git</li>
               <li>Gulp</li>
               <li>macOS & Linux Ubuntu</li>
