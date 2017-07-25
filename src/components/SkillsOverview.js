@@ -18,7 +18,7 @@ class SkillsOverview extends Component {
     return (
       <div className='skills-section'>
         <h2 className='skills-header'>Skills and Experience</h2>
-        {this.renderSkills()}
+        <div className='skills-wrapper'>{this.renderSkills()}</div>
       </div>
     )
   }

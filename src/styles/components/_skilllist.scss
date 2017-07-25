@@ -1,0 +1,15 @@
+@import './theme/colours';
+
+.skills-box {
+  background-color: $skills-background-color;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  padding-left: 35px;
+
+  h2 {
+    font-size: 20px;
+  }
+}
