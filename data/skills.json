@@ -1,0 +1,44 @@
+[
+  {
+    "group": "Languages",
+    "items": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "HTML & CSS"
+      }
+    ]
+  },
+  {
+    "group": "Frameworks/Libraries",
+    "items": [
+      {
+        "name": "React & React Native"
+      },
+      {
+        "name": "Python Flask"
+      },
+      {
+        "name": "Knockout.js"
+      }
+    ]
+  },
+  {
+    "group": "Systems & Tools",
+    "items": [
+      {
+        "name": "Git"
+      },
+      {
+        "name": "Gulp"
+      },
+      {
+        "name": "macOS & Linux Ubuntu"
+      }
+    ]
+  }
+]

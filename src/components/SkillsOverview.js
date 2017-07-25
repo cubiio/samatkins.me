@@ -1,39 +1,24 @@
 import React, { Component } from 'react'
+import SkillList from './SkillList'
+const skills = require('../../data/skills.json')
 
 class SkillsOverview extends Component {
+  constructor (props) {
+    super(props)
+    this.state = { skills: skills }
+  }
+
+  renderSkills () {
+    return this.state.skills.map(skill =>
+      <SkillList key={skill.group} skill={skill} />
+    )
+  }
+
   render () {
     return (
       <div className='skills-section'>
-        <div>
-          <h2 className='skills-header'>Skills and Experience</h2>
-        </div>
-        <div className='skills-wrapper'>
-          <div className='skills-one'>
-            <h2>Front-End:</h2>
-            <ul>
-              <li>JavaScript</li>
-              <li>React & React Native</li>
-              <li>HTML5, Jinja2, Nunjucks</li>
-              <li>CSS3 & Sass</li>
-            </ul>
-          </div>
-          <div className='skills-two'>
-            <h2>Back-End:</h2>
-            <ul>
-              <li>Python</li>
-              <li>Python Flask</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-          <div className='skills-three'>
-            <h2>Other Skills:</h2>
-            <ul>
-              <li>Git</li>
-              <li>Gulp</li>
-              <li>macOS & Linux Ubuntu</li>
-            </ul>
-          </div>
-        </div>
+        <h2 className='skills-header'>Skills and Experience</h2>
+        {this.renderSkills()}
       </div>
     )
   }

@@ -26,7 +26,7 @@
   justify-content: space-around;
 }
 
-.skills-front {
+.skills-box {
   background-color: $skills-background-color;
   border-radius: 6px;
   flex: 1;
@@ -40,30 +40,45 @@
   }
 }
 
-.skills-back {
-  background-color: $skills-background-color;
-  border-radius: 6px;
-  flex: 1;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  padding-left: 35px;
-
-  h2 {
-    font-size: 25px;
-  }
-}
-
-.skills-tools {
-  background-color: $skills-background-color;
-  border-radius: 6px;
-  flex: 1;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  padding-left: 35px;
-
-  h2 {
-    font-size: 25px;
-  }
-}
+// TODO change to .skills-box and x1 ie make it DRY!
+// .skills-one {
+//   background-color: $skills-background-color;
+//   border-radius: 6px;
+//   flex: 1;
+//   font-size: 18px;
+//   font-weight: 200;
+//   line-height: 30px;
+//   padding-left: 35px;
+//
+//   h2 {
+//     font-size: 25px;
+//   }
+// }
+//
+// .skills-two {
+//   background-color: $skills-background-color;
+//   border-radius: 6px;
+//   flex: 1;
+//   font-size: 18px;
+//   font-weight: 200;
+//   line-height: 30px;
+//   padding-left: 35px;
+//
+//   h2 {
+//     font-size: 25px;
+//   }
+// }
+//
+// .skills-three {
+//   background-color: $skills-background-color;
+//   border-radius: 6px;
+//   flex: 1;
+//   font-size: 18px;
+//   font-weight: 200;
+//   line-height: 30px;
+//   padding-left: 35px;
+//
+//   h2 {
+//     font-size: 25px;
+//   }
+// }
