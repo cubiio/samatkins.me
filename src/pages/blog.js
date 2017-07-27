@@ -3,6 +3,7 @@ import GatsbyLink from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import SMIcons from '../components/SMIcons'
 
 import Link from '../components/Link'
 
@@ -38,6 +39,7 @@ export default function Blog ({ data }) {
             )
           })}
       </div>
+      <SMIcons />
       <Footer />
     </div>
   )

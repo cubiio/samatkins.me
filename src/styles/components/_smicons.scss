@@ -1,0 +1,16 @@
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.5em;
+  width: 50%;
+}
+
+.social-logo {
+  height: 30px;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 30px;
+}

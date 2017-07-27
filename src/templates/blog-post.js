@@ -7,6 +7,7 @@ import Link from '../components/Link'
 import Tags from '../components/tags'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import SMIcons from '../components/SMIcons'
 
 // import '../css/blog-post.css'
 import '../styles/main.scss'
@@ -43,6 +44,7 @@ export default function Template ({ data, pathContext }) {
           </div>
         </div>
       </div>
+      <SMIcons />
       <Footer />
     </div>
   )
