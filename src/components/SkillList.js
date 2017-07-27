@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const SkillList = ({ skill }) => {
-  console.log(skill)
   const { group, items } = skill
 
   return (
