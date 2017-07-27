@@ -11,7 +11,7 @@ class Nav extends Component {
             <Link className='nav-anchor' to='/'>Home</Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-anchor' to='/'>Portfolio</Link>
+            <Link className='nav-anchor' to='/portfolio'>Portfolio</Link>
           </li>
           <li className='nav-item'>
             <Link className='nav-anchor' to='/blog'>Blog</Link>
