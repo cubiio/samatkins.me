@@ -1,3 +1,5 @@
+@import './theme/typography';
+
 .hero-wrapper {
   display: flex;
   flex-direction: column;
@@ -9,11 +11,13 @@
   align-self: center;
   color: #212121;
   display: flex;
+  font-family: $general-font;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero-intro {
+  font-family: $general-font;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;

@@ -22,5 +22,6 @@
   // row for large screens; column for small screens
   flex-direction: row;
   flex-wrap: wrap;
+  font-family: $general-font;
   justify-content: space-around;
 }
