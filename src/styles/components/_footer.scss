@@ -1,7 +1,21 @@
-.footer-container {
-  border-color: red;
+@import './theme/typography';
+@import './theme/colours';
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 
-.footer-text {
-  color: blue;
+.footer-container {
+  display: flex;
+  font-family: $title-font;
+  font-size: 1.2em;
+  justify-content: center;
+
+  a {
+    color: $nav-anchor-color;
+    font-family: $title-font;
+    text-decoration: none;
+  }
 }
