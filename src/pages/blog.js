@@ -15,7 +15,7 @@ export default function Blog ({ data }) {
   return (
     <div>
       <Nav />
-      <div className='blog-posts'>
+      <div className='blog-post'>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
@@ -45,7 +45,6 @@ export default function Blog ({ data }) {
   )
 }
 
-// query was called IndexQuery - does this need to change?
 export const pageQuery = graphql`
   query BlogQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {

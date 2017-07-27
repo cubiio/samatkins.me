@@ -1,8 +1,11 @@
+@import './theme/colours';
+@import './theme/typography';
+
 .link {
   display: inline-block;
-  color: rebeccapurple;
+  color: $nav-anchor-color;
   padding: 0.75rem 1rem;
-  border: 2px solid rebeccapurple;
+  border: 2px solid $nav-anchor-color;
   text-decoration: none;
   position: relative;
 }
@@ -16,7 +19,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rebeccapurple;
+  background-color: $nav-anchor-color;
   transition: 250ms ease-in-out;
   transform: scaleY(0);
   transform-origin: bottom;
