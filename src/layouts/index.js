@@ -18,8 +18,10 @@ export default class Template extends React.Component {
           title="Sam Atkins: Portfolio & Blog"
           meta={[
             { name: 'description', content: 'portfolio and blog' },
-            { name: 'keywords', content: 'portfolio, blog, web developer,
-                                          javascript, python' },
+            {
+              name: 'keywords',
+              content: 'portfolio, blog, web developer, javascript, python'
+            },
           ]}
         />
         <Header />
