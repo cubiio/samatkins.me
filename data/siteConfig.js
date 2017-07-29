@@ -1,0 +1,11 @@
+module.exports = {
+  siteAuthor: 'Sam Atkins',
+  siteTitle: 'Sam Atkins: Portfolio & Blog',
+  siteTitleAlt: 'Sam Atkins: Portfolio & Blog powered by GatsbyJS',
+  siteLogo: 'assets/images/logo.svg',
+  siteUrl: 'https://samatkins.me',
+  siteDescription: 'Sam Atkins: portfolio and blog', // Website description used for RSS feeds/meta description tag.
+  googleAnalyticsID: '#' // GA tracking ID.
+  // siteRss: '/rss.xml', // Path to the RSS file.
+  // disqusShortname: '#', // Disqus shortname.
+}

@@ -1,7 +1,9 @@
+const config = require('./data/siteConfig')
+
 module.exports = {
   siteMetadata: {
-    author: 'Sam Atkins',
-    title: `Sam Atkins: Portfolio & Blog`,
+    author: config.siteAuthor,
+    title: config.siteTitle
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -9,8 +11,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages/blog`,
-        name: 'pages',
-      },
+        name: 'pages'
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -35,5 +37,5 @@ module.exports = {
     'gatsby-plugin-sharp',
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`
-  ],
+  ]
 }
