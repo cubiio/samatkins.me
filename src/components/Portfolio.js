@@ -1,25 +1,18 @@
 import React, { Component } from 'react'
-const portfolio = require('../../data/projects.json')
+import PortfolioItem from './PortfolioItem'
+const projects = require('../../data/portfolio')
 
 class Portfolio extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      portfolio
-    }
-  }
-
-  renderProject () {
-    const project = this.state.portfolio
-    return project.map(p =>
-      <div key={p.portfolioTitle} p={p}>{p.portfolioTitle}</div>
+  renderPortfolio () {
+    return projects.map(project =>
+      <PortfolioItem key={project.id} project={project} />
     )
   }
 
   render () {
     return (
       <div>
-        {this.renderProject()}
+        {this.renderPortfolio()}
       </div>
     )
   }
