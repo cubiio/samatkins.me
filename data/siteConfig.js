@@ -5,6 +5,8 @@ module.exports = {
   siteLogo: 'assets/images/logo.svg',
   siteUrl: 'https://samatkins.me',
   siteDescription: 'Sam Atkins: portfolio and blog', // Website description used for RSS feeds/meta description tag.
+  metaDescription: 'portfolio and blog',
+  metaKeywords: 'portfolio, blog, web developer, javascript, python',
   googleAnalyticsID: 'UA-103621072-1' // GA tracking ID.
   // siteRss: '/rss.xml', // Path to the RSS file.
   // disqusShortname: '#', // Disqus shortname.

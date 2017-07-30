@@ -9,7 +9,6 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import SMIcons from '../components/SMIcons'
 
-// import '../css/blog-post.css'
 import '../styles/main.scss'
 
 export default function Template ({ data, pathContext }) {
@@ -19,7 +18,7 @@ export default function Template ({ data, pathContext }) {
     <div>
       <Nav />
       <div className='blog-post-container'>
-        <Helmet title={`Gatsby Blog - ${post.frontmatter.title}`} />
+        <Helmet title={`Sam's Blog: ${post.frontmatter.title}`} />
         <div className='blog-post'>
           <h1 className='title'>
             {post.frontmatter.title}
