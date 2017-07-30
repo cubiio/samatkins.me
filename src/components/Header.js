@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import logo from '../assets/images/logo.svg'
+import images from '../../assets/images'
 
 class Header extends Component {
   render () {
@@ -9,7 +9,7 @@ class Header extends Component {
         <div className='header-inner'>
           <div>
             <Link to='/'>
-              <img className='header-logo' src={logo} alt='Logo image - avatar of the author'
+              <img className='header-logo' src={images.logo.header} alt='Logo image - avatar of the author'
               />
             </Link>
             <h1 className='header-title'>

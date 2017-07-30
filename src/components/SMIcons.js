@@ -1,24 +1,22 @@
 import React from 'react'
-import gh from '../assets/fa/github-square.svg'
-import linkedin from '../assets/fa/linkedin.svg'
-import twitter from '../assets/fa/twitter-square.svg'
+import images from '../../assets/images'
 
 const SMIcons = () => {
   return (
     <div className='social-container'>
       <div className='social-logo'>
         <a href='https://github.com/cubiio' target='_blank'>
-          <img src={gh} />
+          <img src={images.fa.github} />
         </a>
       </div>
       <div className='social-logo'>
         <a href='https://www.linkedin.com/in/atkinssam/' target='_blank'>
-          <img src={linkedin} />
+          <img src={images.fa.linkedin} />
         </a>
       </div>
       <div className='social-logo'>
         <a href='https://twitter.com/cubiio' target='_blank'>
-          <img src={twitter} />
+          <img src={images.fa.twitter} />
         </a>
       </div>
     </div>
