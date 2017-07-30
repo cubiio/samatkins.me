@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const BUILD_TIME = new Date().getTime();
+const BUILD_TIME = new Date().getTime()
 
 export default class HTML extends React.Component {
   static propTypes = {
     body: PropTypes.string,
-  };
+  }
 
   render() {
-    let css;
+    let css
     if (process.env.NODE_ENV === 'production') {
       css = (
         <style
@@ -17,7 +17,7 @@ export default class HTML extends React.Component {
             __html: require('!raw!../public/styles.css'),
           }}
         />
-      );
+      )
     }
 
     return (
@@ -40,6 +40,6 @@ export default class HTML extends React.Component {
           {this.props.postBodyComponents}
         </body>
       </html>
-    );
+    )
   }
 }
