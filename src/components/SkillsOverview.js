@@ -5,7 +5,7 @@ const skills = require('../../data/skills.json')
 class SkillsOverview extends Component {
   constructor (props) {
     super(props)
-    this.state = { skills: skills }
+    this.state = { skills }
   }
 
   renderSkills () {
