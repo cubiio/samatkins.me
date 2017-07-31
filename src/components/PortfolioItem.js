@@ -12,12 +12,15 @@ const PortfolioItem = ({ project }) => {
   } = project
 
   return (
-    <section>
+    <div className='project-wrapper'>
       <div className='project-title'>{portfolioTitle}</div>
       <div className='project-snippet'>{portfolioSnippet}</div>
       <img className='project-image' src={portfolioImage} alt={portfolioAlt} />
-      <div>{portfolioSummary}</div>
-    </section>
+      <div className='project-summary'>{portfolioSummary}</div>
+      <div className='project-link'>
+        <a href={portfolioSourceURL}>Source code</a>
+      </div>
+    </div>
   )
 }
 

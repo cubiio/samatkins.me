@@ -11,9 +11,9 @@ class Portfolio extends Component {
 
   render () {
     return (
-      <div>
+      <section className='portfolio-section'>
         {this.renderPortfolio()}
-      </div>
+      </section>
     )
   }
 }
