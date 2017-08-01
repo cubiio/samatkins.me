@@ -37,6 +37,13 @@ module.exports = {
     'gatsby-plugin-sharp',
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        configModule: `src/lib/theme/typography.js`
+      }
+    },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
