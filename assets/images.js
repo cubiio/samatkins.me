@@ -1,6 +1,6 @@
 const images = {
   logo: {
-    header: require('./images/logo.svg')
+    avatar: require('./images/logo.svg')
   },
   fa: {
     github: require('./fa/github-square.svg'),
