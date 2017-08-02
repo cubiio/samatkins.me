@@ -34,7 +34,7 @@ Styles
 const SocialContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2.5em;
@@ -45,5 +45,7 @@ const SocialLogo = styled.div`
   height: 30px;
   padding-left: 2px;
   padding-right: 2px;
+  margin-left: auto;
+  margin-right: auto;
   width: 30px;
 `
