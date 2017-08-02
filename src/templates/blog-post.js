@@ -9,7 +9,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import SMIcons from '../components/SMIcons'
 
-import '../styles/main.scss'
+import '../styles/blogpost.scss'
 
 export default function Template ({ data, pathContext }) {
   const { markdownRemark: post } = data

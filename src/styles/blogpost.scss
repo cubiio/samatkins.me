@@ -1,0 +1,65 @@
+// Colours
+$primary: #F03838;
+
+
+.blog-post-container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 889px;
+}
+
+.blog-post .link.prev {
+  float: left;
+}
+
+.blog-post .link.next {
+  float: right;
+}
+
+.blog-post .title, .blog-post .date {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post .date {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+pre {
+  background: #F1F0EA;
+  border: 1px solid #DDDBCC;
+  border-radius: 3px;
+  margin: 0 0 20px;
+  overflow-x: auto;
+  padding: 10px;
+  font-size: 16px;
+
+  code {
+    padding: 0;
+  }
+}
+
+code {
+  background-color: #F1F0EA;
+  border-radius: 4px;
+  color: $primary;
+  font-size: 90%;
+  padding: 2px 4px;
+}
+
+blockquote {
+  border-left: 1px dotted $primary;
+  margin: 40px 0;
+  padding: 5px 30px;
+
+  p {
+    color: #AEADAD;
+    display: block;
+    font-style: italic;
+    margin: 0;
+    width: 100%;
+  }
+}
