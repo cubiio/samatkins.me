@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SkillsOverview from '../components/SkillsOverview'
 import styled from 'styled-components'
 
+import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours'
+
 class Hero extends Component {
   render () {
     return (
@@ -45,7 +47,11 @@ const HeroIntro = styled.div`
   max-width: 45%;
 
   a {
-    color: $nav-anchor-color;
+    color: ${NAV_ANCHOR};
     text-decoration: none;
+  }
+
+  a:hover {
+    color: ${NAV_ANCHOR_HOVER}
   }
 `

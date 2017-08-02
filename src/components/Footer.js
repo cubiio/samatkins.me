@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import { NAV_ANCHOR } from '../lib/theme/colours'
+import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours'
 
 class Footer extends Component {
   render () {
@@ -36,5 +36,9 @@ const FooterContainer = styled.div`
   a {
     color: ${NAV_ANCHOR};
     text-decoration: none;
+  }
+
+  a:hover {
+    color: ${NAV_ANCHOR_HOVER}
   }
 `
