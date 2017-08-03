@@ -3,6 +3,7 @@ module.exports = {
   siteTitle: 'Sam Atkins: Portfolio & Blog',
   siteTitleAlt: 'Sam Atkins: Portfolio & Blog powered by GatsbyJS',
   siteLogo: 'assets/images/logo.svg',
+  siteLogoAlt: 'Logo image - avatar of the author',
   siteUrl: 'https://samatkins.me',
   siteDescription: 'Sam Atkins: portfolio and blog', // Website description used for RSS feeds/meta description tag.
   metaDescription: 'portfolio and blog',

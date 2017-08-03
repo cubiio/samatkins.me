@@ -3,7 +3,9 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import { logo } from '../../assets/images'
-import { HEADER_SHADOW, TITLE_TEXT_COLOR } from '../lib/theme/colours'
+import { siteLogoAlt } from '../../data/siteConfig'
+import { HEADER_SHADOW,
+  NAV_ANCHOR, TITLE_TEXT_COLOR } from '../lib/theme/colours'
 
 class Header extends Component {
   render () {
@@ -13,15 +15,15 @@ class Header extends Component {
           <div>
             <Link to='/'>
               <HeaderLogo
-                src={logo.avatar} alt='Logo image - avatar of the author'
+                src={logo.avatar} alt={siteLogoAlt}
               />
             </Link>
             <HeaderTitle>
-              <Link
+              <StyledLink
                 to='/'
               >
                 Sam Atkins: Full Stack Web Developer
-              </Link>
+              </StyledLink>
             </HeaderTitle>
           </div>
         </HeaderInner>
@@ -73,4 +75,11 @@ const HeaderTitle = styled.h1`
     color: ${TITLE_TEXT_COLOR};
     text-decoration: none;
   }
+`
+
+const StyledLink = styled(Link)`
+  display: inline-block;
+  color: ${NAV_ANCHOR};
+  text-decoration: none;
+  position: relative;
 `
