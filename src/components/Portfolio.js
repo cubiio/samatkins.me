@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+
 import PortfolioItem from './PortfolioItem'
 const projects = require('../../data/portfolio')
 
@@ -11,11 +13,28 @@ class Portfolio extends Component {
 
   render () {
     return (
-      <section className='portfolio-section'>
+      <PortfolioWrapper>
         {this.renderPortfolio()}
-      </section>
+      </PortfolioWrapper>
     )
   }
 }
 
 export default Portfolio
+
+/*
+Styles
+ */
+
+const PortfolioWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 80%;
+`
