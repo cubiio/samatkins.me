@@ -1,14 +1,14 @@
+/* global graphql */
+
 import React from 'react'
 import GatsbyLink from 'gatsby-link'
-import Helmet from 'react-helmet'
+import styled from 'styled-components'
+
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import SMIcons from '../components/SMIcons'
-
 import Link from '../components/Link'
-
-// import '../css/index.css'
-import '../styles/main.scss'
+import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours'
 
 export default function Blog ({ data }) {
   const { edges: posts } = data.allMarkdownRemark
@@ -21,20 +21,20 @@ export default function Blog ({ data }) {
           .map(({ node: post }) => {
             return (
               <div>
-                <div className='blog-post-preview' key={post.id}>
-                  <h1 className='title'>
+                <BlogPostPreview key={post.id}>
+                  <BlogPostTitle>
                     <GatsbyLink to={post.frontmatter.path}>
                       {post.frontmatter.title}
                     </GatsbyLink>
-                  </h1>
-                  <h2 className='date'>
+                  </BlogPostTitle>
+                  <BlogPostDate className='date'>
                     {post.frontmatter.date}
-                  </h2>
-                  <p>
+                  </BlogPostDate>
+                  <BlogPostExcerpt>
                     {post.excerpt}
-                  </p>
+                  </BlogPostExcerpt>
                   <Link to={post.frontmatter.path}>Read more</Link>
-                </div>
+                </BlogPostPreview>
               </div>
             )
           })}
@@ -44,6 +44,10 @@ export default function Blog ({ data }) {
     </div>
   )
 }
+
+/*
+Data query via GraphQL
+ */
 
 export const pageQuery = graphql`
   query BlogQuery {
@@ -61,4 +65,44 @@ export const pageQuery = graphql`
       }
     }
   }
+`
+
+/*
+Styles
+ */
+
+// const BlogPost =styled.div`
+//
+// `
+
+const BlogPostPreview = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 0.25rem;
+  border-bottom: 2px solid #EEE;
+  margin: 0 auto;
+`
+
+const BlogPostTitle = styled.h1`
+  a {
+    color: ${NAV_ANCHOR};
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: ${NAV_ANCHOR_HOVER};
+  }
+`
+
+// TODO change font size
+const BlogPostDate = styled.h2`
+  color: ${NAV_ANCHOR};
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+`
+
+const BlogPostExcerpt = styled.p`
+  font-style: italic;
 `
