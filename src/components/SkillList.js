@@ -31,7 +31,6 @@ Styles
 const SkillsBox = styled.div`
   border-radius: 6px;
   flex: 1;
-  font-size: 1em;
   font-weight: 200;
   line-height: 30px;
   padding-left: 35px;
@@ -39,5 +38,5 @@ const SkillsBox = styled.div`
 
 // TODO change to scale ratio or rythm unit
 const SkillGroupTitle = styled.h2`
-  font-size: 20px;
+
 `

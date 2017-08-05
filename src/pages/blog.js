@@ -70,6 +70,9 @@ Styles
 const BlogPostWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 const BlogPostPreview = styled.div`

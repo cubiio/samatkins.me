@@ -41,6 +41,7 @@ export default function Template ({ data, pathContext }) {
                 {next.frontmatter.title} <ForwardIcon />
               </Link>}
           </div>
+          <div className='blog-post-buffer' />
         </div>
       </div>
       <SMIcons />

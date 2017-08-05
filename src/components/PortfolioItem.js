@@ -51,17 +51,13 @@ const ProjectWrapper = styled.div`
   width: 70%;
 `
 
-// TODO change font size
 const ProjectTitle = styled.div`
-  font-size: 1.7em;
   font-weight: bold;
   padding-top: 25px;
   text-align: center;
 `
 
-// TODO change font size
 const ProjectSnippet = styled.div`
-  font-size: .9em;
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -76,10 +72,8 @@ const ProjectImage = styled.img`
   max-width: 75%;
 `
 
-// TODO change font size
 const ProjectSummary = styled.div`
   display: block;
-  font-size: .9em;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
@@ -94,7 +88,6 @@ const ProjectLink = styled.div`
 
   a {
     color: ${NAV_ANCHOR};
-    font-size: .8em;
     text-decoration: none;
   }
 

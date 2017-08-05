@@ -66,9 +66,6 @@ const HeaderLogo = styled.img`
 
 const HeaderTitle = styled.h1`
   display: inline-block;
-  font-family: $title-font;
-  font-size: 2.5em;
-  font-weight: 300;
   margin: .75em .25em;
 
   a {

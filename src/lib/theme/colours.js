@@ -1,5 +1,6 @@
 export const ANCHOR_HOVER = 'rgba(0, 0, 0, .3)'
 export const BACKGROUND = '#fafafa'
+export const BACKGROUND_BLOGPOST_HOVER = '#FCF5F5'
 export const BROWSER_UPGRADE = '#ccc'
 export const BROWSER_UPGRADE_TEXT = '#000'
 export const HEADER_SHADOW = 'rgba(0, 0, 0, .26)'

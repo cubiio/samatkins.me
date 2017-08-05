@@ -30,8 +30,6 @@ const PortfolioWrapper = styled.section`
   display: flex;
   flex-direction: column;
   border-radius: 6px;
-  font-size: 18px;
-  font-weight: 200;
   line-height: 30px;
   margin-left: auto;
   margin-right: auto;

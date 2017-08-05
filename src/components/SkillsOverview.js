@@ -34,7 +34,6 @@ Styles
 
 const SkillsSection = styled.div`
   border-radius: 6px;
-  font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   margin: 50px auto 0;
@@ -44,7 +43,6 @@ const SkillsSection = styled.div`
 
 // TODO use scale ratio or rythm unit instead of font size
 const SkillsHeader = styled.h2`
-  font-size: 30px;
   padding-top: 10px;
   text-align: center;
 `

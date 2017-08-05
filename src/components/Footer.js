@@ -29,7 +29,6 @@ const FooterWrapper = styled.div`
 
 const FooterContainer = styled.div`
   display: flex;
-  font-size: 1.2em;
   justify-content: center;
   padding-top: 1em;
 
