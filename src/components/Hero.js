@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import SkillsOverview from '../components/SkillsOverview'
 import styled from 'styled-components'
+
+import HeroLists from '../components/HeroLists'
 
 import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours'
 
@@ -12,7 +13,7 @@ class Hero extends Component {
         <HeroIntro>
           <p>I’m a Junior Full-Stack Developer at <a href='https://www.bighealth.com/'>Big Health</a>.</p>
         </HeroIntro>
-        <SkillsOverview />
+        <HeroLists />
       </HeroWrapper>
     )
   }

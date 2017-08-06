@@ -1,0 +1,119 @@
+[
+  {
+    "group": "Core languages",
+    "items": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "HTML & CSS"
+      }
+    ]
+  },
+  {
+    "group": "Frameworks / Libraries",
+    "items": [
+      {
+        "name": "React"
+      },
+      {
+        "name": "React Native"
+      },
+      {
+        "name": "Python Flask"
+      }
+    ]
+  },
+  {
+    "group": "Current dev stack",
+    "items": [
+      {
+        "name": "JavaScript (ES6)"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "React Native"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Python Flask"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Gulp"
+      }
+    ]
+  },
+  {
+    "group": "Top of my learning list",
+    "items": [
+      {
+        "name": "More React"
+      },
+      {
+        "name": "Jest tests"
+      },
+      {
+        "name": "Flow"
+      },
+      {
+        "name": "Webpack"
+      }
+    ]
+  },
+  {
+    "group": "Technologies I've experimented with",
+    "items": [
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "Objective C"
+      },
+      {
+        "name": "Sass"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Knockout.js"
+      }
+    ]
+  },
+  {
+    "group": "Tools of the trade",
+    "items": [
+      {
+        "name": "Atom.io"
+      },
+      {
+        "name": "iTerm"
+      },
+      {
+        "name": "Sourcetree"
+      },
+      {
+        "name": "Xcode"
+      },
+      {
+        "name": "Bear (for notes and docs)"
+      },
+      {
+        "name": "Dash"
+      },
+      {
+        "name": "On a MacBook Pro"
+      }
+    ]
+  }
+]
