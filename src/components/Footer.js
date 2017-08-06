@@ -25,6 +25,7 @@ const FooterWrapper = styled.div`
   display: flex;
   justify-content: center;
   padding: 1em;
+  overflow: auto;
 `
 
 const FooterContainer = styled.div`

@@ -35,10 +35,12 @@ const SocialContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2.5em;
   width: 25%;
+  overflow: auto;
 `
 
 const SocialLogo = styled.div`

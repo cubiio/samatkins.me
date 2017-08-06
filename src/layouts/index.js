@@ -2,10 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-const config = require('../../data/siteConfig')
 
+const config = require('../../data/siteConfig')
 import Header from '../components/Header'
-import '../styles/main.scss'
 
 export default class Template extends React.Component {
   static propTypes = {

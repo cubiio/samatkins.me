@@ -73,12 +73,14 @@ const BlogPostWrapper = styled.div`
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 `
 
 const BlogPostPreview = styled.div`
   padding: .5rem 0.25rem;
   border-bottom: 2px solid #EEE;
   margin: 0 auto;
+  padding: 0;
 `
 
 const BlogPostTitle = styled.div`
@@ -87,19 +89,18 @@ const BlogPostTitle = styled.div`
   font-weight: bold;
   margin: 0;
   position: relative;
-  padding: 15px 10px;
+  padding: 20px 5px;
 
   a {
     color: ${NAV_ANCHOR};
     text-decoration: none;
-    padding: 0 0 12;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
     &:hover {
       color: ${NAV_ANCHOR_HOVER};
       background: ${BACKGROUND_BLOGPOST_HOVER};
-      padding: 25px 15px;
+      padding: 20px 20px;
     }
 `
