@@ -1,13 +1,13 @@
-@import './theme/colours';
-@import './theme/typography';
+$nav-anchor-color: #616161;
+$link-hover: #ffffff;
 
 .link {
-  display: inline-block;
-  color: $nav-anchor-color;
-  padding: 0.75rem 1rem;
   border: 2px solid $nav-anchor-color;
-  text-decoration: none;
+  color: $nav-anchor-color;
+  display: inline-block;
+  padding: .75rem 1rem;
   position: relative;
+  text-decoration: none;
 }
 
 .link:after {
@@ -28,7 +28,7 @@
 }
 
 .link:hover {
-  color: white;
+  color: $link-hover;
 }
 
 .link:hover:after {
