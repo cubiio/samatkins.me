@@ -31,6 +31,4 @@ public/
 .cache/
 
 # project specific
-assets/fa
-assets/fonts
-assets/images
+src/assets/fa

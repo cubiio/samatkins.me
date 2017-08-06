@@ -1,24 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import images from '../../assets/images'
+import { fa } from '../assets/images'
 
 const SMIcons = () => {
   return (
     <SocialContainer>
       <SocialLogo>
         <a href='https://github.com/cubiio' target='_blank'>
-          <img src={images.fa.github} />
+          <img src={fa.github} />
         </a>
       </SocialLogo>
       <SocialLogo>
         <a href='https://www.linkedin.com/in/atkinssam/' target='_blank'>
-          <img src={images.fa.linkedin} />
+          <img src={fa.linkedin} />
         </a>
       </SocialLogo>
       <SocialLogo>
         <a href='https://twitter.com/cubiio' target='_blank'>
-          <img src={images.fa.twitter} />
+          <img src={fa.twitter} />
         </a>
       </SocialLogo>
     </SocialContainer>

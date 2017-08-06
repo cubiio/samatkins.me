@@ -1,7 +1,7 @@
 const portfolio = [
   {
     id: 0,
-    portfolioImage: require('../assets/images/map_medium.png'),
+    portfolioImage: require('../src/assets/images/map_medium.png'),
     portfolioAlt: 'Udacity - Map App',
     portfolioTitle: 'Neighbourhood Map App',
     portfolioSnippet: 'MVVM | JavaScript | Knockout.js | 3rd Party APIs',
@@ -10,7 +10,7 @@ const portfolio = [
   },
   {
     id: 1,
-    portfolioImage: require('../assets/images/pomodoro_medium.png'),
+    portfolioImage: require('../src/assets/images/pomodoro_medium.png'),
     portfolioAlt: 'Pomodoro Clock App',
     portfolioTitle: 'Pomodoro Clock App',
     portfolioSnippet: 'JavaScript | React.js',
@@ -19,7 +19,7 @@ const portfolio = [
   },
   {
     id: 2,
-    portfolioImage: require('../assets/images/markdown-previewer_medium.png'),
+    portfolioImage: require('../src/assets/images/markdown-previewer_medium.png'),
     portfolioAlt: 'Markdown Previewer App',
     portfolioTitle: 'Markdown Previewer App',
     portfolioSnippet: 'JavaScript | React.js',
@@ -28,7 +28,7 @@ const portfolio = [
   },
   {
     id: 3,
-    'portfolioImage': require('../assets/images/item_catalog_medium.png'),
+    'portfolioImage': require('../src/assets/images/item_catalog_medium.png'),
     portfolioAlt: 'Udacity - Item Catalogue App',
     portfolioTitle: 'Item Catalogue App',
     portfolioSnippet: 'Python | Flask | SQLAlchemy | Jinja2',
@@ -37,7 +37,7 @@ const portfolio = [
   },
   {
     id: 4,
-    portfolioImage: require('../assets/images/python_blog_medium.png'),
+    portfolioImage: require('../src/assets/images/python_blog_medium.png'),
     portfolioAlt: 'Udacity - Blog App',
     portfolioTitle: 'Blog App',
     portfolioSnippet: 'Python | Google App Engine | Jinja2',
@@ -46,7 +46,7 @@ const portfolio = [
   },
   {
     id: 5,
-    portfolioImage: require('../assets/images/wikipediaViewer_medium.png'),
+    portfolioImage: require('../src/assets/images/wikipediaViewer_medium.png'),
     portfolioAlt: 'Wikipedia Viewer App',
     portfolioTitle: 'Wikipedia Viewer App',
     portfolioSnippet: 'Javascript | jQuery | 3rd Party API',
@@ -55,7 +55,7 @@ const portfolio = [
   },
   {
     id: 6,
-    portfolioImage: require('../assets/images/localWeather_medium.png'),
+    portfolioImage: require('../src/assets/images/localWeather_medium.png'),
     portfolioAlt: 'Local Weather App',
     portfolioTitle: 'Local Weather App',
     portfolioSnippet: 'Javascript | jQuery | 3rd Party API',
@@ -64,7 +64,7 @@ const portfolio = [
   },
   {
     id: 7,
-    portfolioImage: require('../assets/images/drum-machine_medium.png'),
+    portfolioImage: require('../src/assets/images/drum-machine_medium.png'),
     portfolioAlt: 'JavaScript Drum Machine',
     portfolioTitle: 'JavaScript Drum Machine',
     portfolioSnippet: 'Javascript',
