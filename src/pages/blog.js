@@ -19,6 +19,8 @@ export default function Blog ({ data }) {
     <div>
       <Nav />
       <BlogPostWrapper>
+        <h2>{`<Code Blog />`}</h2>
+        <h3>Blogging my coding journey</h3>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
