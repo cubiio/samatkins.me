@@ -57,7 +57,10 @@
     "group": "Top of my learning list",
     "items": [
       {
-        "name": "More React"
+        "name": "React / React Native"
+      },
+      {
+        "name": "Mobile development & build process"
       },
       {
         "name": "Jest tests"

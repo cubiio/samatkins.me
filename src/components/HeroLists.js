@@ -19,7 +19,7 @@ class HeroLists extends Component {
   render () {
     return (
       <HeroWrapper>
-        <HeroHeader>Placeholder</HeroHeader>
+        <HeroHeader>About Me</HeroHeader>
         <ListWrapper>{this.renderInfo()}</ListWrapper>
       </HeroWrapper>
     )
