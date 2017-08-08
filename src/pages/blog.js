@@ -19,8 +19,6 @@ export default function Blog ({ data }) {
     <div>
       <Nav />
       <BlogPostWrapper>
-        <h2>{`<Code Blog />`}</h2>
-        <h3>Blogging my coding journey</h3>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
@@ -72,10 +70,14 @@ Styles
 const BlogPostWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 `
 
 const BlogPostPreview = styled.div`

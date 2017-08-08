@@ -5,11 +5,14 @@ import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours'
 
 class Footer extends Component {
   render () {
-    const year = new Date().getFullYear()
+    const currentYear = new Date().getFullYear()
     return (
       <FooterWrapper>
         <FooterContainer>
-          <p>Built with ♥ by Sam. View source <a href='https://github.com/cubiio/samatkins.me'>code</a>. © 2016-{year} Sam Atkins</p>
+          <p>Built with ♥ by Sam. View source
+            <a href='https://github.com/cubiio/samatkins.me'> code</a>.
+            © 2016-{currentYear} Sam Atkins
+          </p>
         </FooterContainer>
       </FooterWrapper>
     )
@@ -27,6 +30,10 @@ const FooterWrapper = styled.div`
   justify-content: center;
   padding: 1em;
   overflow: auto;
+
+  @media (max-width: 700px) {
+    text-align: center;
+  }
 `
 
 const FooterContainer = styled.div`

@@ -33,7 +33,11 @@ Styles``
 const NavWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 60%;
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 `
 
 const NavAnchor = styled(Link)`

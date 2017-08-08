@@ -19,7 +19,7 @@ class HeroLists extends Component {
   render () {
     return (
       <HeroWrapper>
-        <HeroHeader>{`<Code />`}</HeroHeader>
+        <HeroHeader>Placeholder</HeroHeader>
         <ListWrapper>{this.renderInfo()}</ListWrapper>
       </HeroWrapper>
     )
@@ -41,6 +41,11 @@ const HeroWrapper = styled.div`
   padding: 5px;
   width: 50%;
 
+  @media (max-width: 700px) {
+    width: 95%;
+    text-align: center;
+  }
+
 `
 
 // TODO use scale ratio or rythm unit instead of font size
@@ -54,6 +59,6 @@ const ListWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+
 
 `

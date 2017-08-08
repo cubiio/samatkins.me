@@ -15,7 +15,7 @@ const options = {
     [MOBILE_MEDIA_QUERY]: {
       // Make baseFontSize on mobile 16px.
       html: {
-        fontSize: `${16 / 16 * 100}%`
+        fontSize: `${14 / 16 * 100}%`
       }
     }
   })

@@ -29,7 +29,14 @@ const HeroWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 700px) {
+    width: 95%;
+    text-align: center;
+  }
 `
 
 const HeroTagline = styled.h2`
@@ -45,7 +52,11 @@ const HeroIntro = styled.div`
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 45%;
+  ${'' /* max-width: 45%; */}
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 
   a {
     color: ${NAV_ANCHOR};

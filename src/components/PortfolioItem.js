@@ -49,15 +49,19 @@ const ProjectWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 `
 
-const ProjectTitle = styled.div`
+const ProjectTitle = styled.h3`
   font-weight: bold;
   padding-top: 25px;
   text-align: center;
 `
 
-const ProjectSnippet = styled.div`
+const ProjectSnippet = styled.h4`
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -78,6 +82,10 @@ const ProjectSummary = styled.div`
   margin-right: auto;
   text-align: justify;
   width: 50%;
+
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 `
 
 const ProjectLink = styled.div`

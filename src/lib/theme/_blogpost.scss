@@ -6,20 +6,31 @@ $linkColour: #FCF5F5;
 .blog-post-container {
     margin: 0 auto;
     position: relative;
-    width: 100%;
+    width: 45%;
     max-width: 889px;
+
+    @media (max-width: 700px) {
+      width: 80%;
+    }
 }
 
 .blog-post .link.prev {
   float: left;
+
+  @media (max-width: 700px) {
+    margin-top: 5px;
+  }
 }
 
 .blog-post .link.next {
   float: right;
+
+  @media (max-width: 700px) {
+    margin-top: 10px;
+  }
 }
 
 .blog-post .title, .blog-post .date {
-  text-align: center;
   margin: 0;
   padding: 0;
 }

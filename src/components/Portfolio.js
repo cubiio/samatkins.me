@@ -34,5 +34,9 @@ const PortfolioWrapper = styled.section`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
-  width: 80%;
+  width: 60%;
+
+  @media (max-width: 700px) {
+    width: 95%;
+  }
 `

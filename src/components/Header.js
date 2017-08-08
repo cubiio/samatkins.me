@@ -68,6 +68,11 @@ const HeaderTitle = styled.h1`
   display: inline-block;
   margin: .75em .25em;
 
+  @media (max-width: 700px) {
+    font-size: 0;
+
+  }
+
   a {
     color: ${TITLE_TEXT_COLOR};
     text-decoration: none;
