@@ -3,19 +3,13 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import {
-  HEADER_SHADOW,
-  NAV_ANCHOR,
-  NAV_ANCHOR_HOVER
+  HEADER_SHADOW, NAV_ANCHOR, NAV_ANCHOR_HOVER
 } from '../lib/theme/colours'
 
 const PortfolioItem = ({ project }) => {
   const {
-    portfolioTitle,
-    portfolioImage,
-    portfolioAlt,
-    portfolioSnippet,
-    portfolioSourceURL,
-    portfolioSummary
+    portfolioTitle, portfolioImage, portfolioAlt, portfolioSnippet,
+    portfolioSourceURL, portfolioSummary
   } = project
 
   return (
