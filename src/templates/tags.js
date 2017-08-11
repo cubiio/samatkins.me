@@ -78,7 +78,7 @@ export default function Tags ({ pathContext }) {
 const TagWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 45%;
 
   @media (max-width: 700px) {
     width: 95%;
