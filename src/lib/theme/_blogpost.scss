@@ -1,17 +1,28 @@
 // Colours
 $primary: #F03838;
 $linkColour: #FCF5F5;
+$NAV_ANCHOR: #616161;
+$NAV_ANCHOR_HOVER: #212121;
 
 
 .blog-post-container {
-    margin: 0 auto;
-    position: relative;
-    width: 45%;
-    max-width: 889px;
+  margin: 0 auto;
+  position: relative;
+  width: 45%;
+  max-width: 889px;
 
-    @media (max-width: 700px) {
-      width: 80%;
+  a {
+    color: $NAV_ANCHOR;
+    text-decoration: none;
+
+    &:hover {
+      color: $NAV_ANCHOR_HOVER;
     }
+  }
+
+  @media (max-width: 700px) {
+    width: 80%;
+  }
 }
 
 .blog-post .link.prev {
