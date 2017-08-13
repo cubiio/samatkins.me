@@ -13,7 +13,7 @@
 
 ## About
 
-This is my personal site, including my portfolio and my blog. 
+This is my personal site, including my portfolio and blog. 
 
 ### Built with
 
@@ -50,7 +50,7 @@ Development should be conducted on the `dev` branch, and then when ready merged 
 
 ## Netlify hosting and deployment
 
-All commits/merges to master are auto-deployed (assuming the build passes).
+All commits/merges to master are auto-deployed (assuming the build passes). Refer to the [Netlify docs](https://www.netlify.com/docs/) for more info.
 
 ## Adding blogposts
 
