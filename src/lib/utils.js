@@ -3,16 +3,20 @@
  * @return {str} Formatted date: DD-MMM-YYYY
  */
 function convertFrontMatterDate (unformattedDate) {
-  const numDate = unformattedDate.split('T', 1)
-  const convYear = numDate.toString().substring(0, 4)
-  const convMth = numDate.toString().substring(5, 7)
-  const convDay = numDate.toString().substring(8, 10)
+  if (unformattedDate === undefined || unformattedDate === null) {
+    return `at some point in time`
+  } else {
+    const numDate = unformattedDate.split('T', 1)
+    const convYear = numDate.toString().substring(0, 4)
+    const convMth = numDate.toString().substring(5, 7)
+    const convDay = numDate.toString().substring(8, 10)
 
-  for (const prop in months) {
-    if (prop === convMth) {
-      const month = months[prop]
-      const outputDate = `${convDay}-${month}-${convYear}`
-      return outputDate
+    for (const prop in months) {
+      if (prop === convMth) {
+        const month = months[prop]
+        const outputDate = `${convDay}-${month}-${convYear}`
+        return outputDate
+      }
     }
   }
 }
