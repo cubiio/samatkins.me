@@ -39,6 +39,6 @@ const ListBox = styled.div`
 `
 
 // TODO change to scale ratio or rythm unit
-const GroupTitle = styled.h2`
+const GroupTitle = styled.h3`
   padding-bottom: 2px;
 `

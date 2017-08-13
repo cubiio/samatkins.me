@@ -16,6 +16,7 @@ $linkColour: #FCF5F5;
 
 .blog-post .link.prev {
   float: left;
+  margin-top: 20px;
 
   @media (max-width: 700px) {
     margin-top: 5px;
@@ -24,6 +25,7 @@ $linkColour: #FCF5F5;
 
 .blog-post .link.next {
   float: right;
+  margin-top: 20px;
 
   @media (max-width: 700px) {
     margin-top: 10px;

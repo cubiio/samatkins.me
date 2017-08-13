@@ -11,6 +11,7 @@ import Link from '../components/Link'
 import {
   BACKGROUND_BLOGPOST_HOVER, NAV_ANCHOR, NAV_ANCHOR_HOVER
 } from '../lib/theme/colours'
+import convertFrontMatterDate from '../lib/utils'
 
 export default function Tags ({ pathContext }) {
   const { posts, post, tag } = pathContext
@@ -28,7 +29,7 @@ export default function Tags ({ pathContext }) {
                 <p key={id}>
                   <TagLinkTitle>
                     <GatsbyLink to={frontmatter.path}>
-                      {frontmatter.title} / published {frontmatter.date}
+                      {frontmatter.title} / published {convertFrontMatterDate(frontmatter.date)}
                     </GatsbyLink>
                   </TagLinkTitle>
                 </p>
@@ -111,7 +112,7 @@ const TagList = styled.ul`
   list-style-type: none;
   margin-left: .5em;
   text-align: justify;
-  width: 9em;
+  width: 17em;
 `
 
 const TagListItem = styled.li`
