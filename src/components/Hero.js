@@ -11,7 +11,10 @@ class Hero extends Component {
       <HeroWrapper>
         <HeroTagline>Dad. Husband. Web developer.</HeroTagline>
         <HeroIntro>
-          <p>I’m a Junior Full-Stack Developer at <a href='https://www.bighealth.com/'>Big Health</a>.</p>
+          <p>I live in London with my family, and I work at <a href='https://www.bighealth.com/'>Big Health</a> as a Junior Full-Stack Developer. I work across front-end and back-end technologies but my passion is front-end, and I currently work and play around with React and React Native.</p>
+          <p>My background is in supply chain and project management, and I worked for over nine years in Big Four management consulting.</p>
+          <p>Outside of work, I’m a family man and I like cycling, mountain biking, football and rugby.</p>
+          <p>This is my personal website, my portfolio, my blog, and with info on the technologies I use and want to learn. Apologies for the lack of design on the site - partly due to time constraints but mainly because I need to learn more about good design.</p>
         </HeroIntro>
         <HeroLists />
       </HeroWrapper>
