@@ -112,7 +112,7 @@ const TagList = styled.ul`
   list-style-type: none;
   margin-left: .5em;
   text-align: justify;
-  width: 9em;
+  width: 17em;
 `
 
 const TagListItem = styled.li`
