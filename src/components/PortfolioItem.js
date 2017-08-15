@@ -19,7 +19,7 @@ const PortfolioItem = ({ project }) => {
       <ProjectImage src={portfolioImage} alt={portfolioAlt} />
       <ProjectSummary>{portfolioSummary}</ProjectSummary>
       <ProjectLink>
-        <a href={portfolioSourceURL}>Source code</a>
+        <a href={portfolioSourceURL} target='_blank'>Source code</a>
       </ProjectLink>
     </ProjectWrapper>
   )
@@ -97,4 +97,3 @@ const ProjectLink = styled.div`
     color: ${NAV_ANCHOR_HOVER};
 }
 `
-// background-color: ${NAV_ANCHOR};
