@@ -188,14 +188,14 @@ HTML data binds must be in the html file, not in the JavaScript `contentString` 
 
 This is my test. It worked as below but move the html snippet into Javascript i.e. the var `contentString` which informs the rendering of the marker’s infowindow and it doesn’t.
 
-``` html
+```html
 // html file
   <div class="fav">
     <i data-bind="click: favouriteAttractions" class="fa fa-star" aria-hidden="true"></i>
   </div>
 ```
 
-``` javascript
+```js
 // js
 this.favouriteAttractions = function( { 
         console.log('You clicked on the star'); 
@@ -212,7 +212,7 @@ Second best option is to go for a `rightclick` event using the Google Maps API. 
 
 I ran this to test it:
 
-``` javascript
+```js
 locationItem.marker.addListener('rightclick', function() {
     // console.log('right click on marker ' + locationItem.name);
     self.favouriteAttractions(locationItem);
@@ -262,4 +262,4 @@ My key takeaways from this project are:
 4. Read the docs! 
 5. Try to solve the problem yourself but after a certain point, ask for help/guidance i.e. someone experienced to point you in the right direction.
 
-Thanks for reading. I hope this proves useful (to future me) to see how I tackled a difficult project. And for any others reading, please share any comments below or via [Twitter](https://twitter.com/cubiio).
+Thanks for reading. I hope this proves useful (to future me) to see how I tackled a difficult project. 
