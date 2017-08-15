@@ -8,6 +8,7 @@ import Tags from '../components/Tags'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import SMIcons from '../components/SMIcons'
+import ReqComment from '../components/ReqComment'
 
 import '../lib/theme/main.scss'
 
@@ -30,6 +31,7 @@ export default function Template ({ data, pathContext }) {
             className='blog-post-content'
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+          <ReqComment />
           <Tags list={post.frontmatter.tags || []} />
           <div className='navigation'>
             {prev &&

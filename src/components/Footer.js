@@ -10,7 +10,7 @@ class Footer extends Component {
       <FooterWrapper>
         <FooterContainer>
           <p>Built with ♥ by Sam. View site source
-            <a href='https://github.com/cubiio/samatkins.me'> code</a>.
+            <a href='https://github.com/cubiio/samatkins.me' target='_blank'> code</a>.
             © 2016-{currentYear} Sam Atkins
           </p>
         </FooterContainer>

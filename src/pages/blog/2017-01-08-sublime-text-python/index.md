@@ -33,6 +33,4 @@ Theme and colours - an excellent way to live browse different themes and colours
 * Theme: Boxy Monokai
 * Colour Scheme: Flatland Monokai
 
-And that’s it. Any tips or recommendations regarding other packages for Python? Let me know in the comments below or on [(@cubiio) on Twitter](https://twitter.com/cubiio). 
-
-Thanks for reading!
+And that’s it. Thanks for reading!
