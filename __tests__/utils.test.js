@@ -1,6 +1,7 @@
 /* global describe, it, expect */
+// file being tested: src/lib/utils.js
 
-const convertFrontMatterDate = require('./utils')
+const convertFrontMatterDate = require('../src/lib/utils')
 
 /**
  * convertFrontMatterDate
