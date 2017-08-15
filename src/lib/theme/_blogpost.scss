@@ -1,6 +1,8 @@
 // Colours
 $primary: #F03838;
 $linkColour: #FCF5F5;
+$NAV_ANCHOR: #616161;
+$NAV_ANCHOR_HOVER: #212121;
 
 
 .blog-post-container {
@@ -8,6 +10,15 @@ $linkColour: #FCF5F5;
     position: relative;
     width: 45%;
     max-width: 889px;
+
+    a {
+      color: $NAV_ANCHOR;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $NAV_ANCHOR_HOVER;
+    }
 
     @media (max-width: 700px) {
       width: 80%;
@@ -79,8 +90,6 @@ $linkColour: #FCF5F5;
 .link:hover:after {
   transform: scaleY(1);
 }
-
-
 
 pre {
   background: #F1F0EA;
