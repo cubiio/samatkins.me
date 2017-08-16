@@ -86,11 +86,11 @@ const TagWrapper = styled.div`
   }
 `
 
-const TagTitle = styled.h3`
+const TagTitle = styled.h4`
   padding: 0px 5px;
 `
 
-const TagLinkTitle = styled.h3`
+const TagLinkTitle = styled.h4`
   padding: 0px 5px;
   position: relative;
 
