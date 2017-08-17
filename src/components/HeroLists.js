@@ -45,7 +45,6 @@ const HeroWrapper = styled.div`
     width: 95%;
     text-align: center;
   }
-
 `
 
 // TODO use scale ratio or rythm unit instead of font size
@@ -54,11 +53,14 @@ const HeroHeader = styled.h2`
   text-align: center;
 `
 
-// TODO Add below to @media query row for large screens; column for small screens
 const ListWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-
+  @media (max-width: 700px) {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `
