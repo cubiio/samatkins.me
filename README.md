@@ -10,12 +10,13 @@
 - [Adding images](#adding-images)
 - [Blogpost gotchas](#blogpost-gotchas)
 - [Tests](#tests)
+- [TODOs](#todos)
 
 ## About
 
 This is my personal site, including my portfolio and blog. 
 
-### Built with
+### Technology Colophon
 
 - Gatsby static site generator: [Docs](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
 - [React.js](https://facebook.github.io/react/)
@@ -26,7 +27,7 @@ This is my personal site, including my portfolio and blog.
 
 ## Development
 
-The key commands are:
+Key commands:
 
 ```bash
 # nvm to set correct version of node, npm and yarn
@@ -84,5 +85,8 @@ Add an `images` folder in the blogpost folder.  Then add the link in the `index.
 - The pages are cached so changes may not update when the static site is generated. Clear the cache and rebuild the site. 
 
 ## Tests
+{placeholder}
 
-TODO - add notes re Jest tests
+## TODOs
+TODO - add notes re Jest tests (once more are implemented e.g. snapshots)
+TODO - add notes re Flow (once implemented)
