@@ -1,6 +1,6 @@
 [
   {
-    "group": "Core languages",
+    "group": "Core:",
     "items": [
       {
         "name": "JavaScript"
@@ -9,12 +9,15 @@
         "name": "Python"
       },
       {
-        "name": "HTML & CSS"
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
       }
     ]
   },
   {
-    "group": "Frameworks & libraries",
+    "group": "Libraries:",
     "items": [
       {
         "name": "React"
@@ -28,39 +31,59 @@
     ]
   },
   {
-    "group": "Current dev stack",
+    "group": "Current dev stack:",
     "items": [
       {
         "name": "JavaScript (ES6)"
       },
       {
-        "name": "React"
+        "name": "React / React Native"
       },
       {
-        "name": "React Native"
-      },
-      {
-        "name": "Python"
-      },
-      {
-        "name": "Python Flask"
+        "name": "Python / Python Flask"
       },
       {
         "name": "Docker"
       },
       {
-        "name": "Gulp"
+        "name": "Gatsby JS"
       }
     ]
   },
   {
-    "group": "Top of my learning list",
+    "group": "Tools:",
     "items": [
+      {
+        "name": "Atom.io"
+      },
+      {
+        "name": "iTerm2"
+      },
+      {
+        "name": "Sourcetree"
+      },
+      {
+        "name": "Xcode"
+      },
+      {
+        "name": "Bear-Writer.com"
+      },
+      {
+        "name": "Dash Docs"
+      }
+    ]
+  },
+  {
+    "group": "Learning list:",
+    "items": [
+      {
+        "name": "JavaScript (ES6 / 7)"
+      },
       {
         "name": "React / React Native"
       },
       {
-        "name": "Mobile development & build process"
+        "name": "Mobile development"
       },
       {
         "name": "Jest tests"
@@ -74,7 +97,7 @@
     ]
   },
   {
-    "group": "Technologies I've experimented with",
+    "group": "Experimented with:",
     "items": [
       {
         "name": "PHP"
@@ -90,32 +113,9 @@
       },
       {
         "name": "Knockout.js"
-      }
-    ]
-  },
-  {
-    "group": "Tools of the trade",
-    "items": [
-      {
-        "name": "Atom.io"
       },
       {
-        "name": "iTerm"
-      },
-      {
-        "name": "Sourcetree"
-      },
-      {
-        "name": "Xcode"
-      },
-      {
-        "name": "Bear-Writer.com"
-      },
-      {
-        "name": "Dash Docs"
-      },
-      {
-        "name": "MacBook Pro"
+        "name": "Gulp"
       }
     ]
   }
