@@ -56,8 +56,10 @@ const ListWrapper = styled.div`
 
 
   @media (max-width: 700px) {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
   }
 `
