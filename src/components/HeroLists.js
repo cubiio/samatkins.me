@@ -33,13 +33,7 @@ Styles
  */
 
 const HeroWrapper = styled.div`
-  border-radius: 6px;
-  font-weight: 200;
-  line-height: 30px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 5px;
-  width: 50%;
 
   @media (max-width: 700px) {
     width: 95%;
@@ -54,13 +48,18 @@ const HeroHeader = styled.h2`
 `
 
 const ListWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
 
   @media (max-width: 700px) {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
   }
 `

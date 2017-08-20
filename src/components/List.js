@@ -29,16 +29,11 @@ Styles
  */
 
 const ListBox = styled.div`
-  border-radius: 6px;
-  flex: 1;
-  align-items: center;
-  line-height: 30px;
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 `
 
-// TODO change to scale ratio or rythm unit
+// TODO change to scale ratio or rhythm unit
 const GroupTitle = styled.h3`
   padding-bottom: 2px;
 `
