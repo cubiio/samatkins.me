@@ -11,8 +11,8 @@ class HeroLists extends Component {
   }
 
   renderInfo () {
-    return this.state.data.map(d =>
-      <List key={d.group} d={d} />
+    return this.state.data.map((d, listIdx) =>
+      <List key={listIdx} d={d} />
     )
   }
 
@@ -53,7 +53,6 @@ const ListWrapper = styled.div`
   grid-column-gap: 50px;
   margin-left: auto;
   margin-right: auto;
-
 
   @media (max-width: 700px) {
     width: 100%;
