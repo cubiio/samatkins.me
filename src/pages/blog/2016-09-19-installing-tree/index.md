@@ -2,10 +2,10 @@
 path: "/installing-tree.html"
 date: "2016-09-19T10:15:16.408Z"
 title: "Installing Tree on OSx"
-tags: ["programming", "OSx", "linux", "commandLine"]
+tags: ["programming", "macOS", "linux", "commandLine"]
 ---
 
-This is how to install Tree on OSx. It assumes Homebrew is installed. [Homebrew](http://brew.sh/) is a package manager for OSx.
+This is how to install Tree on macOS in the Terminal.app. It assumes Homebrew is installed. [Homebrew](http://brew.sh/) is a package manager for OSx.
 
 To install run this command using Homebrew:
 ``brew install tree``

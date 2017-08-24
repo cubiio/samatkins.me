@@ -15,6 +15,7 @@ import convertFrontMatterDate from '../lib/utils'
 
 export default function Tags ({ pathContext }) {
   const { posts, post, tag } = pathContext
+  const sortedTags = Object.keys(posts).map(tagName => tagName).sort()
   if (tag) {
     return (
       <div>
@@ -51,8 +52,7 @@ export default function Tags ({ pathContext }) {
       <TagWrapper>
         <TagTitle>Tags</TagTitle>
         <TagList>
-          {Object.keys(posts).map(tagName => {
-            const tags = posts[tagName]
+          {sortedTags.map(tagName => {
             return (
               <TagListItem key={tagName}>
                 <GatsbyLink to={`/tags/${tagName}`}>
