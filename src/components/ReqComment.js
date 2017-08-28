@@ -8,7 +8,12 @@ const ReqComment = () => {
     <Wrapper>
       <Container>
         <hr />
-        <p>Do you have any comments? You can tweet me at <a href='https://twitter.com/cubiio' target='_blank'>@cubiio</a>.</p>
+        <p>
+          Do you have any comments? You can tweet me at{' '}
+          <a href='https://twitter.com/cubiio' target='_blank'>
+            @cubiio
+          </a>.
+        </p>
       </Container>
     </Wrapper>
   )
@@ -35,6 +40,6 @@ const Container = styled.div`
   }
 
   a:hover {
-    color: ${NAV_ANCHOR_HOVER}
+    color: ${NAV_ANCHOR_HOVER};
   }
 `

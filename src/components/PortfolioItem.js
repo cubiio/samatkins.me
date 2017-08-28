@@ -3,23 +3,37 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import {
-  HEADER_SHADOW, NAV_ANCHOR, NAV_ANCHOR_HOVER
+  HEADER_SHADOW,
+  NAV_ANCHOR,
+  NAV_ANCHOR_HOVER
 } from '../lib/theme/colours'
 
 const PortfolioItem = ({ project }) => {
   const {
-    portfolioTitle, portfolioImage, portfolioAlt, portfolioSnippet,
-    portfolioSourceURL, portfolioSummary
+    portfolioTitle,
+    portfolioImage,
+    portfolioAlt,
+    portfolioSnippet,
+    portfolioSourceURL,
+    portfolioSummary
   } = project
 
   return (
     <ProjectWrapper>
-      <ProjectTitle>{portfolioTitle}</ProjectTitle>
-      <ProjectSnippet>{portfolioSnippet}</ProjectSnippet>
+      <ProjectTitle>
+        {portfolioTitle}
+      </ProjectTitle>
+      <ProjectSnippet>
+        {portfolioSnippet}
+      </ProjectSnippet>
       <ProjectImage src={portfolioImage} alt={portfolioAlt} />
-      <ProjectSummary>{portfolioSummary}</ProjectSummary>
+      <ProjectSummary>
+        {portfolioSummary}
+      </ProjectSummary>
       <ProjectLink>
-        <a href={portfolioSourceURL} target='_blank'>Source code</a>
+        <a href={portfolioSourceURL} target='_blank'>
+          Source code
+        </a>
       </ProjectLink>
     </ProjectWrapper>
   )
@@ -95,5 +109,5 @@ const ProjectLink = styled.div`
 
   a:hover {
     color: ${NAV_ANCHOR_HOVER};
-}
+  }
 `

@@ -23,7 +23,11 @@ This is my personal site, including my portfolio and blog.
 - [Styled Components](https://www.styled-components.com/docs)
 - [Font Awesome](https://fontawesome.com/)
 - [Jest](https://facebook.github.io/jest/)
-- [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+### Style
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 ## Development
 

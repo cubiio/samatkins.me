@@ -11,16 +11,16 @@ class HeroLists extends Component {
   }
 
   renderInfo () {
-    return this.state.data.map((d, listIdx) =>
-      <List key={listIdx} d={d} />
-    )
+    return this.state.data.map((d, listIdx) => <List key={listIdx} d={d} />)
   }
 
   render () {
     return (
       <HeroWrapper>
         <HeroHeader>My tech stack:</HeroHeader>
-        <ListWrapper>{this.renderInfo()}</ListWrapper>
+        <ListWrapper>
+          {this.renderInfo()}
+        </ListWrapper>
       </HeroWrapper>
     )
   }

@@ -7,10 +7,14 @@ const List = ({ d, listIdx }) => {
 
   return (
     <ListBox key={listIdx}>
-      <GroupTitle key={listIdx}>{group}</GroupTitle>
+      <GroupTitle key={listIdx}>
+        {group}
+      </GroupTitle>
       <ul key={listIdx}>
         {items.map((item, itemIdx) =>
-          <p key={itemIdx}>- {item.name}</p>
+          <p key={itemIdx}>
+            - {item.name}
+          </p>
         )}
       </ul>
     </ListBox>
@@ -37,6 +41,4 @@ const ListBox = styled.div`
 `
 
 // TODO change to scale ratio or rhythm unit
-const GroupTitle = styled.h3`
-  padding-bottom: 2px;
-`
+const GroupTitle = styled.h3`padding-bottom: 2px;`
