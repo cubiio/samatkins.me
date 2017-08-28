@@ -9,9 +9,11 @@ class Footer extends Component {
     return (
       <FooterWrapper>
         <FooterContainer>
-          <p>Built with ♥ by Sam. View site source
-            <a href='https://github.com/cubiio/samatkins.me' target='_blank'> code</a>.
-            © 2016-{currentYear} Sam Atkins
+          <p>
+            Built with ♥ by Sam. View site source
+            <a href='https://github.com/cubiio/samatkins.me' target='_blank'>
+              {' '}code
+            </a>. © 2016-{currentYear} Sam Atkins
           </p>
         </FooterContainer>
       </FooterWrapper>
@@ -47,6 +49,6 @@ const FooterContainer = styled.div`
   }
 
   a:hover {
-    color: ${NAV_ANCHOR_HOVER}
+    color: ${NAV_ANCHOR_HOVER};
   }
 `

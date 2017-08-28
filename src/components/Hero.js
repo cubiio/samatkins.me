@@ -82,6 +82,6 @@ const HeroIntro = styled.div`
   }
 
   a:hover {
-    color: ${NAV_ANCHOR_HOVER}
+    color: ${NAV_ANCHOR_HOVER};
   }
 `

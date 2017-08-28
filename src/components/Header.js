@@ -4,8 +4,11 @@ import styled from 'styled-components'
 
 import { logo } from '../assets/images'
 import { siteLogoAlt } from '../../data/siteConfig'
-import { HEADER_SHADOW,
-  NAV_ANCHOR, TITLE_TEXT_COLOR } from '../lib/theme/colours'
+import {
+  HEADER_SHADOW,
+  NAV_ANCHOR,
+  TITLE_TEXT_COLOR
+} from '../lib/theme/colours'
 
 class Header extends Component {
   render () {
@@ -14,14 +17,10 @@ class Header extends Component {
         <HeaderInner>
           <div>
             <Link to='/'>
-              <HeaderLogo
-                src={logo.avatar} alt={siteLogoAlt}
-              />
+              <HeaderLogo src={logo.avatar} alt={siteLogoAlt} />
             </Link>
             <HeaderTitle>
-              <StyledLink
-                to='/'
-              >
+              <StyledLink to='/'>
                 Sam Atkins: Full Stack Web Developer
               </StyledLink>
             </HeaderTitle>
@@ -70,7 +69,6 @@ const HeaderTitle = styled.h1`
 
   @media (max-width: 700px) {
     font-size: 0;
-
   }
 
   a {
