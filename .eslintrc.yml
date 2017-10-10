@@ -1,0 +1,17 @@
+parser: babel-eslint
+extends:
+  - airbnb
+  - prettier
+  - prettier/react
+rules:
+  react/jsx-filename-extension: off
+  import/no-extraneous-dependencies: off
+  comma-dangle:
+    - error
+    - always-multiline
+  quotes:
+    - error
+    - single
+  max-len:
+    - error
+    - 80
