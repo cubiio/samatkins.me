@@ -25,7 +25,7 @@ This is my personal site, including my portfolio and blog.
 
 ### Style
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
 ## Development
@@ -89,7 +89,3 @@ Add an `images` folder in the blogpost folder.  Then add the link in the `index.
 
 ## Tests
 {placeholder}
-
-## TODOs
-TODO - add notes re Jest tests (once more are implemented e.g. snapshots)
-TODO - add notes re Flow (once implemented)
