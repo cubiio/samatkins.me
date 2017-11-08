@@ -10,16 +10,17 @@ exports[`renders correctly 1`] = `
     Dad. Husband. Web developer.
   </h2>
   <div
-    className="sc-gzVnrw fyGwWZ"
+    className="sc-gzVnrw idJiwj"
   >
     <p>
-      I live in London with my family, and I work at 
+      I live in London with my family, and I'm a Full-Stack Engineer at
+       
       <a
         href="https://www.bighealth.com/"
       >
         Big Health
       </a>
-       as a Junior Full-Stack Developer. I work across front-end and back-end technologies but my passion is front-end, and I currently work and play around with React and React Native.
+      . I work across front-end and back-end technologies but my passion is front-end, and I currently work and play around with React and React Native.
     </p>
     <p>
       My background is in supply chain and project management, and I worked for over nine years in Big Four management consulting.
@@ -42,203 +43,191 @@ exports[`renders correctly 1`] = `
     <div
       className="sc-ifAKCX iurdrm"
     >
-      <div>
-        <div
-          className="sc-bdVaJa ipmtpW"
+      <div
+        className="sc-bdVaJa elzNCI"
+      >
+        <h3
+          className="sc-bwzfXH frppgW"
         >
-          <h3
-            className="sc-bwzfXH iAdRya"
-          >
-            Core:
-          </h3>
-          <ul>
-            <p>
-              - 
-              JavaScript
-            </p>
-            <p>
-              - 
-              Python
-            </p>
-            <p>
-              - 
-              HTML
-            </p>
-            <p>
-              - 
-              CSS
-            </p>
-          </ul>
-        </div>
+          Core:
+        </h3>
+        <ul>
+          <p>
+            - 
+            JavaScript
+          </p>
+          <p>
+            - 
+            Python
+          </p>
+          <p>
+            - 
+            HTML
+          </p>
+          <p>
+            - 
+            CSS
+          </p>
+        </ul>
       </div>
-      <div>
-        <div
-          className="sc-bdVaJa ipmtpW"
+      <div
+        className="sc-bdVaJa elzNCI"
+      >
+        <h3
+          className="sc-bwzfXH frppgW"
         >
-          <h3
-            className="sc-bwzfXH iAdRya"
-          >
-            Libraries:
-          </h3>
-          <ul>
-            <p>
-              - 
-              React
-            </p>
-            <p>
-              - 
-              React Native
-            </p>
-            <p>
-              - 
-              Python Flask
-            </p>
-          </ul>
-        </div>
+          Libraries:
+        </h3>
+        <ul>
+          <p>
+            - 
+            React
+          </p>
+          <p>
+            - 
+            React Native
+          </p>
+          <p>
+            - 
+            Python Flask
+          </p>
+        </ul>
       </div>
-      <div>
-        <div
-          className="sc-bdVaJa ipmtpW"
+      <div
+        className="sc-bdVaJa elzNCI"
+      >
+        <h3
+          className="sc-bwzfXH frppgW"
         >
-          <h3
-            className="sc-bwzfXH iAdRya"
-          >
-            Current dev stack:
-          </h3>
-          <ul>
-            <p>
-              - 
-              JavaScript (ES6)
-            </p>
-            <p>
-              - 
-              React / React Native
-            </p>
-            <p>
-              - 
-              Python / Python Flask
-            </p>
-            <p>
-              - 
-              Docker
-            </p>
-            <p>
-              - 
-              Gatsby JS
-            </p>
-          </ul>
-        </div>
+          Current dev stack:
+        </h3>
+        <ul>
+          <p>
+            - 
+            JavaScript (ES6)
+          </p>
+          <p>
+            - 
+            React / React Native
+          </p>
+          <p>
+            - 
+            Python / Python Flask
+          </p>
+          <p>
+            - 
+            Docker
+          </p>
+          <p>
+            - 
+            Gatsby JS
+          </p>
+        </ul>
       </div>
-      <div>
-        <div
-          className="sc-bdVaJa ipmtpW"
+      <div
+        className="sc-bdVaJa elzNCI"
+      >
+        <h3
+          className="sc-bwzfXH frppgW"
         >
-          <h3
-            className="sc-bwzfXH iAdRya"
-          >
-            Tools:
-          </h3>
-          <ul>
-            <p>
-              - 
-              Atom.io
-            </p>
-            <p>
-              - 
-              iTerm2
-            </p>
-            <p>
-              - 
-              Sourcetree
-            </p>
-            <p>
-              - 
-              Xcode
-            </p>
-            <p>
-              - 
-              Bear-Writer.com
-            </p>
-            <p>
-              - 
-              Dash Docs
-            </p>
-          </ul>
-        </div>
+          Tools:
+        </h3>
+        <ul>
+          <p>
+            - 
+            Atom.io
+          </p>
+          <p>
+            - 
+            iTerm2
+          </p>
+          <p>
+            - 
+            Sourcetree
+          </p>
+          <p>
+            - 
+            Xcode
+          </p>
+          <p>
+            - 
+            Bear-Writer.com
+          </p>
+          <p>
+            - 
+            Dash Docs
+          </p>
+        </ul>
       </div>
-      <div>
-        <div
-          className="sc-bdVaJa ipmtpW"
+      <div
+        className="sc-bdVaJa elzNCI"
+      >
+        <h3
+          className="sc-bwzfXH frppgW"
         >
-          <h3
-            className="sc-bwzfXH iAdRya"
-          >
-            Learning list:
-          </h3>
-          <ul>
-            <p>
-              - 
-              JavaScript (ES6 / 7)
-            </p>
-            <p>
-              - 
-              React / React Native
-            </p>
-            <p>
-              - 
-              Mobile development
-            </p>
-            <p>
-              - 
-              Jest tests
-            </p>
-            <p>
-              - 
-              Flow
-            </p>
-            <p>
-              - 
-              Webpack
-            </p>
-          </ul>
-        </div>
+          Learning list:
+        </h3>
+        <ul>
+          <p>
+            - 
+            JavaScript (ES6 / 7)
+          </p>
+          <p>
+            - 
+            React / React Native
+          </p>
+          <p>
+            - 
+            Mobile development
+          </p>
+          <p>
+            - 
+            Jest tests
+          </p>
+          <p>
+            - 
+            Flow
+          </p>
+          <p>
+            - 
+            Webpack
+          </p>
+        </ul>
       </div>
-      <div>
-        <div
-          className="sc-bdVaJa ipmtpW"
+      <div
+        className="sc-bdVaJa elzNCI"
+      >
+        <h3
+          className="sc-bwzfXH frppgW"
         >
-          <h3
-            className="sc-bwzfXH iAdRya"
-          >
-            Experimented with:
-          </h3>
-          <ul>
-            <p>
-              - 
-              PHP
-            </p>
-            <p>
-              - 
-              Objective C
-            </p>
-            <p>
-              - 
-              Sass
-            </p>
-            <p>
-              - 
-              Node.js
-            </p>
-            <p>
-              - 
-              Knockout.js
-            </p>
-            <p>
-              - 
-              Gulp
-            </p>
-          </ul>
-        </div>
+          Experimented with:
+        </h3>
+        <ul>
+          <p>
+            - 
+            PHP
+          </p>
+          <p>
+            - 
+            Objective C
+          </p>
+          <p>
+            - 
+            Sass
+          </p>
+          <p>
+            - 
+            Node.js
+          </p>
+          <p>
+            - 
+            Knockout.js
+          </p>
+          <p>
+            - 
+            Gulp
+          </p>
+        </ul>
       </div>
     </div>
   </div>
