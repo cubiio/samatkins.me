@@ -7,7 +7,7 @@ const portfolio = [
     portfolioSnippet: 'React | JavaScript',
     portfolioSourceURL: 'https://github.com/cubiio/reactnd-myreads',
     portfolioSummary:
-      'Single Page Application built with React.js and React Router.',
+      'Udacity React Nanodegree project: Single Page Application built with React and React Router.',
   },
   {
     id: 7,
