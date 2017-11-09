@@ -25,7 +25,8 @@
     "react-typography": "^0.15.0",
     "typography": "^0.15.8",
     "typography-breakpoint-constants": "^0.14.0",
-    "typography-plugin-code": "^0.15.9"
+    "typography-plugin-code": "^0.15.9",
+    "snyk": "^1.45.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
@@ -54,6 +55,9 @@
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "format": "standard --fix",
-    "test": "jest"
-  }
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
