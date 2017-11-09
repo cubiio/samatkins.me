@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - [About](#about)
-- [Built with](#built-with)
 - [Development](#development)
 - [Netlify hosting and deployment](#netlify-hosting-and-deployment)
 - [Adding blogposts](#adding-blogposts)
@@ -14,7 +13,7 @@
 
 ## About
 
-This is my personal site, including my portfolio and blog. 
+This is my personal site, including my portfolio and blog.
 
 ### Technology Colophon
 
@@ -26,7 +25,7 @@ This is my personal site, including my portfolio and blog.
 
 ### Style
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
 ## Development
@@ -79,18 +78,14 @@ tags: ["python", "programming", "javascript"]
 ```
 
 ### Adding images
-Add an `images` folder in the blogpost folder.  Then add the link in the `index.md`: 
+Add an `images` folder in the blogpost folder.  Then add the link in the `index.md`:
 
 `![image text](./images/name.jpeg)`
 
-### Blogpost gotchas 
+### Blogpost gotchas
 
 - Tags can't start with numbers as it causes an error when building the site.
-- The pages are cached so changes may not update when the static site is generated. Clear the cache and rebuild the site. 
+- The pages are cached so changes may not update when the static site is generated. Clear the cache and rebuild the site.
 
 ## Tests
 {placeholder}
-
-## TODOs
-TODO - add notes re Jest tests (once more are implemented e.g. snapshots)
-TODO - add notes re Flow (once implemented)
