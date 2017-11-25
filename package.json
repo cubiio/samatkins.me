@@ -23,10 +23,10 @@
     "gatsby-transformer-remark": "^1.1.0",
     "react-icons": "~2.2.5",
     "react-typography": "^0.16.5",
+    "styled-components": "^2.2.3",
     "typography": "^0.16.6",
     "typography-breakpoint-constants": "^0.15.10",
-    "typography-plugin-code": "^0.16.11",
-    "snyk": "^1.45.0"
+    "typography-plugin-code": "^0.16.11"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
@@ -55,8 +55,6 @@
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "format": "standard --fix",
-    "test": "jest",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "test": "jest"
   }
 }
