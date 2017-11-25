@@ -58,6 +58,5 @@
     "test": "jest",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
-  },
-  "snyk": true
+  }
 }
