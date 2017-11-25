@@ -1,21 +1,13 @@
-# Portfolio and blog
+# samatkins.me
 
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![Greenkeeper badge](https://badges.greenkeeper.io/cubiio/samatkins.me.svg)](https://greenkeeper.io/)
+[![deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
 
-## Table of Contents
+## Description
 
-- [About](#about)
-- [Development](#development)
-- [Netlify hosting and deployment](#netlify-hosting-and-deployment)
-- [Adding blogposts](#adding-blogposts)
-- [Adding images](#adding-images)
-- [Blogpost gotchas](#blogpost-gotchas)
-- [Tests](#tests)
-- [TODOs](#todos)
-
-## About
-
-This is my personal site, including my portfolio and blog.
+The code for my personal website, including portfolio and blog.
 
 ### Technology Colophon
 
@@ -25,42 +17,65 @@ This is my personal site, including my portfolio and blog.
 - [Font Awesome](https://fontawesome.com/)
 - [Jest](https://facebook.github.io/jest/)
 
-### Style
+## Table of Contents
 
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+- [Develop](#develop)
+  - [How to run](#how-to-run)
+  - [Style Guide](#style-guide)
+  - [Tests](#tests)
+  - [Adding blogpost content](#adding-blogpost-content)
+  - [Develop troubleshooting](#develop-troubleshooting)
+- [Release](#release)
+  - [Build](#build)
+  - [Deploy](#deploy)
 
+## Getting started
 
-## Development
+### Installation
+
+Dependencies:
+* Gatsby static site generator
+* Yarn package manager
+
+Git clone the repo into a local directory. To install all dependencies using yarn:
+
+```sh
+yarn install
+```
+
+## Develop
+
+### How to run
 
 Key commands:
 
 ```bash
-# nvm to set correct version of node, npm and yarn
-nvm use stable
->> Now using node v8.1.2 (npm v4.6.1)
+# nvm to set correct version of node
+nvm use
 
 # to start a hot-reloading development environment accessible at localhost:8000
 yarn start
+```
 
-# generate an optimised production build
-yarn build
+### Style Guide
 
-# local server for testing production build
-yarn serve
+This repo uses [ESLint](https://eslint.org/) with [Prettier](https://github.com/prettier/prettier) formatting.
 
-# to run unit tests
+The ESLint config extends from AirBnB, with a few changes. Refer to the `.eslintrc.yml` file in the root of the repo for info on the changes.
+
+### Tests
+
+Tests use Jest. Use this command to run the tests:
+
+```sh
 yarn test
 ```
 
-Development should be conducted on the `dev` branch, and then when ready merged to `master`.
+### Adding blogpost content
 
-## Netlify hosting and deployment
-
-All commits/merges to master are auto-deployed (assuming the build passes). Refer to the [Netlify docs](https://www.netlify.com/docs/) for more info.
-
-## Adding blogposts
-
-Switch to the `dev` branch and add a new folder here:
+Switch to the `<feature>` branch and add a new folder here:
 
 `src/pages/blog/`
 
@@ -79,15 +94,43 @@ tags: ["python", "programming", "javascript"]
 ---
 ```
 
-### Adding images
 Add an `images` folder in the blogpost folder.  Then add the link in the `index.md`:
 
-`![image text](./images/name.jpeg)`
+`![image text](./images/image.jpeg)`
 
-### Blogpost gotchas
+In summary, the tree would like this once the new content is added:
+
+```
+- src/pages/blog/
+  - YYYY-MMM-DD-hello-world/
+    - index.md
+    - images/
+      - image.jpeg
+```
+
+### Develop troubleshooting
+
+#### Blogpost gotchas
 
 - Tags can't start with numbers as it causes an error when building the site.
-- The pages are cached so changes may not update when the static site is generated. Clear the cache and rebuild the site.
+- The pages are cached so changes may not update when the static site is generated. Try restarting the development server. If this doesn't work, clear the cache (i.e. `/.cache`) and rebuild the site.
 
-## Tests
-{placeholder}
+Development should be conducted on  `<feature>` branch, and then when ready merged to `master`.
+
+## Release
+
+### Build
+
+```sh
+# generate an optimised production build
+yarn build
+
+# local server for testing production build
+yarn serve
+```
+
+### Deploy
+
+The site is hosted on Netlify. A push to the master branch will trigger a new deploy to Netlify. This is why all development should take place on a feature branch, and only when ready, merge to master.
+
+Refer to the [Netlify docs](https://www.netlify.com/docs/) for more info.
