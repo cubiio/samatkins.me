@@ -1,12 +1,10 @@
 /* global it expect */
 
-import React from 'react'
-import Footer from '../src/components/Footer'
-import renderer from 'react-test-renderer'
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Footer from '../src/components/Footer';
 
 it('renders correctly', () => {
-  const tree = renderer.create(
-    <Footer />
-  ).toJSON()
-  expect(tree).toMatchSnapshot()
-})
+  const tree = renderer.create(<Footer />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
