@@ -1,8 +1,6 @@
 # samatkins.me
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
-[![Greenkeeper badge](https://badges.greenkeeper.io/cubiio/samatkins.me.svg)](https://greenkeeper.io/)
 [![deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
 
 ## Description
@@ -14,8 +12,6 @@ The code for my personal website, including portfolio and blog.
 - Gatsby static site generator: [Docs](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
 - [React.js](https://facebook.github.io/react/)
 - [Styled Components](https://www.styled-components.com/docs)
-- [Font Awesome](https://fontawesome.com/)
-- [Jest](https://facebook.github.io/jest/)
 
 ## Table of Contents
 
@@ -24,7 +20,6 @@ The code for my personal website, including portfolio and blog.
 - [Develop](#develop)
   - [How to run](#how-to-run)
   - [Style Guide](#style-guide)
-  - [Tests](#tests)
   - [Adding blogpost content](#adding-blogpost-content)
   - [Develop troubleshooting](#develop-troubleshooting)
 - [Release](#release)
@@ -65,13 +60,6 @@ This repo uses [ESLint](https://eslint.org/) with [Prettier](https://github.com/
 
 The ESLint config extends from AirBnB, with a few changes. Refer to the `.eslintrc.yml` file in the root of the repo for info on the changes.
 
-### Tests
-
-Tests use Jest. Use this command to run the tests:
-
-```sh
-yarn test
-```
 
 ### Adding blogpost content
 
