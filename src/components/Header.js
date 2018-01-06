@@ -1,37 +1,28 @@
-import React, { Component } from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
-
-import { logo } from '../assets/images'
-import { siteLogoAlt } from '../../data/siteConfig'
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
+import { logo } from '../assets/images';
+import { siteLogoAlt } from '../../data/siteConfig';
 import {
   HEADER_SHADOW,
   NAV_ANCHOR,
-  TITLE_TEXT_COLOR
-} from '../lib/theme/colours'
+  TITLE_TEXT_COLOR,
+} from '../lib/theme/colours';
 
-class Header extends Component {
-  render () {
-    return (
-      <HeaderWrapper>
-        <HeaderInner>
-          <div>
-            <Link to='/'>
-              <HeaderLogo src={logo.avatar} alt={siteLogoAlt} />
-            </Link>
-            <HeaderTitle>
-              <StyledLink to='/'>
-                Sam Atkins: Full Stack Web Developer
-              </StyledLink>
-            </HeaderTitle>
-          </div>
-        </HeaderInner>
-      </HeaderWrapper>
-    )
-  }
-}
+const Header = () => (
+  <HeaderWrapper>
+    <HeaderInner>
+      <Link to="/">
+        <HeaderLogo src={logo.avatar} alt={siteLogoAlt} />
+      </Link>
+      <HeaderTitle>
+        <StyledLink to="/">Sam Atkins: Full Stack Web Developer</StyledLink>
+      </HeaderTitle>
+    </HeaderInner>
+  </HeaderWrapper>
+);
 
-export default Header
+export default Header;
 
 /*
 Styles
@@ -40,9 +31,9 @@ Styles
 const HeaderWrapper = styled.div`
   box-shadow: 0 2px 5px ${HEADER_SHADOW};
   min-height: 56px;
-  transition: min-height .3s;
+  transition: min-height 0.3s;
   width: 100%;
-`
+`;
 
 const HeaderInner = styled.div`
   display: flex;
@@ -51,7 +42,7 @@ const HeaderInner = styled.div`
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-`
+`;
 
 const HeaderLogo = styled.img`
   border-radius: 50px;
@@ -61,11 +52,11 @@ const HeaderLogo = styled.img`
   margin-right: 1em;
   margin-top: 1em;
   vertical-align: top;
-`
+`;
 
 const HeaderTitle = styled.h1`
   display: inline-block;
-  margin: .75em .25em;
+  margin: 0.75em 0.25em;
 
   @media (max-width: 700px) {
     font-size: 0;
@@ -75,11 +66,11 @@ const HeaderTitle = styled.h1`
     color: ${TITLE_TEXT_COLOR};
     text-decoration: none;
   }
-`
+`;
 
 const StyledLink = styled(Link)`
   display: inline-block;
   color: ${NAV_ANCHOR};
   text-decoration: none;
   position: relative;
-`
+`;
