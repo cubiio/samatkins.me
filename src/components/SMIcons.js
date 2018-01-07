@@ -1,35 +1,28 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import { fa } from '../assets/images';
 
-import { fa } from '../assets/images'
-
-const SMIcons = () => {
-  return (
+const SMIcons = () => (
     <SocialContainer>
       <SocialLogo>
-        <a href='https://github.com/cubiio' target='_blank'>
-          <img src={fa.github} />
+        <a href="https://github.com/cubiio">
+          <img src={fa.github} alt="github" />
         </a>
       </SocialLogo>
       <SocialLogo>
-        <a href='https://www.linkedin.com/in/atkinssam/' target='_blank'>
-          <img src={fa.linkedin} />
+        <a href="https://www.linkedin.com/in/atkinssam/">
+          <img src={fa.linkedin} alt="linkedin" />
         </a>
       </SocialLogo>
       <SocialLogo>
-        <a href='https://twitter.com/cubiio' target='_blank'>
-          <img src={fa.twitter} />
+        <a href="https://twitter.com/cubiio">
+          <img src={fa.twitter} alt="twitter" />
         </a>
       </SocialLogo>
     </SocialContainer>
-  )
-}
+  );
 
-export default SMIcons
-
-/*
-Styles
- */
+export default SMIcons;
 
 const SocialContainer = styled.div`
   display: flex;
@@ -46,7 +39,7 @@ const SocialContainer = styled.div`
     width: 80%;
     margin-top: 0;
   }
-`
+`;
 
 const SocialLogo = styled.div`
   height: 30px;
@@ -55,4 +48,4 @@ const SocialLogo = styled.div`
   margin-left: auto;
   margin-right: auto;
   width: 30px;
-`
+`;
