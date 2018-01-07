@@ -51,7 +51,7 @@ Key commands:
 nvm use
 
 # to start a hot-reloading development environment accessible at localhost:8000
-yarn start
+gatsby develop
 ```
 
 ### Style Guide
@@ -111,10 +111,10 @@ Development should be conducted on  `<feature>` branch, and then when ready merg
 
 ```sh
 # generate an optimised production build
-yarn build
+gatsby build
 
 # local server for testing production build
-yarn serve
+gatsby serve
 ```
 
 ### Deploy
