@@ -1,10 +1,20 @@
 const portfolio = [
   {
+    id: 9,
+    portfolioImage: require('../assets/images/readable_home.png'),
+    portfolioAlt: 'Udacity - Readable',
+    portfolioTitle: 'Readable App',
+    portfolioSnippet: 'React | Redux | React Router | JavaScript',
+    portfolioSourceURL: 'https://github.com/cubiio/readable',
+    portfolioSummary:
+      'Udacity React Nanodegree project: A Reddit clone: users can post items, up and down vote and add comments. This Single Page Application is built with React, Redux and React Router.',
+  },
+  {
     id: 8,
     portfolioImage: require('../assets/images/myreads.png'),
     portfolioAlt: 'Udacity - MyReads',
     portfolioTitle: 'MyReads App',
-    portfolioSnippet: 'React | JavaScript',
+    portfolioSnippet: 'React | React Router | JavaScript',
     portfolioSourceURL: 'https://github.com/cubiio/reactnd-myreads',
     portfolioSummary:
       'Udacity React Nanodegree project: Single Page Application built with React and React Router.',

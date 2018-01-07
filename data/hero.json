@@ -3,7 +3,7 @@
     "group": "Core:",
     "items": [
       {
-        "name": "JavaScript"
+        "name": "JavaScript / ES6"
       },
       {
         "name": "Python"
@@ -34,7 +34,7 @@
     "group": "Current dev stack:",
     "items": [
       {
-        "name": "JavaScript (ES6)"
+        "name": "JavaScript / ES6"
       },
       {
         "name": "React / React Native"
@@ -54,7 +54,7 @@
     "group": "Tools:",
     "items": [
       {
-        "name": "Virtual Studio Code"
+        "name": "Visual Studio Code"
       },
       {
         "name": "iTerm2"
