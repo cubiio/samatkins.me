@@ -1,30 +1,17 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import PortfolioItem from './PortfolioItem';
+import projects from '../data/portfolio';
 
-import PortfolioItem from './PortfolioItem'
-const projects = require('../../data/portfolio')
-
-class Portfolio extends Component {
-  renderPortfolio () {
-    return projects.map(project =>
+const Portfolio = () => (
+  <PortfolioWrapper>
+    {projects.map(project => (
       <PortfolioItem key={project.id} project={project} />
-    )
-  }
+    ))}
+  </PortfolioWrapper>
+);
 
-  render () {
-    return (
-      <PortfolioWrapper>
-        {this.renderPortfolio()}
-      </PortfolioWrapper>
-    )
-  }
-}
-
-export default Portfolio
-
-/*
-Styles
- */
+export default Portfolio;
 
 const PortfolioWrapper = styled.section`
   display: flex;
@@ -39,4 +26,4 @@ const PortfolioWrapper = styled.section`
   @media (max-width: 700px) {
     width: 95%;
   }
-`
+`;
