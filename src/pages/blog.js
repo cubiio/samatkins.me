@@ -1,49 +1,42 @@
 /* global graphql */
 
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
-
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import SMIcons from '../components/SMIcons'
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import SMIcons from '../components/SMIcons';
 import {
   BACKGROUND_BLOGPOST_HOVER,
   NAV_ANCHOR,
-  NAV_ANCHOR_HOVER
-} from '../lib/theme/colours'
+  NAV_ANCHOR_HOVER,
+} from '../lib/theme/colours';
 
-export default function Blog ({ data }) {
-  const { edges: posts } = data.allMarkdownRemark
+export default function Blog({ data }) {
+  const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
       <Nav />
       <BlogPostWrapper>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => {
-            return (
-              <div>
-                <BlogPostPreview key={post.id}>
-                  <BlogPostTitle>
-                    <Link to={post.frontmatter.path}>
-                      {post.frontmatter.title} / published {post.frontmatter.date}
-                    </Link>
-                  </BlogPostTitle>
-                </BlogPostPreview>
-              </div>
-            )
-          })}
+          .map(({ node: post }) => (
+            <div>
+              <BlogPostPreview key={post.id}>
+                <BlogPostTitle>
+                  <Link to={post.frontmatter.path}>
+                    {post.frontmatter.title} / published {post.frontmatter.date}
+                  </Link>
+                </BlogPostTitle>
+              </BlogPostPreview>
+            </div>
+          ))}
       </BlogPostWrapper>
       <SMIcons />
       <Footer />
     </div>
-  )
+  );
 }
-
-/*
-Data query via GraphQL
- */
 
 export const pageQuery = graphql`
   query BlogQuery {
@@ -61,11 +54,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`
-
-/*
-Styles
- */
+`;
 
 const BlogPostWrapper = styled.div`
   display: flex;
@@ -78,14 +67,14 @@ const BlogPostWrapper = styled.div`
   @media (max-width: 700px) {
     width: 95%;
   }
-`
+`;
 
 const BlogPostPreview = styled.div`
-  padding: .5rem 0.25rem;
-  border-bottom: 2px solid #EEE;
+  padding: 0.5rem 0.25rem;
+  border-bottom: 2px solid #eee;
   margin: 0 auto;
   padding: 0;
-`
+`;
 
 const BlogPostTitle = styled.div`
   flex-basis: auto;
@@ -102,9 +91,9 @@ const BlogPostTitle = styled.div`
     transition: all 0.5s ease-in-out;
   }
 
-    &:hover {
-      color: ${NAV_ANCHOR_HOVER};
-      background: ${BACKGROUND_BLOGPOST_HOVER};
-      padding: 20px 20px;
-    }
-`
+  &:hover {
+    color: ${NAV_ANCHOR_HOVER};
+    background: ${BACKGROUND_BLOGPOST_HOVER};
+    padding: 20px 20px;
+  }
+`;

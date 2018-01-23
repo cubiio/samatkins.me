@@ -1,11 +1,10 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import Nav from '../components/Nav';
+import SMIcons from '../components/SMIcons';
+import Footer from '../components/Footer';
 
-import Nav from '../components/Nav'
-import SMIcons from '../components/SMIcons'
-import Footer from '../components/Footer'
-
-export default () =>
+export default () => (
   <div>
     <Nav />
     <Wrapper>
@@ -17,10 +16,7 @@ export default () =>
     <SMIcons />
     <Footer />
   </div>
-
-/**
- * Styles
- */
+);
 
 const Wrapper = styled.div`
   display: flex;
@@ -32,9 +28,9 @@ const Wrapper = styled.div`
   @media (max-width: 700px) {
     width: 95%;
   }
-`
+`;
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-`
+`;

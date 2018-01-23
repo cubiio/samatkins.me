@@ -1,21 +1,24 @@
-import React from 'react'
-import GatsbyLink from 'gatsby-link'
-import HomeIcon from 'react-icons/lib/fa/home'
-import TagsIcon from 'react-icons/lib/fa/tags'
-import styled from 'styled-components'
-
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import SMIcons from '../components/SMIcons'
-import Link from '../components/Link'
+import React from 'react';
+import GatsbyLink from 'gatsby-link';
+import HomeIcon from 'react-icons/lib/fa/home';
+import TagsIcon from 'react-icons/lib/fa/tags';
+import styled from 'styled-components';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import SMIcons from '../components/SMIcons';
+import Link from '../components/Link';
 import {
-  BACKGROUND_BLOGPOST_HOVER, NAV_ANCHOR, NAV_ANCHOR_HOVER
-} from '../lib/theme/colours'
-import convertFrontMatterDate from '../lib/utils'
+  BACKGROUND_BLOGPOST_HOVER,
+  NAV_ANCHOR,
+  NAV_ANCHOR_HOVER,
+} from '../lib/theme/colours';
+import convertFrontMatterDate from '../lib/utils';
 
-export default function Tags ({ pathContext }) {
-  const { posts, post, tag } = pathContext
-  const sortedTags = Object.keys(posts).map(tagName => tagName).sort()
+export default function Tags({ pathContext }) {
+  const { posts, post, tag } = pathContext;
+  const sortedTags = Object.keys(posts)
+    .map(tagName => tagName)
+    .sort();
   if (tag) {
     return (
       <div>
@@ -25,26 +28,25 @@ export default function Tags ({ pathContext }) {
             {post.length} post{post.length === 1 ? '' : 's'} tagged with {tag}
           </TagTitle>
           <ul>
-            {post.map(({ id, frontmatter }) => {
-              return (
+            {post.map(({ id, frontmatter }) => (
                 <p key={id}>
                   <TagLinkTitle>
                     <GatsbyLink to={frontmatter.path}>
-                      {frontmatter.title} / published {convertFrontMatterDate(frontmatter.date)}
+                      {frontmatter.title} / published{' '}
+                      {convertFrontMatterDate(frontmatter.date)}
                     </GatsbyLink>
                   </TagLinkTitle>
                 </p>
-              )
-            })}
+              ))}
           </ul>
-          <Link to='/tags'>
+          <Link to="/tags">
             <TagsIcon /> All tags
           </Link>
           <SMIcons />
           <Footer />
         </TagWrapper>
       </div>
-    )
+    );
   }
   return (
     <div>
@@ -52,29 +54,21 @@ export default function Tags ({ pathContext }) {
       <TagWrapper>
         <TagTitle>Tags</TagTitle>
         <TagList>
-          {sortedTags.map(tagName => {
-            return (
+          {sortedTags.map(tagName => (
               <TagListItem key={tagName}>
-                <GatsbyLink to={`/tags/${tagName}`}>
-                  {tagName}
-                </GatsbyLink>
+                <GatsbyLink to={`/tags/${tagName}`}>{tagName}</GatsbyLink>
               </TagListItem>
-            )
-          })}
+            ))}
         </TagList>
-        <Link to='/blog'>
+        <Link to="/blog">
           <HomeIcon /> All posts
         </Link>
         <SMIcons />
         <Footer />
       </TagWrapper>
     </div>
-  )
+  );
 }
-
-/**
- * Styles
- */
 
 const TagWrapper = styled.div`
   margin-left: auto;
@@ -84,11 +78,11 @@ const TagWrapper = styled.div`
   @media (max-width: 700px) {
     width: 95%;
   }
-`
+`;
 
 const TagTitle = styled.h4`
   padding: 0px 5px;
-`
+`;
 
 const TagLinkTitle = styled.h4`
   padding: 0px 5px;
@@ -100,30 +94,30 @@ const TagLinkTitle = styled.h4`
     display: block;
     transition: all 0.5s ease-in-out;
   }
-    &:hover {
-      color: ${NAV_ANCHOR_HOVER};
-      background: ${BACKGROUND_BLOGPOST_HOVER};
-      padding: 0px 20px;
-    }
-`
+  &:hover {
+    color: ${NAV_ANCHOR_HOVER};
+    background: ${BACKGROUND_BLOGPOST_HOVER};
+    padding: 0px 20px;
+  }
+`;
 
 const TagList = styled.ul`
   display: block;
   list-style-type: none;
-  margin-left: .5em;
+  margin-left: 0.5em;
   text-align: justify;
   width: 17em;
-`
+`;
 
 const TagListItem = styled.li`
   a {
     color: ${NAV_ANCHOR};
-    padding-left: .5em;
+    padding-left: 0.5em;
     text-decoration: none;
   }
 
-    &:hover {
-      color: ${NAV_ANCHOR_HOVER};
-      background: ${BACKGROUND_BLOGPOST_HOVER};
-    }
-`
+  &:hover {
+    color: ${NAV_ANCHOR_HOVER};
+    background: ${BACKGROUND_BLOGPOST_HOVER};
+  }
+`;
