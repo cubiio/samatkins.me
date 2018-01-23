@@ -2,22 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const List = ({ d, listIdx }) => {
-  const { group, items } = d;
+const List = props => {
+  const { group, skills } = props.heroGroup;
 
   return (
-    <ListBox key={listIdx}>
-      <GroupTitle key={listIdx}>{group}</GroupTitle>
-      <ul key={listIdx}>
-        {items.map((item, itemIdx) => <p key={itemIdx}>- {item.name}</p>)}
-      </ul>
+    <ListBox>
+      <GroupTitle>{group}</GroupTitle>
+      <ul>{skills.map(skill => <p>- {skill.name}</p>)}</ul>
     </ListBox>
   );
 };
 
 List.propTypes = {
-  group: PropTypes.string,
-  items: PropTypes.string,
+  heroGroup: PropTypes.shape.isRequired,
 };
 
 export default List;

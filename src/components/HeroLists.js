@@ -1,28 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import List from './List';
 
-const data = require('../../data/hero.json');
+const heroInfo = require('../data/hero.json');
 
-class HeroLists extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { data };
-  }
-
-  renderInfo() {
-    return this.state.data.map((d, listIdx) => <List key={listIdx} d={d} />);
-  }
-
-  render() {
-    return (
-      <HeroWrapper>
-        <HeroHeader>My tech stack:</HeroHeader>
-        <ListWrapper>{this.renderInfo()}</ListWrapper>
-      </HeroWrapper>
-    );
-  }
-}
+const HeroLists = () => (
+  <HeroWrapper>
+    <HeroHeader>My tech stack:</HeroHeader>
+    <ListWrapper>
+      {heroInfo.map(heroGroup => <List heroGroup={heroGroup} />)}
+    </ListWrapper>
+  </HeroWrapper>
+);
 
 export default HeroLists;
 
