@@ -1,0 +1,53 @@
+[
+  {
+    "group": "Core:",
+    "skills": [
+      {
+        "name": "JavaScript / ES6"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ]
+  },
+  {
+    "group": "Libraries:",
+    "skills": [
+      {
+        "name": "React"
+      },
+      {
+        "name": "React Native"
+      },
+      {
+        "name": "Python Flask"
+      }
+    ]
+  },
+  {
+    "group": "Current dev stack:",
+    "skills": [
+      {
+        "name": "JavaScript / ES6"
+      },
+      {
+        "name": "React / React Native"
+      },
+      {
+        "name": "Python / Python Flask"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Gatsby JS"
+      }
+    ]
+  }
+]

@@ -5,13 +5,13 @@ import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours';
 
 const Hero = () => (
   <HeroWrapper>
-    <HeroTagline>Dad. Husband. Web developer.</HeroTagline>
+    <HeroTagLine>Dad. Husband. Web developer.</HeroTagLine>
     <HeroIntro>
       <p>
-        I live in London with my family, and I'm a Full-Stack Engineer at{' '}
+        I live in London with my family, and I'm a Software Engineer at{' '}
         <a href="https://www.bighealth.com/">Big Health</a>. I work across
-        front-end and back-end technologies but my passion is front-end, and I
-        currently work and play around with React and React Native.
+        front-end and back-end technologies including React, React Native, PHP,
+        Python and Docker.
       </p>
       <p>
         My background is in supply chain and project management, and I worked
@@ -20,13 +20,6 @@ const Hero = () => (
       <p>
         Outside of work, I’m a family man and I like cycling, mountain biking,
         football and rugby.
-      </p>
-      <p>
-        This is my personal website, portfolio, and blog. I also list the
-        technologies I use and want to learn below. Apologies for the lack of
-        design on the site, this is due to time constraints but mainly because
-        whilst I want to learn more about good design, I will always be a
-        developer rather than a designer.
       </p>
     </HeroIntro>
     <HeroLists />
@@ -48,7 +41,7 @@ const HeroWrapper = styled.div`
   }
 `;
 
-const HeroTagline = styled.h2`
+const HeroTagLine = styled.h2`
   align-self: center;
   color: #212121;
   display: flex;

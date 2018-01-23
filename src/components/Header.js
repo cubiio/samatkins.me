@@ -16,17 +16,13 @@ const Header = () => (
         <HeaderLogo src={logo.avatar} alt={siteLogoAlt} />
       </Link>
       <HeaderTitle>
-        <StyledLink to="/">Sam Atkins: Full Stack Web Developer</StyledLink>
+        <StyledLink to="/">Sam Atkins: Software Engineer</StyledLink>
       </HeaderTitle>
     </HeaderInner>
   </HeaderWrapper>
 );
 
 export default Header;
-
-/*
-Styles
- */
 
 const HeaderWrapper = styled.div`
   box-shadow: 0 2px 5px ${HEADER_SHADOW};

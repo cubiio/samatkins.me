@@ -1,25 +1,26 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours';
 
-import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours'
+const ReqComment = () => (
+  <Wrapper>
+    <Container>
+      <hr />
+      <p>
+        Do you have any comments? You can tweet me at{' '}
+        <a
+          href="https://twitter.com/cubiio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @cubiio
+        </a>.
+      </p>
+    </Container>
+  </Wrapper>
+);
 
-const ReqComment = () => {
-  return (
-    <Wrapper>
-      <Container>
-        <hr />
-        <p>
-          Do you have any comments? You can tweet me at{' '}
-          <a href='https://twitter.com/cubiio' target='_blank'>
-            @cubiio
-          </a>.
-        </p>
-      </Container>
-    </Wrapper>
-  )
-}
-
-export default ReqComment
+export default ReqComment;
 
 const Wrapper = styled.div`
   display: flex;
@@ -29,7 +30,7 @@ const Wrapper = styled.div`
   @media (max-width: 700px) {
     text-align: center;
   }
-`
+`;
 
 const Container = styled.div`
   width: 100%;
@@ -42,4 +43,4 @@ const Container = styled.div`
   a:hover {
     color: ${NAV_ANCHOR_HOVER};
   }
-`
+`;
