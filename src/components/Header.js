@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import { logo } from '../assets/images';
-import { siteLogoAlt } from '../../data/siteConfig';
+import { siteLogoAlt } from '../config/siteConfig';
 import {
   HEADER_SHADOW,
   NAV_ANCHOR,
