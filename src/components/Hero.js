@@ -5,13 +5,13 @@ import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours';
 
 const Hero = () => (
   <HeroWrapper>
-    <HeroTagLine>Dad. Husband. Web developer.</HeroTagLine>
     <HeroIntro>
+      <br />
       <p>
         I live in London with my family, and I'm a Software Engineer at{' '}
-        <a href="https://www.bighealth.com/">Big Health</a>. I work across
-        front-end and back-end technologies including React, React Native, PHP,
-        Python and Docker.
+        <a href="https://www.bighealth.com/">Big Health</a>. I work across front
+        and back-end technologies including React, React Native, PHP, Python and
+        Docker.
       </p>
       <p>
         My background is in supply chain and project management, and I worked
@@ -39,15 +39,6 @@ const HeroWrapper = styled.div`
     width: 95%;
     text-align: center;
   }
-`;
-
-const HeroTagLine = styled.h2`
-  align-self: center;
-  color: #212121;
-  display: flex;
-  font-family: $general-font;
-  margin-left: auto;
-  margin-right: auto;
 `;
 
 const HeroIntro = styled.div`
