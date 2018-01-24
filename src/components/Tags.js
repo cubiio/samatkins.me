@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
-
 import { NAV_ANCHOR, NAV_ANCHOR_HOVER } from '../lib/theme/colours';
 
 export default function Tags({ list = [] }) {

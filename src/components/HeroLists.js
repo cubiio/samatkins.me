@@ -1,36 +1,19 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import List from './List';
 
-import List from './List'
-const data = require('../../data/hero.json')
+const heroInfo = require('../data/hero.json');
 
-class HeroLists extends Component {
-  constructor (props) {
-    super(props)
-    this.state = { data }
-  }
+const HeroLists = () => (
+  <HeroWrapper>
+    <HeroHeader>My tech stack:</HeroHeader>
+    <ListWrapper>
+      {heroInfo.map(heroGroup => <List heroGroup={heroGroup} />)}
+    </ListWrapper>
+  </HeroWrapper>
+);
 
-  renderInfo () {
-    return this.state.data.map((d, listIdx) => <List key={listIdx} d={d} />)
-  }
-
-  render () {
-    return (
-      <HeroWrapper>
-        <HeroHeader>My tech stack:</HeroHeader>
-        <ListWrapper>
-          {this.renderInfo()}
-        </ListWrapper>
-      </HeroWrapper>
-    )
-  }
-}
-
-export default HeroLists
-
-/*
-Styles
- */
+export default HeroLists;
 
 const HeroWrapper = styled.div`
   padding: 5px;
@@ -39,13 +22,12 @@ const HeroWrapper = styled.div`
     width: 95%;
     text-align: center;
   }
-`
+`;
 
-// TODO use scale ratio or rythm unit instead of font size
 const HeroHeader = styled.h2`
   padding-top: 10px;
   text-align: center;
-`
+`;
 
 const ListWrapper = styled.div`
   display: grid;
@@ -61,4 +43,4 @@ const ListWrapper = styled.div`
     grid-template-columns: 50% 50%;
     grid-column-gap: 5px;
   }
-`
+`;

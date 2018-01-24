@@ -44,14 +44,13 @@ yarn install
 
 ### How to run
 
-Key commands:
+To start a hot-reloading development environment accessible at localhost:8000
 
 ```bash
-# nvm to set correct version of node
-nvm use
-
-# to start a hot-reloading development environment accessible at localhost:8000
 gatsby develop
+
+# if hot reloading doesn't seem to work, then try:
+gatsby develop --host localhost --port 8000
 ```
 
 ### Style Guide

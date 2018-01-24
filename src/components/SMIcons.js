@@ -3,24 +3,36 @@ import styled from 'styled-components';
 import { fa } from '../assets/images';
 
 const SMIcons = () => (
-    <SocialContainer>
-      <SocialLogo>
-        <a href="https://github.com/cubiio">
-          <img src={fa.github} alt="github" />
-        </a>
-      </SocialLogo>
-      <SocialLogo>
-        <a href="https://www.linkedin.com/in/atkinssam/">
-          <img src={fa.linkedin} alt="linkedin" />
-        </a>
-      </SocialLogo>
-      <SocialLogo>
-        <a href="https://twitter.com/cubiio">
-          <img src={fa.twitter} alt="twitter" />
-        </a>
-      </SocialLogo>
-    </SocialContainer>
-  );
+  <SocialContainer>
+    <SocialLogo>
+      <a
+        href="https://github.com/cubiio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={fa.github} alt="github" />
+      </a>
+    </SocialLogo>
+    <SocialLogo>
+      <a
+        href="https://www.linkedin.com/in/atkinssam/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={fa.linkedin} alt="linkedin" />
+      </a>
+    </SocialLogo>
+    <SocialLogo>
+      <a
+        href="https://twitter.com/cubiio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={fa.twitter} alt="twitter" />
+      </a>
+    </SocialLogo>
+  </SocialContainer>
+);
 
 export default SMIcons;
 

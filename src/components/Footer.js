@@ -8,11 +8,34 @@ const Footer = () => {
     <FooterWrapper>
       <FooterContainer>
         <p>
-          Built with ♥ by Sam. View site source
-          <a href="https://github.com/cubiio/samatkins.me" target="_blank">
+          Built with
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {' '}
-            code
-          </a>. © 2016-{currentYear} Sam Atkins
+            React{' '}
+          </a>
+          and
+          <a
+            href="https://www.gatsbyjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {' '}
+            Gatsby
+          </a>
+          , deployed with
+          <a
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {' '}
+            Netlify
+          </a>
+          . © 2016-{currentYear} Sam Atkins
         </p>
       </FooterContainer>
     </FooterWrapper>
@@ -20,10 +43,6 @@ const Footer = () => {
 };
 
 export default Footer;
-
-/*
-Styles
- */
 
 const FooterWrapper = styled.div`
   display: flex;
