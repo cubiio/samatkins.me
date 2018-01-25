@@ -8,18 +8,18 @@ const Hero = () => (
     <HeroIntro>
       <br />
       <p>
-        I live in London with my family, and I'm a Software Engineer at{' '}
-        <a href="https://www.bighealth.com/">Big Health</a>. I work across front
-        and back-end technologies including React, React Native, PHP, Python and
-        Docker.
+        Hi, I&#39;m Sam, welcome to my site! I&#39;m a Software Engineer at{' '}
+        <a href="https://www.bighealth.com/">Big Health</a> and I&#39;m enjoying
+        doing work that matters. I work across front and back-end technologies
+        including React, React Native, PHP, Python and Docker.
       </p>
       <p>
         My background is in supply chain and project management, and I worked
         for over nine years in Big Four management consulting.
       </p>
       <p>
-        Outside of work, I’m a family man and I like cycling, mountain biking,
-        football and rugby.
+        Outside of work, I&#39;m a family man and I like cycling, mountain
+        biking, football and rugby.
       </p>
     </HeroIntro>
     <HeroLists />
