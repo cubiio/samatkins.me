@@ -1,6 +1,6 @@
 const portfolio = [
   {
-    id: 9,
+    id: 11,
     portfolioImage: require('../assets/images/readable_home.png'),
     portfolioAlt: 'Udacity - Readable',
     portfolioTitle: 'Readable App',
@@ -10,7 +10,18 @@ const portfolio = [
       'Udacity React Nanodegree project: A Reddit clone: users can post items, up and down vote and add comments. This Single Page Application is built with React, Redux and React Router.',
   },
   {
-    id: 8,
+    id: 10,
+    portfolioImage: require('../assets/images/mobileFlashcards.png'),
+    portfolioAlt: 'Udacity - Mobile Flashcards',
+    portfolioTitle: 'Mobile Flashcards App',
+    portfolioSnippet:
+      'React Native | Expo | Redux | React Navigation | JavaScript',
+    portfolioSourceURL: 'https://github.com/cubiio/mobile-flashcards',
+    portfolioSummary:
+      'Udacity React Nanodegree project: Built with React Native, a flashcards quiz with scoring, users can add new content, and has local notifications.',
+  },
+  {
+    id: 9,
     portfolioImage: require('../assets/images/myreads.png'),
     portfolioAlt: 'Udacity - MyReads',
     portfolioTitle: 'MyReads App',
@@ -18,6 +29,16 @@ const portfolio = [
     portfolioSourceURL: 'https://github.com/cubiio/reactnd-myreads',
     portfolioSummary:
       'Udacity React Nanodegree project: Single Page Application built with React and React Router.',
+  },
+  {
+    id: 8,
+    portfolioImage: require('../assets/images/portfolio.png'),
+    portfolioAlt: 'My personal site and blog',
+    portfolioTitle: 'Personal site, Portfolio and Blog',
+    portfolioSnippet: 'React | Gatsby | Netlify',
+    portfolioSourceURL: 'https://github.com/cubiio/samatkins.me',
+    portfolioSummary:
+      'My personal site, portfolio and blog, built with React and Gatsby, deployed with Netlify.',
   },
   {
     id: 7,
