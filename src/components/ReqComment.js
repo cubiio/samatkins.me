@@ -9,11 +9,11 @@ const ReqComment = () => (
       <p>
         Do you have any comments? You can tweet me at{' '}
         <a
-          href="https://twitter.com/cubiio"
+          href="https://twitter.com/samatkins"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @cubiio
+          @samatkins
         </a>.
       </p>
     </Container>

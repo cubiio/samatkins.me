@@ -24,7 +24,7 @@ const SMIcons = () => (
     </SocialLogo>
     <SocialLogo>
       <a
-        href="https://twitter.com/cubiio"
+        href="https://twitter.com/samatkins"
         target="_blank"
         rel="noopener noreferrer"
       >
