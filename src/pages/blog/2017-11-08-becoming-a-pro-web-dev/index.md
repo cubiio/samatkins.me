@@ -94,7 +94,7 @@ Reading news, articles, blogposts and email newsletters are further good sources
 
 ## What are you afraid of?
 
-<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Best advice I&#39;ve heard and followed re my career: “What would you do if you weren&#39;t afraid?”</p>&mdash; Sam Atkins (@cubiio) <a href="https://twitter.com/cubiio/status/920764541453074434?ref_src=twsrc%5Etfw">18 October 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Best advice I&#39;ve heard and followed re my career: “What would you do if you weren&#39;t afraid?”</p>&mdash; Sam Atkins (@samatkins) <a href="https://twitter.com/samatkins/status/920764541453074434?ref_src=twsrc%5Etfw">18 October 2017</a></blockquote>
 
 
 My motivating force was thinking "where do I want to be in 5 years time?". I was nervous about changing careers but the fear of being stuck in the same job in 5 years time was a far bigger fear. In other words, doing nothing was a bigger risk than attempting to change careers. I set a plan, had some contingency and fall back options and went for it.
