@@ -13,7 +13,7 @@ const Header = () => (
   <HeaderWrapper>
     <HeaderInner>
       <Link to="/">
-        <HeaderLogo src={logo.avatar} alt={siteLogoAlt} />
+        <HeaderLogo src={logo.beardedAvatar} alt={siteLogoAlt} />
       </Link>
       <HeaderTitle>
         <StyledLink to="/">Sam Atkins: Software Engineer</StyledLink>
