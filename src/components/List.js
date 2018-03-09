@@ -8,13 +8,13 @@ const List = props => {
   return (
     <ListBox>
       <GroupTitle>{group}</GroupTitle>
-      <ul>{skills.map(skill => <p>- {skill.name}</p>)}</ul>
+      <ul>{skills.map(skill => <p key={skill.id}>- {skill.name}</p>)}</ul>
     </ListBox>
   );
 };
 
 List.propTypes = {
-  heroGroup: PropTypes.shape.isRequired,
+  heroGroup: PropTypes.shape({}).isRequired,
 };
 
 export default List;

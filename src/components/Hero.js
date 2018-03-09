@@ -11,7 +11,7 @@ const Hero = () => (
         Hi, I&#39;m Sam, welcome to my site! I&#39;m a Software Engineer at{' '}
         <a href="https://www.bighealth.com/">Big Health</a> and I&#39;m enjoying
         doing work that matters. I work across front and back-end technologies
-        including React, React Native, PHP, Python and Docker.
+        including React, React Native, PHP and Python.
       </p>
       <p>
         My background is in supply chain and project management, and I worked

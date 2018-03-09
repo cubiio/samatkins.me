@@ -1,52 +1,63 @@
 [
   {
-    "group": "Core:",
+    "group": "Languages",
+    "id": 0,
     "skills": [
       {
-        "name": "JavaScript / ES6"
+        "id": 0,
+        "name": "JavaScript (ES6+)"
       },
       {
+        "id": 1,
         "name": "Python"
       },
       {
-        "name": "HTML"
+        "id": 2,
+        "name": "Node"
       },
       {
-        "name": "CSS"
+        "id": 3,
+        "name": "PHP"
       }
     ]
   },
   {
-    "group": "Libraries:",
+    "group": "Libraries",
+    "id": 1,
     "skills": [
       {
+        "id": 0,
         "name": "React"
       },
       {
+        "id": 1,
         "name": "React Native"
       },
       {
-        "name": "Python Flask"
+        "id": 2,
+        "name": "Flask"
+      },
+      {
+        "id": 3,
+        "name": "Express"
       }
     ]
   },
   {
-    "group": "Current dev stack:",
+    "group": "Dev Tools",
+    "id": 2,
     "skills": [
       {
-        "name": "JavaScript / ES6"
-      },
-      {
-        "name": "React / React Native"
-      },
-      {
-        "name": "Python / Python Flask"
-      },
-      {
+        "id": 0,
         "name": "Docker"
       },
       {
-        "name": "Gatsby JS"
+        "id": 1,
+        "name": "Gatsby"
+      },
+      {
+        "id": 2,
+        "name": "Gulp"
       }
     ]
   }
