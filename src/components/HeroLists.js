@@ -6,9 +6,11 @@ const heroInfo = require('../data/hero.json');
 
 const HeroLists = () => (
   <HeroWrapper>
-    <HeroHeader>My tech stack:</HeroHeader>
+    <HeroHeader>My Tech Stack</HeroHeader>
     <ListWrapper>
-      {heroInfo.map(heroGroup => <List heroGroup={heroGroup} />)}
+      {heroInfo.map(heroGroup => (
+        <List key={heroGroup.id} heroGroup={heroGroup} />
+      ))}
     </ListWrapper>
   </HeroWrapper>
 );
