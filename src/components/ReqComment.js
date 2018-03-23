@@ -7,7 +7,7 @@ const ReqComment = () => (
     <Container>
       <hr />
       <p>
-        Do you have any comments? You can tweet me at{' '}
+        Do you have any comments? You can tweet me{' '}
         <a
           href="https://twitter.com/samatkins"
           target="_blank"
