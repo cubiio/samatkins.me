@@ -9,7 +9,7 @@ tags: ["programming", "learning", "udacity", "nanodegree", "react", "react-nativ
 
 Image: [React.js Nanodegree](https://eu.udacity.com/course/react-nanodegree--nd019)
 
-I completed my third Udacity Nanodegree in February 2018. This time the subject was React and React Native. It was a very rewarding yet demanding course. I'm glad I did it, learned a lot from completing it, but am glad it's over - I get my evenings and weekends back.
+I completed my third Udacity Nanodegree in January 2018. This time the subject was React and React Native. It was a very rewarding yet demanding course. I'm glad I did it, learned a lot from completing it, but am glad it's over - I get my evenings and weekends back.
 
 I find it helpful to reflect on what I learned, what worked well and what didn't, to help with my learning in the future. So here are some key reflections on the Nanodegree.
 
