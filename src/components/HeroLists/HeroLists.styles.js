@@ -1,23 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import List from './List';
 
-const heroInfo = require('../data/hero.json');
-
-const HeroLists = () => (
-  <HeroWrapper>
-    <HeroHeader>My Tech Stack</HeroHeader>
-    <ListWrapper>
-      {heroInfo.map(heroGroup => (
-        <List key={heroGroup.id} heroGroup={heroGroup} />
-      ))}
-    </ListWrapper>
-  </HeroWrapper>
-);
-
-export default HeroLists;
-
-const HeroWrapper = styled.div`
+export const HeroWrapper = styled.div`
   padding: 5px;
 
   @media (max-width: 700px) {
@@ -26,12 +9,12 @@ const HeroWrapper = styled.div`
   }
 `;
 
-const HeroHeader = styled.h2`
+export const HeroHeader = styled.h2`
   padding-top: 10px;
   text-align: center;
 `;
 
-const ListWrapper = styled.div`
+export const ListWrapper = styled.div`
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-column-gap: 50px;
