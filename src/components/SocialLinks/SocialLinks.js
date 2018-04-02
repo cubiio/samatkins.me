@@ -12,7 +12,7 @@ import {
   WhatsappIcon,
 } from 'react-share';
 import PropTypes from 'prop-types';
-import * as Styles from './SocialLinks.style';
+import * as Styles from './SocialLinks.styles';
 import config from '../../config/siteConfig';
 
 const SocialLinks = props => {

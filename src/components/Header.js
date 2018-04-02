@@ -9,21 +9,6 @@ import {
   TITLE_TEXT_COLOR,
 } from '../lib/theme/colours';
 
-const Header = () => (
-  <HeaderWrapper>
-    <HeaderInner>
-      <Link to="/">
-        <HeaderLogo src={logo.beardedAvatar} alt={siteLogoAlt} />
-      </Link>
-      <HeaderTitle>
-        <StyledLink to="/">Sam Atkins: Software Engineer</StyledLink>
-      </HeaderTitle>
-    </HeaderInner>
-  </HeaderWrapper>
-);
-
-export default Header;
-
 const HeaderWrapper = styled.div`
   box-shadow: 0 2px 5px ${HEADER_SHADOW};
   min-height: 56px;
@@ -70,3 +55,18 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   position: relative;
 `;
+
+const Header = () => (
+  <HeaderWrapper>
+    <HeaderInner>
+      <Link to="/">
+        <HeaderLogo src={logo.beardedAvatar} alt={siteLogoAlt} />
+      </Link>
+      <HeaderTitle>
+        <StyledLink to="/">Sam Atkins: Software Engineer</StyledLink>
+      </HeaderTitle>
+    </HeaderInner>
+  </HeaderWrapper>
+);
+
+export default Header;
