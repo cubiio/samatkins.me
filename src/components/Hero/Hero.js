@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroLists from '../../components/HeroLists';
+import HeroLists from '../HeroLists';
 import * as Styles from './Hero.styles';
 
 const Hero = () => (
