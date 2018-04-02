@@ -9,5 +9,4 @@ module.exports = {
   metaDescription: 'portfolio and blog',
   metaKeywords: 'portfolio, blog, web developer, javascript, python',
   googleAnalyticsID: 'UA-103621072-1',
-  // siteRss: '/rss.xml', // Path to the RSS file.
 };
