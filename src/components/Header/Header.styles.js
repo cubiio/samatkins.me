@@ -1,22 +1,19 @@
-import React from 'react';
-import Link from 'gatsby-link';
 import styled from 'styled-components';
-import { logo } from '../assets/images';
-import { siteLogoAlt } from '../config/siteConfig';
+import Link from 'gatsby-link';
 import {
   HEADER_SHADOW,
   NAV_ANCHOR,
   TITLE_TEXT_COLOR,
-} from '../lib/theme/colours';
+} from '../../lib/theme/colours';
 
-const HeaderWrapper = styled.div`
+export const HeaderWrapper = styled.div`
   box-shadow: 0 2px 5px ${HEADER_SHADOW};
   min-height: 56px;
   transition: min-height 0.3s;
   width: 100%;
 `;
 
-const HeaderInner = styled.div`
+export const HeaderInner = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,7 +22,7 @@ const HeaderInner = styled.div`
   width: 100%;
 `;
 
-const HeaderLogo = styled.img`
+export const HeaderLogo = styled.img`
   border-radius: 50px;
   height: 72px;
   margin-bottom: 1em;
@@ -35,7 +32,7 @@ const HeaderLogo = styled.img`
   vertical-align: top;
 `;
 
-const HeaderTitle = styled.h1`
+export const HeaderTitle = styled.h1`
   display: inline-block;
   margin: 0.75em 0.25em;
 
@@ -49,24 +46,9 @@ const HeaderTitle = styled.h1`
   }
 `;
 
-const StyledLink = styled(Link)`
+export const StyledLink = styled(Link)`
   display: inline-block;
   color: ${NAV_ANCHOR};
   text-decoration: none;
   position: relative;
 `;
-
-const Header = () => (
-  <HeaderWrapper>
-    <HeaderInner>
-      <Link to="/">
-        <HeaderLogo src={logo.beardedAvatar} alt={siteLogoAlt} />
-      </Link>
-      <HeaderTitle>
-        <StyledLink to="/">Sam Atkins: Software Engineer</StyledLink>
-      </HeaderTitle>
-    </HeaderInner>
-  </HeaderWrapper>
-);
-
-export default Header;
