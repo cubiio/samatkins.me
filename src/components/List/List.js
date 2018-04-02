@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import * as Styles from './List.styles';
 
 const List = props => {
   const { group, skills } = props.heroGroup;
 
   return (
-    <ListBox>
-      <GroupTitle>{group}</GroupTitle>
+    <Styles.ListBox>
+      <Styles.GroupTitle>{group}</Styles.GroupTitle>
       <ul>{skills.map(skill => <p key={skill.id}>- {skill.name}</p>)}</ul>
-    </ListBox>
+    </Styles.ListBox>
   );
 };
 
@@ -18,15 +18,3 @@ List.propTypes = {
 };
 
 export default List;
-
-const ListBox = styled.div`
-  margin-bottom: 20px;
-
-  @media (max-width: 700px) {
-    margin-bottom: 5px;
-  }
-`;
-
-const GroupTitle = styled.h3`
-  padding-bottom: 2px;
-`;
