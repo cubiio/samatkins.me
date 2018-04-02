@@ -4,6 +4,8 @@ module.exports = {
   siteMetadata: {
     author: config.siteAuthor,
     title: config.siteTitle,
+    description: config.siteDescription,
+    siteUrl: config.siteUrl,
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -68,6 +70,9 @@ module.exports = {
           windows: false,
         },
       },
+    },
+    {
+      resolve: 'gatsby-plugin-feed',
     },
   ],
 };
