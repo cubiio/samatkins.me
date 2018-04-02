@@ -5,8 +5,9 @@ import ForwardIcon from 'react-icons/lib/fa/chevron-right';
 import Link from '../components/Link';
 import Tags from '../components/Tags';
 import Nav from '../components/Nav';
-import Footer from '../components/Footer';
+import SocialLinks from '../components/SocialLinks';
 import SMIcons from '../components/SMIcons';
+import Footer from '../components/Footer';
 import ReqComment from '../components/ReqComment';
 import '../lib/theme/main.scss';
 
@@ -26,6 +27,7 @@ export default function Template({ data, pathContext }) {
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
           <ReqComment />
+          <SocialLinks postNode={post} />
           <Tags list={post.frontmatter.tags || []} />
           <div className="navigation">
             {prev && (
@@ -52,6 +54,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      excerpt
       frontmatter {
         date(formatString: "DD MMM YYYY")
         path

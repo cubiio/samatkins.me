@@ -21,8 +21,8 @@ export default function Blog({ data }) {
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => (
-            <div>
-              <BlogPostPreview key={post.id}>
+            <div key={post.id}>
+              <BlogPostPreview>
                 <BlogPostTitle>
                   <Link to={post.frontmatter.path}>
                     {post.frontmatter.title} / published {post.frontmatter.date}
