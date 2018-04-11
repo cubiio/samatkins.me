@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ListBox = styled.div`
+export const SkillListBox = styled.div`
   margin-bottom: 20px;
 
   @media (max-width: 700px) {

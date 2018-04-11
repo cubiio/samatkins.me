@@ -1,20 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as Styles from './List.styles';
+import * as Styles from './SkillList.styles';
 
-const List = props => {
+const SkillList = props => {
   const { group, skills } = props.heroGroup;
 
   return (
-    <Styles.ListBox>
+    <Styles.SkillListBox>
       <Styles.GroupTitle>{group}</Styles.GroupTitle>
       <ul>{skills.map(skill => <p key={skill.id}>- {skill.name}</p>)}</ul>
-    </Styles.ListBox>
+    </Styles.SkillListBox>
   );
 };
 
-List.propTypes = {
+SkillList.propTypes = {
   heroGroup: PropTypes.shape({}).isRequired,
 };
 
-export default List;
+export default SkillList;
