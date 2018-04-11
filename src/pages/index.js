@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Hero from '../components/Hero';
+import HeroLayout from '../components/HeroLayout';
 import SMIcons from '../components/SMIcons';
 import Footer from '../components/Footer';
 
@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <div>
       <Nav />
-      <Hero />
+      <HeroLayout />
       <SMIcons />
       <Footer />
     </div>
