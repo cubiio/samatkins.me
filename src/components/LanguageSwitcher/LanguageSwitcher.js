@@ -2,32 +2,32 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const LanguageSwitcher = ({ handleLanguageSwitch }) => {
-  const handleChange = e => {
-    handleLanguageSwitch({ language: e.target.id });
+  const handleChange = event => {
+    handleLanguageSwitch({ language: event.target.id });
   };
 
   return (
     <div role="presentation">
       <div
         id="ENGLISH"
-        onClick={e => handleChange(e)}
-        onKeyUp={handleChange}
+        onClick={event => handleChange(event)}
+        onKeyUp={event => handleChange(event)}
         role="presentation"
       >
         EN
       </div>
       <div
         id="GERMAN"
-        onClick={e => handleChange(e)}
-        onKeyUp={handleChange}
+        onClick={event => handleChange(event)}
+        onKeyUp={event => handleChange(event)}
         role="presentation"
       >
         DE
       </div>
       <div
         id="POLISH"
-        onClick={e => handleChange(e)}
-        onKeyUp={handleChange}
+        onClick={event => handleChange(event)}
+        onKeyUp={event => handleChange(event)}
         role="presentation"
       >
         PL
