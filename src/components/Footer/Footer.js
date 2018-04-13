@@ -4,8 +4,8 @@ import * as Styles from './Footer.styles';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <Styles.FooterWrapper>
-      <Styles.FooterContainer>
+    <Styles.FooterContainer>
+      <Styles.FooterDiv>
         <p>
           Built with
           <a
@@ -36,8 +36,8 @@ const Footer = () => {
           </a>
           . © 2016-{currentYear} Sam Atkins
         </p>
-      </Styles.FooterContainer>
-    </Styles.FooterWrapper>
+      </Styles.FooterDiv>
+    </Styles.FooterContainer>
   );
 };
 

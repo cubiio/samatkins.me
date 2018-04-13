@@ -4,8 +4,8 @@ import * as Styles from './HeroText.styles';
 
 const HeroText = ({ greeting, textBody }) => (
   <Styles.TextWrapper>
-    <h2>{greeting}</h2>
-    <p>{textBody}</p>
+    <Styles.HeaderText>{greeting}</Styles.HeaderText>
+    <Styles.BodyText>{textBody}</Styles.BodyText>
   </Styles.TextWrapper>
 );
 
