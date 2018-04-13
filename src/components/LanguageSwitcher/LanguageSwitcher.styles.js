@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const StyledFlagWrapper = styled.div`
   grid-column-start: 3;
-  padding: 0.4em;
+  grid-row-start: 1;
+  padding-top: 0.4em;
 
   @media (max-width: 700px) {
     grid-column-start: 2;
