@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import * as Styles from './HeroText.styles';
 
 const HeroText = ({ greeting, textBody }) => (
-  <div>
+  <Styles.TextWrapper>
     <h2>{greeting}</h2>
     <p>{textBody}</p>
-  </div>
+  </Styles.TextWrapper>
 );
 
 HeroText.propTypes = {

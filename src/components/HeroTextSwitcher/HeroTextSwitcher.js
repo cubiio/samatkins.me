@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HeroText from '../HeroText';
 import LanguageSwitcher from '../LanguageSwitcher';
 import * as text from './heroTextLanguages';
+import * as Styles from './HeroTextSwitcher.styles';
 
 class HeroTextSwitcher extends Component {
   constructor(props) {
@@ -46,10 +47,10 @@ class HeroTextSwitcher extends Component {
       }
     };
     return (
-      <div>
+      <Styles.Container>
         <LanguageSwitcher handleLanguageSwitch={this.handleLanguageSwitch} />
         {switchLanguage()}
-      </div>
+      </Styles.Container>
     );
   }
 }
