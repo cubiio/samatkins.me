@@ -4,7 +4,7 @@ import * as Styles from './LanguageSwitcher.styles';
 import { countryFlag } from '../../assets/images';
 
 const LanguageSwitcher = ({ handleLanguageSwitch }) => {
-  const handleChange = event => {
+  const handleClick = event => {
     handleLanguageSwitch({ language: event.target.id });
   };
 
@@ -14,22 +14,22 @@ const LanguageSwitcher = ({ handleLanguageSwitch }) => {
         src={countryFlag.uk}
         alt="Flag of UK"
         id="ENGLISH"
-        onClick={event => handleChange(event)}
-        onKeyUp={event => handleChange(event)}
+        onClick={handleClick}
+        onKeyUp={handleClick}
       />
       <Styles.StyledFlag
         src={countryFlag.germany}
         alt="Flag of Germany"
         id="GERMAN"
-        onClick={event => handleChange(event)}
-        onKeyUp={event => handleChange(event)}
+        onClick={handleClick}
+        onKeyUp={handleClick}
       />
       <Styles.StyledFlag
         src={countryFlag.poland}
         alt="Flag of Poland"
         id="POLISH"
-        onClick={event => handleChange(event)}
-        onKeyUp={event => handleChange(event)}
+        onClick={handleClick}
+        onKeyUp={handleClick}
       />
     </Styles.StyledFlagWrapper>
   );
