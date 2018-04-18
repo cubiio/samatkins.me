@@ -9,7 +9,8 @@ export const heroTextGerman = {
   greeting: 'Hi, ich bin Sam.',
   textBody:
     'Ich wohne in London mit meiner Familie. Ich bin Software Ingenieur bei ' +
-    'Big Health und ich mache gerne Arbeit, die zählt.',
+    'Big Health und und mache gerne meine Arbeit, weil es mir auch persönlich' +
+    ' wichtig ist.',
 };
 
 export const heroTextPolish = {
