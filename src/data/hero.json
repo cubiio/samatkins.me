@@ -5,7 +5,7 @@
     "skills": [
       {
         "id": 0,
-        "name": "JavaScript (ES6+)"
+        "name": "JavaScript"
       },
       {
         "id": 1,
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "group": "DevOps / Tools",
+    "group": "Tooling",
     "id": 2,
     "skills": [
       {

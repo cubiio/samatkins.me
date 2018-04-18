@@ -25,7 +25,7 @@ export const ListWrapper = styled.div`
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 5px;
+    grid-template-columns: 100%;
+    grid-row-gap: 25px;
   }
 `;

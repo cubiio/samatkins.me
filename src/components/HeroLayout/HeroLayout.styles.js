@@ -15,7 +15,8 @@ export const HeroWrapper = styled.div`
 `;
 
 export const HeroIntro = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 
