@@ -9,13 +9,13 @@ tags: ["programming", "react", "typescript"]
 
 Wow, developing with TypeScript is amazing. Most definitely`#iHeartTypeScript` !
 
-Learning some TypeScript has been on my learning list for sometime. I finally found some time and started by reading the docs to get familiar with it. The next step to really help learn it was to actually use it for a project so I decided to convert an existing React app to use TypeScript. This blogpost is a guide on how I did exactly that.
+Learning some TypeScript has been on my to do list for sometime. I finally found some time and started by reading the docs to get familiar with it. The next step to really help learn it was to actually use it for a project so I decided to convert an existing React app to use TypeScript. This blogpost is a guide on how I did exactly that.
 
 Let's get started.
 
 ## First things first: React app with TypeScript configuration
 
-To make things simpler I used `create-react-app` with TypeScript flags in order to scaffold a React app with TypeScript config. My thought process was I could this config in my existing React app and it abstracts away the whole Webpack configuration (another thing on my learning list by the way).
+To make things simpler I used `create-react-app` with TypeScript flags in order to scaffold a React app with a TypeScript config. My thought process was I could this config in my existing React app and it abstracts away the whole Webpack configuration (another thing on my learning list by the way).
 
 This is the command to run to get a TypeScript React app:
 
@@ -29,9 +29,7 @@ This is basically a fork of `create-react-app`: https://github.com/wmonk/create-
 
 Now I had a TypeScript config, I used this in my existing React app as a first step to converting it.
 
-First up I created a new git branch `git checkout -b convert-to-TypeScript`for my work - just in case it goes horribly wrong and I need to revert some or all of it.
-
-And now I could swop out the TypeScript config into the React app config, and work through the errors until the app compiles:
+First up I created a new git branch `git checkout -b convert-to-TypeScript`for my work. Now I could replace the React app config with the TypeScript config, and work through the errors until the app compiles:
 
 * copy over all the ts files e.g. `tsconfig.json`
 * copy over the scripts and dependencies into `package.json`
@@ -53,7 +51,7 @@ And for complete sanity, I deleted the node modules then installed all dependenc
 
 ## Get the app to compile
 
-With the config in place, it was time to try running the app and see what happens. "Happens" meaning what errors I'll get.
+With the config in place, it was time to try running the app and see what happened i.e. what errors I would get.
 
 So `yarn start` and let the fun begin.
 
@@ -65,9 +63,9 @@ Could not find a required file.
   Name: index.tsx
 ```
 
-This is a simple fix. I changed the filename from`index.js` to `index.tsx`.
+This was two different errors. The second about the "required file" was a simple fix. TypeScript was looking for a TypeScript file as an entry point i.e. file `index.tsx`. I changed the existing entry point `index.js` to `index.tsx`.
 
-For the other one, it seems the config brought over isn't quite there so I added the missing baseurl in compiler options in `tsconfig.json`:
+For the other error, it seems the config I copied over was not quite right so I added the missing baseurl in compiler options in `tsconfig.json` like this:
 
 ```
 {
@@ -88,13 +86,13 @@ The error read:
 
 This was a common issue across multiple files. The fix was straightforward in terms of syntax:
 
-`import React from 'react';` needs to be `import * as React from 'react';` and then fix how the class is declared `class BooksApp extends React.Component`.
+`import React from 'react';` needs to be `import * as React from 'react';` and then fix how the class is declared `class BooksApp extends React.Component` instead of `class BooksApp extends Component`.
 
 In addition, in the same file I had `import ReactDOM from 'react-dom';` which needs to be `import * as ReactDOM from 'react-dom';`
 
 Now the harder part. Why was this an issue for TypeScript? And how did the fix work?
 
-After some research, here's what I learned. The React package (and many other packages) don't actually have a default export. Instead they have named exports. So why doesn't this work with TypeScript? Basically it's a difference between how Babel and TypeScript handle this. Babel creates a synthetic default export from all of the named exports, whereas TypeScript doesn't follow this approach.
+After some research, here's what I learned. The React package (and many other packages) don't actually have a default export. Instead they have named exports. So why doesn't this work with TypeScript? Basically it's a difference between how Babel and TypeScript handle this. Babel is used by `create-react-app` to compile the JavaScript and it creates a synthetic default export from all of the named exports, whereas TypeScript doesn't follow this approach.
 
 So in TypeScript you need to import everything and then use the named export when required. For example, to use the React Component named export you would do this:
 
@@ -112,7 +110,7 @@ OK, good progress made because the app compiled but other than the config and th
 
 I changed the filename `App.js` to `App.tsx`, restarted my development server (`yarn start`) and started working on fixing the `type` errors.
 
-A side note, as part of my development process, in `tsconfig.json` I sometimes toggled the setting `"noImplicitAny": false,` to false. This was to allow/disallow `any` types in order to check what needs type checking versus getting the App to compile. The aim is to have this set to `true` for complete type checking but it's sometimes useful to have the app compile and check how things are working before going back to check `any` types.
+A side note, as part of my development process, in `tsconfig.json` I sometimes toggled the setting `"noImplicitAny": false,` between true and false. This was to allow/disallow `any` types in order to check what needs type checking versus getting the App to compile. The aim is to have this set to `true` for complete type checking but it's sometimes useful to have the app compile and check how things are working before going back to check `any` types.
 
 ### Convert App.tsx
 
@@ -128,7 +126,7 @@ state: = {
 }
 ```
 
-To fix this I added an interface to set the contract for state should look like. I set both the books and shelves array as optional i.e. the `?` as the initial state is empty until the component has mounted, i.e. the API returns data.
+To fix this I added an interface to set the contract for state should look like. I set both the books and shelves array as optional i.e. `?` denotes optional. The reason for making this optional is the initial state is empty until the component has mounted, i.e. the API returns data.
 
 ```
 // file: /myreads/src/interfaces/stateProps.ts
@@ -207,7 +205,7 @@ The next compile error was this:
 
 The `<Route />` component takes prop `exact` to match an exact url path. Before the return statement, I declared `exact` as a constant and set the type to a bool like this: `const exact: boolean = true;` and then as before pass in `exact={exact}` to the component.
 
-The next error related to my method to update books and the args passed into it.
+The next error related to my method to update books and the args passed into it. Here's the error and how I fixed it:
 
 ```
 // error
@@ -226,7 +224,7 @@ App.tsx fully converted to TypeScript! A small celebration and then I continued 
 
 ### Converting a .js to a .ts file
 
-AKA `utils/BooksAPI.js` to `utils/BooksAPI.ts`.
+In other words, `utils/BooksAPI.js` to `utils/BooksAPI.ts`.
 
 Next up I took on a straight JavaScript to TypeScript conversion with no JSX. Converting this file involved stating the types for the args to each of the functions. I also re-used the BookObject interface:
 
@@ -323,7 +321,8 @@ The TypeScript compile error was this:
 
 ```
 /myreads/src/App.tsx
-(76,15): Property 'books' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<SearchPage> & Readonly<{ children?: ReactNode; }> ...'.
+(76,15): Property 'books' does not exist on type 'IntrinsicAttributes &
+IntrinsicClassAttributes<SearchPage> & Readonly<{ children?: ReactNode; }> ...'.
 ```
 
 After a bit of searching and docs reading I found a few things that helped to solve the issue.
@@ -400,7 +399,7 @@ export type DebounceInputProps<
   readonly onBlur?: React.FocusEventHandler<WrappedComponent>;
   readonly value?: string | number;
 
-  // new type added below
+  // new type added on the line below
   readonly placeholder?: string | number;
 
   readonly minLength?: number;
@@ -429,7 +428,7 @@ By the way, that was my first code contribution to an open source project. 🏆
 
 ### Using console.log
 
-As part of development, I wanted to use `console.log()` but this causes TypeScript to fail to compile due to a TSLint error. Rather than change the config and then potentially make git commits with console logs still in the code, I opted for this instead to temporarily disable TSLint:
+As part of my development process, I wanted to use `console.log()` but this causes TypeScript to fail to compile due to a TSLint error. Rather than change the config and then potentially make git commits with console logs still in the code, I opted for this instead to temporarily disable TSLint:
 
 ```
 /* tslint:disable */
