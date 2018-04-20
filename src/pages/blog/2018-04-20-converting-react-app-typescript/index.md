@@ -1,5 +1,5 @@
 ---
-path: "/converting-react-app-TypeScript"
+path: "/converting-react-app-typescript"
 date: "2018-04-20"
 title: "Converting a React App to TypeScript"
 tags: ["programming", "react", "typescript"]
