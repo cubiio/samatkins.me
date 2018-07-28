@@ -2,20 +2,18 @@ import React from 'react';
 import * as Styles from './SMIcons.styles';
 import { fa } from '../../assets/images';
 
+const config = require('../../config/siteConfig');
+
 const SMIcons = () => (
   <Styles.SocialContainer>
     <Styles.SocialLogo>
-      <a
-        href="https://github.com/cubiio"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href={`${config.githubUrl}`} target="_blank" rel="noopener noreferrer">
         <img src={fa.github} alt="github" />
       </a>
     </Styles.SocialLogo>
     <Styles.SocialLogo>
       <a
-        href="https://www.linkedin.com/in/atkinssam/"
+        href={`${config.linkedInUrl}`}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -24,7 +22,7 @@ const SMIcons = () => (
     </Styles.SocialLogo>
     <Styles.SocialLogo>
       <a
-        href="https://twitter.com/samatkins"
+        href={`${config.twitterUrl}`}
         target="_blank"
         rel="noopener noreferrer"
       >

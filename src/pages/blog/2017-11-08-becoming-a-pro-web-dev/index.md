@@ -9,7 +9,7 @@ tags: ["programming", "career", "learning", "udacity", "freecodecamp"]
 
 Photo by [Rohit Tandon](https://unsplash.com/@rohittandon) on Unsplash
 
-A few years ago I decided to transition career and become a professional web developer.  Married, with a young son, and a full time job as a management consultant (i.e. long hours and lots of travel) this was not an easy undertaking. Yet - 🎉 👍 - as I write this now I have worked as a professional full stack engineer for six months.
+A few years ago I decided to transition career and become a professional web developer. Married, with a young son, and a full time job as a management consultant (i.e. long hours and lots of travel) this was not an easy undertaking. Yet - 🎉 👍 - as I write this now I have worked as a professional full stack engineer for six months.
 
 This blogpost is the advice and tips I wish I’d had at the beginning of my learning journey, and I hope some of these prove useful to you too.
 
@@ -28,6 +28,7 @@ Related to knowing your goal, find out how you learn best and put some structure
 Let's unpack that statement.
 
 ### Curriculum
+
 What I mean by this is putting some structure around what you learn. I credit [freeCodeCamp](https://www.freecodecamp.org/) with providing initial structure for me to learn some of the basics of web development and most importantly at the time that I really enjoyed it and wanted to pursue it as a career.
 
 At Udacity I studied two Nanodegrees, first the [Introduction to Programming](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000) to build on the basics I learned from freeCodeCamp. Next I studied the [Full Stack Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) and I credit this fantastic course as being instrumental in successfully transitioning career to become a professional web developer.
@@ -35,9 +36,11 @@ At Udacity I studied two Nanodegrees, first the [Introduction to Programming](ht
 In fact, I'm such a fan of Udacity that at the time of writing I'm studying my third Nanodegree on React, Redux and React Native, but more on this another time.
 
 ### Mentor
+
 I need community and people to turn to help guide me in the right direction. Learning to code is hard, but with the right support you can learn. I will always appreciate freeCodeCamp because it helped me to discover coding but I found the self directed nature of freeCodeCamp wasn't for me. Udacity on the other hand with mentor support and code reviews was a much better fit. A mentor/coach system worked wonders for me. So find what works for you and go with that.
 
 ### Learn by doing
+
 I’m no good just working on learning algorithms just for the sake of learning an algorithm. I get they are important, and learning some is very important. But just trying to learn them on their own I quickly find boring. Only doing Codewars isn’t for me. I learn best my doing. Build something and work out along the way the best way to do this. Sure this means knowing your `map`from your `reduce` from your `filter` but use them whilst you're building a project.
 
 ## Build stuff
@@ -74,12 +77,12 @@ Showcase your ability, commitment and ability to learn. I have learned a lot sin
 
 So start using git today already!
 
-
 ## Join a community
+
 Learning on your own can be tough. Seek out community for people also learning to code. This could be with the organisation you're learning with e.g. freeCodeCamp or Udacity. Or if you're following your own path, or to complement them, definitely check out [CodeNewbie](https://www.codenewbie.org/) and the [100daysOfCode](https://github.com/Kallaway/100-days-of-code) hashtag on Twitter organised by [@ka11away](https://twitter.com/ka11away). Both communities are superb and very supportive.
 
-
 ## Immerse yourself
+
 Get familiar with terminology and what developers talk about, as well as emerging trends and technologies. I find Podcasts are a great way of doing this. I listen to podcasts on my commute to work and it's a good way of relaxing but still learning. There's lots of great podcasts out there but some personal favourites are:
 
 * [Syntax Podcast](https://syntax.fm/)
@@ -94,8 +97,7 @@ Reading news, articles, blogposts and email newsletters are further good sources
 
 ## What are you afraid of?
 
-<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Best advice I&#39;ve heard and followed re my career: “What would you do if you weren&#39;t afraid?”</p>&mdash; Sam Atkins (@samatkins) <a href="https://twitter.com/samatkins/status/920764541453074434?ref_src=twsrc%5Etfw">18 October 2017</a></blockquote>
-
+> Best advice I&#39;ve heard and followed re my career: “What would you do if you weren&#39;t afraid?
 
 My motivating force was thinking "where do I want to be in 5 years time?". I was nervous about changing careers but the fear of being stuck in the same job in 5 years time was a far bigger fear. In other words, doing nothing was a bigger risk than attempting to change careers. I set a plan, had some contingency and fall back options and went for it.
 
