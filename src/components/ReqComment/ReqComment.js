@@ -1,6 +1,8 @@
 import React from 'react';
 import * as Styles from './ReqComment.styles';
 
+const config = require('../../config/siteConfig');
+
 const ReqComment = () => (
   <Styles.Wrapper>
     <Styles.Container>
@@ -8,11 +10,11 @@ const ReqComment = () => (
       <p>
         Do you have any comments? You can tweet me{' '}
         <a
-          href="https://twitter.com/samatkins"
+          href={`${config.twitterUrl}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          @samatkins
+          {config.twitterHandle}
         </a>.
       </p>
     </Styles.Container>
