@@ -1,4 +1,4 @@
-# samatkins.me
+# My Site: samatkins.me
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
@@ -6,12 +6,6 @@
 ## Description
 
 The code for my personal website, including portfolio and blog.
-
-### Technology Colophon
-
-- Gatsby static site generator: [Docs](https://www.gatsbyjs.org/) and [GitHub repo](https://github.com/gatsbyjs/gatsby)
-- [React.js](https://facebook.github.io/react/)
-- [Styled Components](https://www.styled-components.com/docs)
 
 ## Table of Contents
 
@@ -28,96 +22,114 @@ The code for my personal website, including portfolio and blog.
 
 ## Getting started
 
+Prerequisites:
+
+- [Hugo](https://gohugo.io)
+- Node.js
+- npm
+- Gulp
+
+The site uses a slightly modified Hugo theme by [Vicky Lai]](https://github.com/vickylai/hugo-theme-sam) called `sam` which is completely coincidental to why I chose it, honest 😉.
+
 ### Installation
 
-Dependencies:
-* Gatsby static site generator
-* Yarn package manager
+Follow instructions in the [Hugo docs](https://gohugo.io/getting-started/quick-start/) to install Hugo.
 
-Git clone the repo into a local directory. To install all dependencies using yarn:
+Git clone the repo into a local directory.
+
+Install all dependencies:
 
 ```sh
-yarn install
+npm install
 ```
 
 ## Develop
 
 ### How to run
 
-To start a hot-reloading development environment accessible at localhost:8000
+Available commands for Pug and Sass files are:
 
-```bash
-gatsby develop
+- `npm run build:pug` compiles pug files to HTML
+- `npm run build:sass` compiles Sass files to compressed CSS
+- `npm run autoprefixer` auto-prefixes the compiled CSS
+- `npm run build` does all the above
+- `npm run watch` watches Pug and Sass files for changes and automatically runs npm run build
 
-# if hot reloading doesn't seem to work, then try:
-gatsby develop --host localhost --port 8000
+In one terminal, watch Pug and Sass files:
+
+```sh
+npm run watch
 ```
+
+In another terminal, get the local Hugo dev server running:
+
+```sh
+hugo server -D
+```
+
+The `-D` flag serves all draft blog posts.
+
+### Images
+
+To process jpeg and png images, place the images in `src/images/pending` and run `gulp`.
 
 ### Style Guide
 
-This repo uses [ESLint](https://eslint.org/) with [Prettier](https://github.com/prettier/prettier) formatting.
-
-The ESLint config extends from AirBnB, with a few changes. Refer to the `.eslintrc.yml` file in the root of the repo for info on the changes.
-
+This repo uses [Prettier](https://github.com/prettier/prettier) formatting, where it is available for the language.
 
 ### Adding blogpost content
 
-Switch to the `<feature>` branch and add a new folder here:
+To add a new post:
 
-`src/pages/blog/`
+```sh
+hugo new posts/new-blog-post.md
+```
 
-Name the folder with the date and add an `index.md` file in the folder:
-
-`YYYY-MMM-DD-hello-world/index.md`
-
-Add front matter to the `index.md` file:
+Navigate to the newly created file `content/posts/new-blog-post.md` and update the front matter:
 
 ```md
 ---
-path: "/slug-name.html"
-date: "2017-01-01T10:15:16.408Z"
 title: "Blogpost Title"
-tags: ["python", "programming", "javascript"]
+date: "2017-01-01T10:15:16.408Z"
+showDate: true
+draft: false
+tags: ["programming", "python"]
 ---
 ```
 
-Add an `images` folder in the blogpost folder.  Then add the link in the `index.md`:
+Add images to `src/images/pending` folder and then run `gulp`.
 
-`![image text](./images/image.jpeg)`
+Link to the image like this in the markdown file: `![image text](/images/image.jpeg)`
 
-In summary, the tree would like this once the new content is added:
+Code blocks are added like this:
 
 ```
-- src/pages/blog/
-  - YYYY-MMM-DD-hello-world/
-    - index.md
-    - images/
-      - image.jpeg
+{{< highlight python >}}
+def func():
+    pass
+{{< /highlight >}}
 ```
 
 ### Develop troubleshooting
-
-#### Blogpost gotchas
-
-- Tags can't start with numbers as it causes an error when building the site.
-- The pages are cached so changes may not update when the static site is generated. Try restarting the development server. If this doesn't work, clear the cache (i.e. `/.cache`) and rebuild the site.
-
-Development should be conducted on  `<feature>` branch, and then when ready merged to `master`.
 
 ## Release
 
 ### Build
 
-```sh
-# generate an optimised production build
-gatsby build
+To build a production version locally, run:
 
-# local server for testing production build
-gatsby serve
+```sh
+hugo
 ```
 
 ### Deploy
 
-The site is hosted on Netlify. A push to the master branch will trigger a new deploy to Netlify. This is why all development should take place on a feature branch, and only when ready, merge to master.
+The site is hosted on Netlify. Netlify deploy config is in the `netlify.toml` file.
+
+A push triggers a build on Netlify. If on a branch, it builds and deploys a preview.
+
+ A push to the master branch will trigger a new deploy to `production`.
+
+ This is why all development should take place on a feature branch, and only when ready, merge to master.
 
 Refer to the [Netlify docs](https://www.netlify.com/docs/) for more info.

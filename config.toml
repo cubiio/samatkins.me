@@ -1,0 +1,29 @@
+baseURL = "https://samatkins.me/"
+languageCode = "en-us"
+title = "Sam Atkins: Personal Site & Blog"
+
+[[params.mainMenu]]
+  link = "/posts"
+  text = "blog"
+
+[[params.mainMenu]]
+  link = "/about"
+  text = "about"
+
+pygmentsStyle = "monokai"  # https://help.farbox.com/pygments.html
+# googleAnalytics = "xxx"
+
+[params]
+  author = "Sam Atkins"
+  introTitle = "Hi, I'm Sam."
+  introSubtitle = "I'm a father, husband and software engineer."
+  dateform = "2006 Jan 02"
+  dateformfull = "Mon Jan 2 2006 15:04:05 EST"
+  favicon = "/favicon.ico"
+  homepage = "home"
+  footerText = "Built with Hugo, deployed with Netlify."
+
+# Metadata
+  description = "Sam Atkins: Personal Site & Blog."  # Max 160 characters show in search results
+  twitterCard = "summary_large_image"  # Card value “summary”, “summary_large_image”, “app”, or “player”
+  primaryImage = "/images/tn.png"  # Image that shows on Twitter cards and OpenGraph links
