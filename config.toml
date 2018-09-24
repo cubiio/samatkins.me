@@ -3,12 +3,12 @@ languageCode = "en-us"
 title = "Sam Atkins: Personal Site & Blog"
 
 [[params.mainMenu]]
-    link = "/posts"
-    text = "blog"
+  link = "/posts"
+  text = "blog"
 
 [[params.mainMenu]]
-    link = "/about"
-    text = "about"
+  link = "/about"
+  text = "about"
 
 pygmentsStyle = "monokai"  # https://help.farbox.com/pygments.html
 # googleAnalytics = "xxx"
