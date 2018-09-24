@@ -1,0 +1,13 @@
+doctype html
+html
+  |
+  head
+    | {{ partial "head.html" . }}
+    title
+      | {{ .Title }}
+body
+  .section#splash
+    .big-link 404
+    .hero Oh dear, this page doesn't exist.
+
+    a(href='/') home

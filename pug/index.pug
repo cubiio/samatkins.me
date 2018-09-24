@@ -1,0 +1,23 @@
+doctype html
+html
+  |
+  head
+      | {{ partial "head.html" . }}
+      title
+        | {{ .Title }}
+  body
+      .section#splash
+        .big-link {{ .Site.Params.introTitle }}
+        .hero {{ .Site.Params.introSubtitle }}
+        hr
+        | {{ if .Site.Params.mainMenu }}
+        | {{ range .Site.Params.mainMenu }}
+        .big-link
+            a(href='{{.link}}') {{.text}}
+        | {{ end }}
+        | {{ else }}
+        | {{ range .Site.Sections }}
+        .big-link
+            a(href='{{.Permalink}}') {{.Title}}
+        | {{ end }}
+        | {{ end }}
