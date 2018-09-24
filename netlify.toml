@@ -20,6 +20,12 @@ publish = "public"
 HUGO_VERSION = "0.48"
 
 [[redirects]]
+from = "https://samatkinsme.netlify.com/*"
+to = "https://www.samatkins.me/:splat"
+status = 301
+
+
+[[redirects]]
 from = "/becoming-a-pro-web-dev"
 to = "/posts/becoming-a-pro-web-dev"
 status = 301
