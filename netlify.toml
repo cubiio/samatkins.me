@@ -1,19 +1,19 @@
 [context.production]
-command = "hugo -b $DEPLOY_PRIME_URL"
+command = "hugo"
 publish = "public"
 
 [context.production.environment]
 HUGO_VERSION = "0.48"
 
 [context.branch-deploy]
-command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --buildFuture"
 publish = "public"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.48"
 
 [context.deploy-preview]
-command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --buildFuture"
 publish = "public"
 
 [context.deploy-preview.environment]
@@ -23,86 +23,3 @@ HUGO_VERSION = "0.48"
 from = "https://samatkinsme.netlify.com/*"
 to = "https://www.samatkins.me/:splat"
 status = 301
-
-[[redirects]]
-from = "https://master--samatkinsme.netlify.com/*"
-to = "https://www.samatkins.me/:splat"
-status = 301
-
-[[redirects]]
-from = "/becoming-a-pro-web-dev"
-to = "/posts/becoming-a-pro-web-dev"
-status = 301
-force = true
-
-[[redirects]]
-from = "/blogging-again"
-to = "/posts/blogging-again"
-status = 301
-force = true
-
-[[redirects]]
-from = "/building-map-project"
-to = "/posts/building-map-project"
-status = 301
-force = true
-
-[[redirects]]
-from = "/building-map-project"
-to = "/posts/building-map-project"
-status = 301
-force = true
-
-[[redirects]]
-from = "/converting-react-app-typescript"
-to = "/posts/converting-react-app-typescript"
-status = 301
-force = true
-
-[[redirects]]
-from = "/installing-tree"
-to = "/posts/installing-tree"
-status = 301
-force = true
-
-[[redirects]]
-from = "/python-project-virtualenv"
-to = "/posts/python-project-virtualenv"
-status = 301
-force = true
-
-[[redirects]]
-from = "/setting-up-eslint-and-prettier"
-to = "/posts/setting-up-eslint-and-prettier"
-status = 301
-force = true
-
-[[redirects]]
-from = "/sublime-text-python"
-to = "/posts/sublime-text-python"
-status = 301
-force = true
-
-[[redirects]]
-from = "/udacity-react-nanodegree-reflections"
-to = "/posts/udacity-react-nanodegree-reflections"
-status = 301
-force = true
-
-[[redirects]]
-from = "/why-hugo"
-to = "/posts/why-hugo"
-status = 301
-force = true
-
-[[redirects]]
-from = "/100daysofcode"
-to = "/posts/100daysofcode"
-status = 301
-force = true
-
-[[redirects]]
-from = "/100-days-of-coding-challenge-summary"
-to = "/posts/100-days-of-coding-challenge-summary"
-status = 301
-force = true
