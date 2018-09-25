@@ -1,5 +1,5 @@
 [context.production]
-command = "hugo -b $DEPLOY_PRIME_URL"
+command = "hugo"
 publish = "public"
 
 [context.production.environment]
