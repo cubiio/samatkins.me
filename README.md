@@ -5,7 +5,7 @@
 
 ## Description
 
-The code for my personal website, including portfolio and blog.
+The code for my personal site and blog.
 
 ## Table of Contents
 
