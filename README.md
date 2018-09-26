@@ -29,7 +29,7 @@ Prerequisites:
 - npm
 - Gulp
 
-The site uses a slightly modified Hugo theme by [Vicky Lai]](https://github.com/vickylai/hugo-theme-sam) called `sam` which is completely coincidental to why I chose it, honest 😉.
+The site uses a slightly modified Hugo theme by [Vicky Lai](https://github.com/vickylai/hugo-theme-sam) called `sam` which is completely coincidental to why I chose it, honest 😉.
 
 ### Installation
 
