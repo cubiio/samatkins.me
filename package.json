@@ -7,7 +7,7 @@
     "build:sass": "node-sass --output-style compressed -o static/css sass/",
     "autoprefixer": "postcss static/css/*.css --use autoprefixer -d static/css",
     "build": "npm run build:pug && npm run build:sass && npm run autoprefixer",
-    "watch": "chokidar 'sass/*.sass' 'pug/*.pug' -c 'npm run build'"
+    "watch": "chokidar 'sass/*.sass' 'pug/*/**' -c 'npm run build'"
   },
   "author": {
     "name": "sam atkins",
