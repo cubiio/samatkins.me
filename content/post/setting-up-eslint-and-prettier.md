@@ -33,20 +33,20 @@ Step one is to install ESLint with the AirBnB style guide config. In order to do
 
 For example:
 
-{{< highlight bash >}}
-➜  ~ npm info "eslint-config-airbnb@latest" peerDependencies
+```bash
+➜ ~ npm info "eslint-config-airbnb@latest" peerDependencies
 
 { eslint: '^4.9.0',
   'eslint-plugin-import': '^2.7.0',
   'eslint-plugin-jsx-a11y': '^6.0.2',
   'eslint-plugin-react': '^7.4.0' }
-{{< /highlight >}}
+```
 
 Based on this info, the install command would look like.
 
-{{< highlight bash >}}
+```bash
 yarn add --dev eslint babel-eslint eslint-plugin-import@^2.7.0 eslint-plugin-jsx-a11y@^6.0.2 eslint-plugin-react@^7.4.0
-{{< /highlight >}}
+```
 
 You'll notice the install of `eslint` and `babel-eslint` in addition to the AirBnB config.
 
@@ -56,10 +56,10 @@ Once complete, add a `.eslintrc.yml` to the root of your project and add the con
 
 Next up, install Prettier and some plugs so it all plays nicely together:
 
-{{< highlight bash >}}
+```bash
 yarn add prettier --dev --exact
 yarn add --dev prettier eslint-plugin-prettier eslint-config-prettier eslint-config-airbnb
-{{< /highlight >}}
+```
 
 This is important because both ESLint and Prettier will try to format code which we don't want. Instead we want Prettier to format the code based on the ESLint rules defined in the `.eslintrc.yml` file.
 
@@ -74,7 +74,7 @@ These steps are specific for VS Code. First, install two extensions:
 
 Second, add these user settings (CMD + , to open user settings):
 
-{{< highlight javascript >}}
+```javascript
 // My personal preference; set for JS only to avoid formatting other file types
   "[javascript]": {
     "editor.formatOnSave": true
@@ -85,6 +85,6 @@ Second, add these user settings (CMD + , to open user settings):
 
 // This one is obvious, right?
 "prettier.eslintIntegration": true,
-{{< /highlight >}}
+```
 
 That's it. Your project is ready to be linted and formatted.

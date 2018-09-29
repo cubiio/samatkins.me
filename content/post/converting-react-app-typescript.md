@@ -20,9 +20,9 @@ To make things simpler I used `create-react-app` with TypeScript flags in order 
 
 This is the command to run to get a TypeScript React app:
 
-{{< highlight shell >}}
+```bash
 npx create-react-app TypeScript-app --scripts-version=react-scripts-ts
-{{< /highlight >}}
+```
 
 
 This is basically a fork of `create-react-app`: https://github.com/wmonk/create-react-app-TypeScript
@@ -40,14 +40,14 @@ I can't live without Prettier code formatting so to get Prettier to live happily
 
 And add a `.prettierrc` file so Prettier formatting is aligned to TypeScript linting.
 
-{{< highlight yaml >}}
+```yaml
 // .prettierrc.yaml
 
 parser: TypeScript
 singleQuote: true
 trailingComma: all
 semi: true
-{{< /highlight >}}
+```
 
 
 And for complete sanity, I deleted the node modules then installed all dependencies again with `yarn install` to make sure everything is installed as it should be.
@@ -70,13 +70,13 @@ This was two different errors. The second about the "required file" was a simple
 
 For the other error, it seems the config I copied over was not quite right so I added the missing baseurl in compiler options in `tsconfig.json` like this:
 
-{{< highlight json >}}
+```json
 {
   "compilerOptions": {
     "baseUrl": ".",
   }
 }
-{{< /highlight >}}
+```
 
 
 ### No default export
@@ -100,13 +100,13 @@ After some research, here's what I learned. The React package (and many other pa
 
 So in TypeScript you need to import everything and then use the named export when required. For example, to use the React Component named export you would do this:
 
-{{< highlight javascript >}}
+```javascript
 import * as React from 'react';
 
 class BooksApp extends React.Component {
   // ... snip
 }
-{{< /highlight >}}
+```
 
 
 ## Convert to Types

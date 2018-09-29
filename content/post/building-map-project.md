@@ -51,7 +51,7 @@ Resolving the issue where Foursquare does not always have the info for each venu
 - A forum post recommended using ‘hasOwnProperty` - [MDN: hasOwnProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 - For example:
 
-{{< highlight javascript >}}
+```javascript
 var venues = result.response.hasOwnProperty(“venues”) ? result.response.venues : “”;
 
 if (venues !=  “”) {
@@ -59,7 +59,7 @@ if (venues !=  “”) {
 } else {
   // do something else
 }
-{{< /highlight >}}
+```
 
 
 ### Allowing a user to filter an array
@@ -114,7 +114,7 @@ As soon as the user starts to search, the filter is applied via the `databind=�
 
 
 
-{{< highlight javascript >}}
+```javascript
 console.log('attractions are below');
 console.log(self.attractions);
 
@@ -158,7 +158,7 @@ self.runAttractionFilter = function() {
         locationItem.marker.setVisible(true);
     });
 };
-{{< /highlight >}}
+```
 
 
 ### Favourite locations
@@ -188,19 +188,19 @@ HTML data binds must be in the html file, not in the JavaScript `contentString` 
 
 This is my test. It worked as below but move the html snippet into Javascript i.e. the var `contentString` which informs the rendering of the marker’s infowindow and it doesn’t.
 
-{{< highlight html >}}
+```html
 // html file
   <div class="fav">
     <i data-bind="click: favouriteAttractions" class="fa fa-star" aria-hidden="true"></i>
   </div>
-{{< /highlight >}}
+```
 
-{{< highlight javascript >}}
-// js
+```javascript
+// js file
 this.favouriteAttractions = function( {
-        console.log('You clicked on the star');
+  console.log('You clicked on the star');
 }
-{{< /highlight >}}
+```
 
 #### Attempt 2: Using Google Maps API for ‘rightclick’ on the marker
 
@@ -212,24 +212,23 @@ Second best option is to go for a `rightclick` event using the Google Maps API. 
 
 I ran this to test it:
 
-{{< highlight javascript >}}
+```javascript
 locationItem.marker.addListener('rightclick', function() {
-    // console.log('right click on marker ' + locationItem.name);
-    self.favouriteAttractions(locationItem);
-})
+  console.log('right click on marker ' + locationItem.name);
+  self.favouriteAttractions(locationItem);
 
 self.favouriteAttractions = function(locationItem) {
-    console.log('You want to favourite ' + locationItem.name);
+  console.log('You want to favourite ' + locationItem.name);
 }
-{{< /highlight >}}
+```
 
 Then built up the code for a favourites list.
 
 I added favourite to the Constructor with a `falsy` default:
 
-{{< highlight javascript >}}
+```javascript
 this.favourite = false;
-{{< /highlight >}}
+```
 
 Then an if statement to toggle truthy to falsy, and vice versa.
 

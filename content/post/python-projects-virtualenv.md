@@ -26,18 +26,18 @@ It is actually fairly straightforward to install Python 3. Downloads for Python 
 
 Another option is to use brew e.g.
 
-{{< highlight bash >}}
+```bash
 $ brew install python3
-{{< /highlight >}}
+```
 
 Once Python 3 is installed, use which to check Python is installed correctly.
 
-{{< highlight bash >}}
+```bash
 $ which python
 /usr/local/bin/python
 $ which python3
 /usr/local/bin/python3
-{{< /highlight >}}
+```
 
 The results should show Python is in the above directories. If this is not the case, the installs may not be correct.
 
@@ -56,10 +56,10 @@ The below refers to using Python 2. Separate Python 3 instructions follow after.
 
 Start a project repo as per normal:
 
-{{< highlight bash >}}
+```bash
 mkdir new-python-project
 cd new-python-project
-{{< /highlight >}}
+```
 
 Once inside the project directory, run the command `virtualenv env`
 
@@ -72,9 +72,9 @@ To install package dependencies, you first need to activate the virtual environm
 
 The command is:
 
-{{< highlight bash >}}
+```bash
 $ source env/bin/activate
-{{< /highlight >}}
+```
 
 This must be run from within the project directory.
 
@@ -92,9 +92,9 @@ This is similar to a package.json file for Gulp with all your packages and depen
 ## Python 3
 To set-up a Python 3 amend the virtualenv command as below:
 
-{{< highlight bash >}}
+```bash
 virtualenv -p python3 env
-{{< /highlight >}}
+```
 
 Activate and deactivate work as above. Make sure to activate the virtual env prior to installing any packages and utilities but also to ensure your code is executed correctly. Without the virtualenv being active, your system may look to run the default Python install i.e. Python 2 and your code may not execute.
 

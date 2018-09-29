@@ -62,7 +62,7 @@ First up, check out these links for really good explanations on installing and s
 
 Secondly, here are the key points and commands to consider in order to install and use Hugo:
 
-{{< highlight bash >}}
+```bash
 # To install Hugo via Homebrew
 brew install hugo
 
@@ -88,4 +88,4 @@ hugo server --buildDrafts
 
 # Hugo builds your site into the public folder
 hugo
-{{< /highlight >}}
+```
