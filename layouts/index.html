@@ -1,5 +1,18 @@
-<!DOCTYPE html><html><head>{{ partial "head.html" . }}<title>{{ .Title }}</title></head><body><div class="section" id="splash"><div class="big-link">{{ .Site.Params.introTitle }}</div><div class="hero">{{ .Site.Params.introSubtitle }}</div><hr>{{ if .Site.Params.mainMenu }}
-{{ range .Site.Params.mainMenu }}<div class="big-link"><a href="{{.link}}">{{.text}}</a></div>{{ end }}
-{{ else }}
-{{ range .Site.Sections }}<div class="big-link"><a href="{{.Permalink}}">{{.Title}}</a></div>{{ end }}
-{{ end }}</div></body></html>
+{{ partial "header.html" . }}
+
+<div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
+    {{ partial "intro.html" . }}
+
+    <ol class="post-list">
+        {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+        {{ range $pag.Pages }}
+            {{ partial "post-stub.html" . }}
+        {{ end }}
+    </ol>
+
+    <div class="post-navigation">
+        {{ partial "pagination.html" . }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

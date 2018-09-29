@@ -1,29 +1,48 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Sam Atkins: Personal Site & Blog"
+title = "Sam Atkins"
+# googleAnalytics = "XXX"
 
-[[params.mainMenu]]
-  link = "/posts"
-  text = "blog"
+[Privacy]
 
-[[params.mainMenu]]
-  link = "/about"
-  text = "about"
+[Privacy.disqus]
+  disable = true
 
-pygmentsStyle = "monokai"  # https://help.farbox.com/pygments.html
-# googleAnalytics = "xxx"
+[Privacy.googleAnalytics]
+  anonymizeIP = true
+  respectDoNotTrack = true
+  useSessionStorage = false
 
-[params]
-  author = "Sam Atkins"
-  introTitle = "Hi, I'm Sam."
-  introSubtitle = "I'm a father, husband and software engineer."
-  dateform = "2006 Jan 02"
-  dateformfull = "Mon Jan 2 2006 15:04:05 EST"
-  favicon = "/favicon.ico"
-  homepage = "home"
-  footerText = "Built with Hugo, deployed with Netlify."
+[Author]
+  name = "Sam Atkins"
+  profile = "https://github.com/cubiio"
 
-# Metadata
-  description = "Sam Atkins: Personal Site & Blog."  # Max 160 characters show in search results
-  twitterCard = "summary_large_image"  # Card value “summary”, “summary_large_image”, “app”, or “player”
-  primaryImage = "/images/tn.png"  # Image that shows on Twitter cards and OpenGraph links
+[Taxonomies]
+  tag = "tags"
+
+[Params]
+  intro = true
+  headline = "Sam Atkins"
+  description = "Father. Husband. Software Engineer."
+  github = "https://github.com/cubiio"
+  linkedin = "https://www.linkedin.com/in/atkinssam/"
+  twitter = "https://twitter.com/dev__sam"
+  opengraph = true
+  shareTwitter = true
+  shareFacebook = true
+  shareGooglePlus = true
+  shareLinkedIn = true
+  dateFormat = "2006 Jan 2"
+
+[Permalinks]
+  post = "/post/:filename/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/page/about/"
+  weight = 2

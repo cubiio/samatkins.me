@@ -29,8 +29,6 @@ Prerequisites:
 - npm
 - Gulp
 
-The site uses a slightly modified Hugo theme by [Vicky Lai](https://github.com/vickylai/hugo-theme-sam) called `sam` which is completely coincidental to why I chose it, honest 😉.
-
 ### Installation
 
 Follow instructions in the [Hugo docs](https://gohugo.io/getting-started/quick-start/) to install Hugo.
@@ -47,15 +45,12 @@ npm install
 
 ### How to run
 
-Available commands for Pug and Sass files are:
+Available commands for the Sass files are:
 
-- `npm run build:pug` compiles pug files to HTML
-- `npm run build:sass` compiles Sass files to compressed CSS
-- `npm run autoprefixer` auto-prefixes the compiled CSS
-- `npm run build` does all the above
-- `npm run watch` watches Pug and Sass files for changes and automatically runs npm run build
+- `npm run build` compiles Sass files to CSS
+- `npm run watch` watches Sass files for changes and automatically runs npm run build
 
-In one terminal, watch Pug and Sass files:
+In one terminal for the Sass files:
 
 ```sh
 npm run watch
@@ -87,14 +82,16 @@ hugo new posts/new-blog-post.md
 
 Navigate to the newly created file `content/posts/new-blog-post.md` and update the front matter:
 
-```md
----
+```markdown
++++
 title: "Blogpost Title"
 date: "2017-01-01T10:15:16.408Z"
-showDate: true
-draft: false
+description = ""
+author = ""
 tags: ["programming", "python"]
----
+tags = []
+draft = true
++++
 ```
 
 Add images to `src/images/pending` folder and then run `gulp`.
@@ -103,11 +100,9 @@ Link to the image like this in the markdown file: `![image text](/images/image.j
 
 Code blocks are added like this:
 
-```
-{{< highlight python >}}
+```python
 def func():
     pass
-{{< /highlight >}}
 ```
 
 ### Develop troubleshooting
