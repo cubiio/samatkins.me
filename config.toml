@@ -1,4 +1,4 @@
-baseURL = "https://www.samatkins.me"
+baseURL = "/"
 languageCode = "en-us"
 title = "Sam Atkins"
 # googleAnalytics = "XXX"
