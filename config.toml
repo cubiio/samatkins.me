@@ -1,8 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Sam Atkins"
-theme = "ghostwriter"
-# disqusShortname = "XXX"
 # googleAnalytics = "XXX"
 
 [Privacy]
@@ -35,15 +33,8 @@ theme = "ghostwriter"
   shareGooglePlus = true
   shareLinkedIn = true
   dateFormat = "2006 Jan 2"
-  highlightJsUrl = ""
-  highlightJsLocalUrl = ""
-  exponeaJsUrl = ""
-  exponeaTarget = ""
-  exponeaToken = ""
-  exponeaTrackVisits = false
 
 [Permalinks]
-  # post = "/:year/:month/:day/:filename/"
   post = "/post/:filename/"
 
 [[menu.main]]
