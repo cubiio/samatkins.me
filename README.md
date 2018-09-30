@@ -77,10 +77,10 @@ This repo uses [Prettier](https://github.com/prettier/prettier) formatting, wher
 To add a new post:
 
 ```sh
-hugo new posts/new-blog-post.md
+hugo new post/new-blog-post.md
 ```
 
-Navigate to the newly created file `content/posts/new-blog-post.md` and update the front matter:
+Navigate to the newly created file `content/post/new-blog-post.md` and update the front matter:
 
 ```markdown
 +++
