@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Sam Atkins"
 # googleAnalytics = "XXX"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [Privacy]
 
