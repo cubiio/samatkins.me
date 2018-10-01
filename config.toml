@@ -2,8 +2,11 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Sam Atkins"
 # googleAnalytics = "XXX"
+
+# Code Blocks
 pygmentsCodeFences = true
-pygmentsUseClasses = true
+pygmentsStyle = "monokai"
+
 
 [Privacy]
 
