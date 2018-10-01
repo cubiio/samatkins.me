@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Sam Atkins"
 # googleAnalytics = "XXX"
 
+# Code Blocks
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+
 [Privacy]
 
 [Privacy.disqus]
