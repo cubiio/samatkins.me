@@ -1,30 +1,29 @@
 ---
 title: "about"
-date: 2018-09-21T13:42:49-05:00
+date: 2018-10-28T13:42:49-05:00
 ---
 
-Hi, I’m Sam. I live in London with my family, and I’m a Software Engineer at Big Health.
+Hi, I’m Sam. I live in London with my family. I’m a Software Engineer at Big Health. My job is Full-Stack but my focus is Back-End and DevOps.
 
-I work across the stack and I enjoy working with React/React Native but have recently started to focus on back-end web development. A happy day at work for me involves designing / writing / maintaining a micro-service involving Python, Docker and AWS Lambda.
+I mainly work with:
 
-## Summary of skills
+* Python
+* Docker
+* AWS
 
-| Languages  | Frameworks          | DevOps     | Databases |
--------------|---------------------|------------|-----------|
-| Python     | Flask, Django       | Docker     | MySql     |
-| JavaScript | React, React Native | AWS        | Postgres  |
-| Node.js    | Express             | Gulp       | MongoDb   |
+A good week at work for me involves designing / writing / maintaining a micro-service involving Python, Docker and AWS Lambda, with a bonus of automating some tasks or processes.
+
 
 ## Background
 
-I worked previously in supply chain and logistics, in industry and management consulting before making the switch to working in web development.
+My background is in supply chain and logistics. I worked in industry and consulting before switching career to start working as a professional web developer in May 2017.
 
-I have always liked to improve processes and automate stuff. After several years of basic hacking, I decided to get serious and learn to code. My motivations included a desire to be literate in a skill which is increasingly fundamental to our age and time, and also to help my son with his coding homework. I'm now an alumni at Udacity alumni and have worked as a professional web developer for over 18 months.
+I have always liked to improve processes and automate stuff. After several years of basic hacking, I decided to get serious and learn to code. My motivations included a desire to be literate in a skill which is increasingly fundamental to our age and time, and also to help my son with his coding homework. I'm self-taught and an alumnus of [Udacity](https://www.udacity.com/).
 
-Outside of work, I enjoy spending time with my family. I speak fluent German, mid-level Polish and just started learning some Spanish. I'm a keen mountain biker and enjoy cycling, football and rugby.
+Outside of work, I enjoy spending time with my family. I speak fluent German, mid-level Polish and just started learning some Spanish. I'm a keen mountain biker and enjoy football, rugby, cycling and reading.
 
 ## More Info
 
-Here are my [GitHub](https://github.com/cubiio) and [LinkedIn](https://www.linkedin.com/in/atkinssam/) profiles.
+Interested in more info? Here are links to my [GitHub](https://github.com/cubiio) and [LinkedIn](https://www.linkedin.com/in/atkinssam/) profiles.
 
 If you'd like to chat, please message me on [Twitter](https://twitter.com/dev__sam) or reach out via LinkedIn messages.
