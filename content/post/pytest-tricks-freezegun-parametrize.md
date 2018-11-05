@@ -2,7 +2,7 @@
 title: "Pytest Tricks: Freezegun and Parametrize"
 date: 2018-11-05T19:38:08Z
 draft: false
-tags: ["programming", "python", "tdd", "pytest", "unit tests]
+tags: ["programming", "python", "tdd", "pytest", "unit tests"]
 ---
 
 I always try to work following Test Driven Development. I recently used Pytest to write some unit tests and discovered a couple of neat tricks from a work colleague.
