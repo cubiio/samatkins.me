@@ -4,7 +4,7 @@ description = "The programming books I read and most enjoyed from 2018"
 author = "Sam Atkins"
 date = 2019-01-23T07:00:27Z
 tags = ["programming", "books"]
-draft = true
+draft = false
 +++
 As I reflect on 2018, there were three programming books I enjoyed reading and learned a lot from. I thought I would share my summary of each book.
 
