@@ -6,7 +6,7 @@ date = 2019-02-11T19:39:18Z
 tags = ['bash', 'command-line', 'git', 'linux', 'macOS', 'programming']
 draft = false
 +++
-Working with version control is a must for good software development. I use git personally and at work. The GUI in VS Code for some git work e.g. viewing diffs. However, for some tasks it is fast and productive to use the command line.
+Working with version control is a must for good software development. I use git personally and at work. The GUI in VS Code is good for some git work e.g. viewing diffs. However, for some tasks it is fast and productive to use the command line.
 
 There are some commands that are very useful but are too long to type each time i.e. they are good candidates to save as an alias. For example:
 
@@ -26,7 +26,7 @@ git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)
 
 ## Setting up aliases
 
-There are several options to set these up as aliases. This is how to do it on a MacBook.
+There are several options to set these up as aliases. This is how I did it on a MacBook.
 
 ### bash profile
 
@@ -38,6 +38,8 @@ An example for git fetch and pull:
 alias ggpull='git fetch && git pull origin $(git_current_branch)'
 ```
 
+When I type the alias `ggpull` in the command line, the command `git fetch && git pull origin $(git_current_branch)` will run.
+
 ### zsh
 
 If like me you use zsh, add the below to the to the bottom of `.zshrc`. This ensures all your git alias goodness in `.bash_profile` is available even if you use zsh.
@@ -48,6 +50,6 @@ if [ -f ~/.bash_profile ]; then
 fi
 ```
 
-My preference is to keep all my aliases in `.bash_profile` for forward compatibility, if I stop using zsh or want to use these aliases on a Linux machine then I already have my bash profile file ready.
+My preference is to keep all my aliases in `.bash_profile` for forward compatibility. If I were to stop using zsh or want to use these aliases on a Linux machine then I already have my bash profile file ready.
 
 I hope this is helpful in setting up some of your own aliases and saving a few keystrokes each day.
