@@ -4,7 +4,7 @@ description = "How to add git aliases to use in the command line"
 author = "Sam Atkins"
 date = 2019-02-11T19:39:18Z
 tags = ['bash', 'command-line', 'git', 'linux', 'macOS', 'programming']
-draft = true
+draft = false
 +++
 Working with version control is a must for good software development. I use git personally and at work. The GUI in VS Code for some git work e.g. viewing diffs. However, for some tasks it is fast and productive to use the command line.
 
