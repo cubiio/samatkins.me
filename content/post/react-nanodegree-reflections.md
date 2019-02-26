@@ -16,13 +16,13 @@ I find it helpful to reflect on what I learned, what worked well and what didn't
 
 ## Match the tool to a need
 
-The first project was a Book reading app called [MyReads](https://github.com/cubiio/reactnd-myreads). The lessons and project deliberately specified using only React to manage the app's state. That's right: no Redux. 🙈
+The first project was a Book reading app called [MyReads](https://github.com/sam-atkins/reactnd-myreads). The lessons and project deliberately specified using only React to manage the app's state. That's right: no Redux. 🙈
 
 Why? To make you understand why you should use Redux, and why you shouldn't. In other words, when is a tool useful, what purpose does it serve? And will my use case be met by using this tool?
 
 So the first project involved passing state down from component to component aka "prop drilling". For the most part, this wasn't an issue, with a couple of exceptions which were a bit painful. It also becomes clear if the app grew in complexity, then something like Redux would be a useful addition to the project's dependencies.
 
-The second project was [Readable](https://github.com/cubiio/readable), a reddit type clone, built with React and Redux. This was a more complex app and the project reinforced the message in the lessons on the benefits that Redux would bring to the app.
+The second project was [Readable](https://github.com/sam-atkins/readable), a reddit type clone, built with React and Redux. This was a more complex app and the project reinforced the message in the lessons on the benefits that Redux would bring to the app.
 
 Over the course of these two projects, the point was made about the benefits (and downsides) to using Redux. Applied more generally to programming, I think this is a useful lesson to make sure it is clear what the requirement is and then to search for the right way to fulfil it.
 

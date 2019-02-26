@@ -24,6 +24,6 @@ Outside of work, I enjoy spending time with my family. I speak fluent German, mi
 
 ## More Info
 
-Interested in more info? Here are links to my [GitHub](https://github.com/cubiio) and [LinkedIn](https://www.linkedin.com/in/atkinssam/) profiles.
+Interested in more info? Here are links to my [GitHub](https://github.com/sam-atkins) and [LinkedIn](https://www.linkedin.com/in/atkinssam/) profiles.
 
 If you'd like to chat, please message me on [Twitter](https://twitter.com/dev__sam) or reach out via LinkedIn messages.

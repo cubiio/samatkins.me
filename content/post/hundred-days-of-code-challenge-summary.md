@@ -27,7 +27,7 @@ To summarise, my key achievements and projects were:
 
 ### Udacity:
 
-- [Neighbourhood Map (Knockout.js)](/building-map-project.html)
+- [Neighbourhood Map (Knockout.js)](/post/building-map-project.html)
 - Catalogue app (Python, Flask)
 - Multi-user blog (Python)
 - Portfolio site (HTML, JavaScript)
