@@ -8,13 +8,11 @@ tags: ["programming", "javascript", "udacity", "knockoutjs", "api"]
 
 ![map project](/images/map_medium.png)
 
-This post relates to a front-end JavaScript and Knockout.js MVVM project, using APIs from Google Maps and Foursquare. The GitHub repo is [here](https://github.com/sam-atkins/fsnd-neighbourhood-map), and a demo is live on [surge.sh](http://sam-atkins-map.surge.sh/).
+This post relates to a front-end JavaScript and Knockout.js MVVM project, using APIs from Google Maps and Foursquare. The GitHub repo is [here](https://github.com/sam-atkins/fsnd-neighbourhood-map), and a demo is live on [surge.sh](http://cubiio-map.surge.sh/).
 
 
 ## Context
-I’ve been meaning to write a blog post on one of my projects and not found the time.
-
-So I’m writing about my Neighbourhood Map project for two reasons. Number one, no more excuses. And reason two, it has been a really hard project, and the best way to learn about it is to write about it.
+I’m writing about my Neighbourhood Map project for one main reason. It has been a really hard project, and the best way to learn about it is to write about it.
 
 Before I dive into the detail, this blog post is primarily aimed at present and future me. As I mentioned above, it is to help with my learning but also for me to look back on and see how I worked through this project.
 
