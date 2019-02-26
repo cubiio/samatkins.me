@@ -20,7 +20,7 @@ pygmentsStyle = "monokai"
 
 [Author]
   name = "Sam Atkins"
-  profile = "https://github.com/cubiio"
+  profile = "https://github.com/sam-atkins"
 
 [Taxonomies]
   tag = "tags"
@@ -29,7 +29,7 @@ pygmentsStyle = "monokai"
   intro = true
   headline = "Sam Atkins"
   description = "Father. Husband. Software Engineer."
-  github = "https://github.com/cubiio"
+  github = "https://github.com/sam-atkins"
   linkedin = "https://www.linkedin.com/in/atkinssam/"
   twitter = "https://twitter.com/dev__sam"
   opengraph = true

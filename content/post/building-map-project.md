@@ -8,7 +8,7 @@ tags: ["programming", "javascript", "udacity", "knockoutjs", "api"]
 
 ![map project](/images/map_medium.png)
 
-This post relates to a front-end JavaScript and Knockout.js MVVM project, using APIs from Google Maps and Foursquare. The GitHub repo is [here](https://github.com/cubiio/fsnd-neighbourhood-map), and a demo is live on [surge.sh](http://cubiio-map.surge.sh/).
+This post relates to a front-end JavaScript and Knockout.js MVVM project, using APIs from Google Maps and Foursquare. The GitHub repo is [here](https://github.com/sam-atkins/fsnd-neighbourhood-map), and a demo is live on [surge.sh](http://sam-atkins-map.surge.sh/).
 
 
 ## Context

@@ -50,7 +50,7 @@ yarn add --dev eslint babel-eslint eslint-plugin-import@^2.7.0 eslint-plugin-jsx
 
 You'll notice the install of `eslint` and `babel-eslint` in addition to the AirBnB config.
 
-Once complete, add a `.eslintrc.yml` to the root of your project and add the config from the [dotfiles template repo](https://github.com/cubiio/dotfiles).
+Once complete, add a `.eslintrc.yml` to the root of your project and add the config from the [dotfiles template repo](https://github.com/sam-atkins/repo-dotfiles/blob/master/.eslintrc.yml).
 
 ### Install Prettier
 

@@ -24,4 +24,4 @@ When I read about the **#100DaysOfCode** challenge I thought it was an ideal way
 
 ### Follow Me
 
-My log recording each day's progress is on [Github](https://github.com/cubiio/100-days-of-code/blob/master/log.md).
+My log recording each day's progress is on [Github](https://github.com/sam-atkins/100-days-of-code/blob/master/log.md).
