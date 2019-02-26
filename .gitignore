@@ -75,3 +75,4 @@ typings/
 # Project specific
 src/images/
 public/
+.vscode
