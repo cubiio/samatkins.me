@@ -9,7 +9,7 @@ I'm self-taught and an alumnus of [Udacity](https://www.udacity.com). My job is 
 
 ## Background
 
-I worked in supply chain and operations, first in industry for a shipping company, then a manufacturer before working as a supply chain management consultant at KPMG and EY. I did a lot of work on developing and implementing operating models, business process optimisation and working on large scale IT programmes as a business analyst / project manager.
+I worked in supply chain and operations, first in industry for a shipping company, then a manufacturer before working as a supply chain management consultant at KPMG and EY. My work involved developing and implementing operating models, business process optimisation and working on large scale IT and Business transformation programmes as a business analyst / project manager.
 
 In 2017 I switched career and started work as a Software Engineer at Big Health. I have worked with Python, PHP, Docker, JavaScript and mobile development using React Native. Now my focus is on developing and maintaining back-end micro-services in the Cloud. In addition, I have a growing interest in DevOps which  crosses the boundaries between my old and new career, a key reason why I am so passionate about it.
 
