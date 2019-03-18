@@ -1,29 +1,20 @@
 ---
 title: "about"
-date: 2018-10-28T13:42:49-05:00
+date: 2019-03-17T17:17:10Z
 ---
 
-Hi, I’m Sam. I live in London with my family. I’m a Software Engineer at Big Health. My job is Full-Stack but my focus is Back-End and DevOps.
+Hi, I’m Sam. I live in London with my family. I’m a Software Engineer at [Big Health](https://www.bighealth.com).
 
-I mainly work with:
-
-* Python
-* Docker
-* AWS
-
-A good week at work for me involves designing / writing / maintaining a micro-service involving Python, Docker and AWS Lambda, with a bonus of automating some tasks or processes.
-
+I'm self-taught and an alumnus of [Udacity](https://www.udacity.com). My job is 'full-stack' but my focus and passion is Cloud and DevOps. I enjoy building and maintaining products, and automating stuff.
 
 ## Background
 
-My background is in supply chain and logistics. I worked in industry and consulting before switching career to start working as a professional web developer in May 2017.
+I worked in supply chain and operations, first in industry for a shipping company, then a manufacturer before working as a supply chain management consultant at KPMG and EY. My work involved developing and implementing operating models, business process optimisation and working on large scale IT and Business transformation programmes as a business analyst / project manager.
 
-I have always liked to improve processes and automate stuff. After several years of basic hacking, I decided to get serious and learn to code. My motivations included a desire to be literate in a skill which is increasingly fundamental to our age and time, and also to help my son with his coding homework. I'm self-taught and an alumnus of [Udacity](https://www.udacity.com/).
+In 2017 I switched career and started work as a Software Engineer at Big Health. I have worked with Python, PHP, Docker, JavaScript and mobile development using React Native. Now my focus is on developing and maintaining back-end micro-services in the Cloud. In addition, I have a growing interest in DevOps which  crosses the boundaries between my old and new career, a key reason why I am so passionate about it.
 
 Outside of work, I enjoy spending time with my family. I speak fluent German, mid-level Polish and just started learning some Spanish. I'm a keen mountain biker and enjoy football, rugby, cycling and reading.
 
 ## More Info
 
-Interested in more info? Here are links to my [GitHub](https://github.com/sam-atkins) and [LinkedIn](https://www.linkedin.com/in/atkinssam/) profiles.
-
-If you'd like to chat, please message me on [Twitter](https://twitter.com/dev__sam) or reach out via LinkedIn messages.
+If you would like to know more or want to reach out, here are the links to my [GitHub](https://github.com/sam-atkins) and [LinkedIn](https://www.linkedin.com/in/atkinssam/) profiles. If you'd like to chat, please reach out via LinkedIn messages or the email listed on my Github profile.
