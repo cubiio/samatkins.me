@@ -1,6 +1,6 @@
 +++
 title = "Pipenv and Poetry package managers"
-description = "Experiments and impressions of Pipenv and Poetry package managers"
+description = "Overview of Pipenv and Poetry Python package managers"
 author = "Sam Atkins"
 date = 2019-04-14T09:09:58+01:00
 tags = ["programming", "python", "package managers"]
@@ -35,6 +35,6 @@ Which should you use? To me that depends on the use case.
 * Libraries: use Poetry
 * Applications: use Pipenv (or Docker)
 
-In most cases when building an application as part of a learning project, using Docker makes most sense for me. I've had some issues with Pipenv working in Docker (some strange caching issues that I didn't have time to get to the bottom of), so when I'm using Docker I combine it with pip and a requirements.txt file. Entirely likely the Docker/Pipenv issues  was something I set up incorrectly so using Pipenv and Docker might be a good combination for you.
+In most cases when building an application as part of a learning project, using Docker makes most sense for me. I've had some issues with Pipenv working in Docker (some strange caching issues that I didn't have time to get to the bottom of), so when I'm using Docker I combine it with Pip and a `requirements.txt` file. It is entirely likely the Docker/Pipenv issues was something I set up incorrectly so using Pipenv and Docker might be a good combination for you.
 
 To conclude, in my opinion Pipenv and Poetry are great tools and welcome additions to the Python ecosystem.
