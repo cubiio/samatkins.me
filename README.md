@@ -1,7 +1,7 @@
 # My Site: samatkins.me
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![deploys by netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)](https://www.netlify.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2d388ca4-8a57-44ce-b079-a6ae729c4e12/deploy-status)](https://app.netlify.com/sites/samatkinsme/deploys)
 
 ## Description
 
