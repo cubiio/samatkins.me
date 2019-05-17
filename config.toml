@@ -31,11 +31,9 @@ pygmentsStyle = "monokai"
   description = "Father. Husband. Software Engineer."
   github = "https://github.com/sam-atkins"
   linkedin = "https://www.linkedin.com/in/atkinssam/"
-  twitter = "https://twitter.com/dev__sam"
   opengraph = true
   shareTwitter = true
   shareFacebook = true
-  shareGooglePlus = true
   shareLinkedIn = true
   dateFormat = "2006 Jan 2"
 
