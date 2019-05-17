@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Sam Atkins"
-# googleAnalytics = "XXX"
+googleAnalytics = "UA-103621072-1"
 
 # Code Blocks
 pygmentsCodeFences = true
