@@ -58,6 +58,6 @@ Within the body of the snippet the items with the syntax `${1}` are very helpful
 
 I find snippets a small but powerful way of increasing productivity and reducing my frustration. I hope this helps you to add snippets in VS Code and increase your productivity too.
 
-## Update
+## Update
 
 The above example shows how to create a snippet but is actually not a good example. If you want to automate creating Python docstrings in VS Code then I recommend the extension [Python Docstring Formatter](https://marketplace.visualstudio.com/items?itemName=iansan5653.format-python-docstrings).
