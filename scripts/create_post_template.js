@@ -29,6 +29,7 @@ category: "programming"
 tags:
 - "programming"
 description: ""
+socialImage: "/media/image.jpg"
 ---
 `;
 

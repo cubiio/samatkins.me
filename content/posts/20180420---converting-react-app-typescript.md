@@ -10,8 +10,8 @@ tags:
 - 'react'
 - 'typescript'
 description: ""
+socialImage: "/media/i_heart_typescript.png"
 ---
-
 ![TypeScript](/media/i_heart_typescript.png)
 
 Learning some TypeScript has been on my to do list for sometime. I finally found some time and started by reading the docs to get familiar with it. The next step to really help learn it was to actually use it for a project so I decided to convert an existing React app to use TypeScript. This blogpost is a guide on how I did exactly that.

@@ -12,6 +12,7 @@ tags:
 - "udacity"
 - "freecodecamp"
 description: ""
+socialImage: "/media/mountain.jpg"
 ---
 ![mountain](/media/mountain.jpg)
 

@@ -12,6 +12,7 @@ tags:
   - "knockoutjs"
   - "api"
 description: ""
+socialImage: "/media/map_medium.jpg"
 ---
 
 ![map project](/media/map_medium.png)

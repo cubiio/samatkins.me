@@ -12,6 +12,7 @@ tags:
 - "prettier"
 - "linting"
 description: ""
+socialImage: "/media/prettier.png"
 ---
 ![Prettier.io](/media/prettier.png)
 

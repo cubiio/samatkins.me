@@ -12,6 +12,7 @@ tags:
 - "python"
 - "udacity"
 description: ""
+socialImage: "/media/code.jpg"
 ---
 ![coding](/media/code.jpg)
 
