@@ -57,3 +57,7 @@ What does the syntax in the actual snippet mean?
 Within the body of the snippet the items with the syntax `${1}` are very helpful. The cursor will tab through each of these so you can overwrite the placeholders. In the example above, first of all "description" is highlighted and when you type you can overwrite this text. Hit tab and the cursor will move to "param name", tab again and "param type" and so on.
 
 I find snippets a small but powerful way of increasing productivity and reducing my frustration. I hope this helps you to add snippets in VS Code and increase your productivity too.
+
+## Update
+
+The above example shows how to create a snippet but is actually not a good example. If you want to automate creating Python docstrings in VS Code then I recommend the extension [Python Docstring Formatter](https://marketplace.visualstudio.com/items?itemName=iansan5653.format-python-docstrings).
