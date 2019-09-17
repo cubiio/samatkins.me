@@ -60,4 +60,4 @@ I find snippets a small but powerful way of increasing productivity and reducing
 
 ## Update
 
-The above example shows how to create a snippet but is actually not a good example. If you want to automate creating Python docstrings in VS Code then I recommend the extension [Python Docstring Formatter](https://marketplace.visualstudio.com/items?itemName=iansan5653.format-python-docstrings).
+The above example shows how to create a snippet but is actually not a good example. If you want to semi-automate creating Python docstrings in VS Code then I recommend the extension [Python Docstring Formatter](https://marketplace.visualstudio.com/items?itemName=iansan5653.format-python-docstrings).
