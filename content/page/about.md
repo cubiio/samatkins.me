@@ -2,10 +2,9 @@
 title: "about"
 date: 2019-03-17T17:17:10Z
 ---
-
 Hi, I’m Sam. I live in London with my family. I’m a Software Engineer at [Big Health](https://www.bighealth.com).
 
-I'm self-taught and an alumnus of [Udacity](https://www.udacity.com). My job is 'full-stack' but my focus and passion is Cloud and DevOps. I enjoy building and maintaining products, and automating stuff.
+I'm self-taught and an alumnus of [Udacity](https://www.udacity.com). My job is 'full-stack' but my focus and passion is Back-End and Cloud. I enjoy building and maintaining products, and automating stuff.
 
 ## Background
 

@@ -5,7 +5,6 @@ showDate: true
 draft: false
 tags: ["programming", "career", "learning", "udacity", "freecodecamp"]
 ---
-
 ![mountain](/images/mountain.jpg)
 
 Photo by [Rohit Tandon](https://unsplash.com/@rohittandon) on Unsplash
