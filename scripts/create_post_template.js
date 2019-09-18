@@ -15,10 +15,9 @@ const { argv } = yargs
 console.log(`Creating template: "${argv.title}"`);
 
 const date = new Date().toISOString();
-const fileDate = date.slice(0, 10).replace(/-/g, "");
 const parametizedTitle = argv.title.replace(/\s/g, "-").toLowerCase();
 
-const outputFile = `./content/post/${fileDate}---${parametizedTitle}.md`;
+const outputFile = `./content/post/${parametizedTitle}.md`;
 const contents = `+++
 title = "${argv.title}"
 description = ""
