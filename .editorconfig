@@ -9,10 +9,10 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{html,py}]
+[*.{html,py,scss}]
 indent_size = 4
 
-[*.{conf,css,js,json,md,scss,sh,toml,ts,yaml,yml}]
+[*.{conf,css,js,json,md,sh,toml,ts,yaml,yml}]
 indent_size = 2
 
 [package.json]
