@@ -25,9 +25,6 @@ The code for my personal site and blog.
 Prerequisites:
 
 - [Hugo](https://gohugo.io)
-- Node.js
-- npm
-- Gulp
 
 ### Installation
 
@@ -35,31 +32,20 @@ Follow instructions in the [Hugo docs](https://gohugo.io/getting-started/quick-s
 
 Git clone the repo into a local directory.
 
-Install all dependencies:
-
-```sh
-npm install
-```
-
 ## Develop
 
 ### How to run
 
-Available commands for the Sass files are:
+To get the local Hugo dev server running:
 
-- `npm run build` compiles Sass files to CSS
-- `npm run watch` watches Sass files for changes and automatically runs npm run build
-
-In one terminal for the Sass files:
-
-```sh
-npm run watch
+```bash
+hugo server -D
 ```
 
-In another terminal, get the local Hugo dev server running:
+To check options:
 
-```sh
-hugo server -D
+```bash
+hugo help
 ```
 
 The `-D` flag serves all draft blog posts.
@@ -80,23 +66,18 @@ To add a new post:
 hugo new post/new-blog-post.md
 ```
 
-Navigate to the newly created file `content/post/new-blog-post.md` and update the front matter:
+Navigate to the newly created file `content/post/new-blog-post.md` and update the template front matter:
 
 ```markdown
 +++
-title: "Blogpost Title"
-date: "2017-01-01T10:15:16.408Z"
+title = "New Blog Post"
 description = ""
 author = ""
-tags: ["programming", "python"]
+date = 2019-09-18T19:06:13+01:00
 tags = []
 draft = true
 +++
 ```
-
-Add images to `src/images/pending` folder and then run `gulp`.
-
-Link to the image like this in the markdown file: `![image text](/images/image.jpeg)`
 
 Code blocks are added like this:
 
