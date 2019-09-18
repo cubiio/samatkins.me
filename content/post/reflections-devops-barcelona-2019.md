@@ -3,7 +3,7 @@ title = "Reflections on DevOps Barcelona 2019"
 description = ""
 author = "Sam Atkins"
 date = 2019-07-23T20:08:21+01:00
-tags = ["devops"]
+tags = ["DevOps"]
 draft = false
 +++
 In June I attended a DevOps conference in Barcelona. Whilst I work in web development, I have a growing interest in DevOps which is mainly due to my previous career in supply chain and lean. This was a key motivation for attending: to learn more about different people's experiences with DevOps.
