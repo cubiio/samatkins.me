@@ -12,6 +12,10 @@ $background: #FEFEFE;
 
 html, body { height: 100%; }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background: $background;
     color: #424242;
