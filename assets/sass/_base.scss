@@ -1,0 +1,155 @@
+html, body { height: 100%; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background: $background;
+    color: #424242;
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; margin-bottom: 20px; }
+h4 { font-size: 18px; margin-bottom: 18px; }
+h5 { font-size: 16px; margin-bottom: 15px; }
+h6 { font-size: 14px; margin-bottom: 12px; }
+
+p {
+    line-height: 1.8;
+    margin: 0 0 30px;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+}
+
+ul, ol {
+    line-height: 1.4;
+    margin: 0 0 20px;
+
+    ul, ol { margin: 10px 0 0 20px; }
+
+    li {
+        margin: 0 0 2px;
+
+        &:last-of-type { margin-bottom: 0; }
+    }
+}
+
+blockquote {
+    border-left: 1px dotted $primary;
+    margin: 40px 0;
+    padding: 5px 30px;
+
+    p {
+        color: #AEADAD;
+        display: block;
+        font-style: italic;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+img {
+    display: block;
+    margin: 40px 0;
+    width: auto;
+    max-width: 100%;
+
+    &[src$="align-center"] {
+        margin: auto;
+    }
+
+    &[src$="align-left"] {
+        float: left;
+        margin-right: 40px;
+    }
+
+    &[src$="align-right"] {
+        float: right;
+        margin-left: 40px;
+    }
+}
+
+pre {
+    border-radius: 3px;
+    margin: 0 0 20px;
+    overflow-x: auto;
+    padding: 10px;
+    font-size: 16px;
+
+    code {
+        padding: 0;
+    }
+}
+
+code {
+    padding: 2px 4px;
+    font-family: monospace;
+    font-size: 95%;
+    color: #848482;
+    border-radius: 4px
+}
+
+hr {
+    border: none;
+    border-bottom: 1px dotted #303030;
+    margin: 45px 0;
+}
+
+table {
+    margin-bottom:40px;
+    width: 100%;
+
+    tbody > tr:nth-child(odd) > td,
+    tbody > tr:nth-child(odd) > th {
+        background-color: #f7f7f3;
+    }
+
+    th {
+        padding: 0 10px 10px;
+        text-align: left;
+    }
+
+    td { padding: 10px; }
+
+    tr { border-bottom: 1px dotted #AEADAD; }
+}
+
+::selection {
+    background: #FFF5B8;
+    color: #000;
+    display: block;
+}
+
+::-moz-selection {
+    background: #FFF5B8;
+    color: #000;
+    display: block;
+}
+
+.fluid-width-video-wrapper { margin-bottom: 40px; }
+
+.hidden {
+    text-indent: -9999px;
+    visibility: hidden;
+    display: none;
+}
+
+.clearfix {
+    &:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
