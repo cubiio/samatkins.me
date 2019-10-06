@@ -5,10 +5,10 @@
     {{ partial "intro.html" . }}
 
     <ol class="post-list">
-        {{ $pag := .Paginate (where .Site.RegularPages "Type" "post") 5000 }}
-        {{ range $pag.Pages }}
+        {{ range where .Site.Pages "Params.type" "post" }}
             {{ partial "post-stub.html" . }}
         {{ end }}
+
     </ol>
 </div>
 

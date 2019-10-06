@@ -1,10 +1,11 @@
----
-title: "Installing Tree on OSx"
-date: "2016-09-19T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["programming", "macOS", "linux", "command-line"]
----
++++
+title = "Installing Tree on OSx"
+date = "2016-09-19T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["programming", "macOS", "linux", "command-line"]
+type = "post"
++++
 
 This is how to install Tree on macOS in the Terminal.app. It assumes Homebrew is installed. [Homebrew](http://brew.sh/) is a package manager for OSx.
 

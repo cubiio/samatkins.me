@@ -1,10 +1,11 @@
----
-title: "Why I'm blogging again"
-date: "2016-09-17T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["programming", "blog", "jrDevForLife"]
----
++++
+title = "Why I'm blogging again"
+date = "2016-09-17T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["programming", "blog", "jrDevForLife"]
+type = "post"
++++
 
 First, some context. I have blogged before. For several years I blogged on cycling (road, mountain biking, and as a means of simply getting from A to B).
 

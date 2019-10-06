@@ -1,10 +1,11 @@
----
-title: "Why I'm using Hugo static site generator"
-date: "2016-09-18T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["programming", "blogging", "Hugo", "staticSiteGenerator"]
----
++++
+title = "Why I'm using Hugo static site generator"
+date = "2016-09-18T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["programming", "blogging", "Hugo", "staticSiteGenerator"]
+type = "post"
++++
 
 Encouraged by a conversation with Andy @ Udacity, I made the decision to start a technical coding blog with a focus on helping me to learn more and document my coding journey.
 

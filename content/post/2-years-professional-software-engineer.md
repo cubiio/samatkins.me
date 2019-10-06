@@ -5,6 +5,7 @@ tags = ["programming", "career", "learning", "udacity", "freecodecamp"]
 author = "Sam Atkins"
 date = 2019-07-15T20:09:10+01:00
 draft = false
+type = "post"
 +++
 Time really does fly. As I write this, I have unlocked the two year milestone of working as a professional software engineer. It only feels like a short time ago I set myself the goal of changing career and becoming a professional software engineer.  I feel incredibly privileged to have had the opportunity to change careers, to be working for Big Health and working in web development.
 

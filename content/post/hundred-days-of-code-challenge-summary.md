@@ -1,10 +1,11 @@
----
-title: "100 Days of Code Challenge Summary"
-date: "2017-08-28T08:15:16.408Z"
-showDate: true
-draft: false
-tags: ["javascript", "oneHundredDaysOfCode", "programming", "python", "udacity"]
----
++++
+title = "100 Days of Code Challenge Summary"
+date = "2017-08-28T08:15:16.408Z"
+showDate = true
+draft = false
+tags = ["javascript", "oneHundredDaysOfCode", "programming", "python", "udacity"]
+type = "post"
++++
 
 ![coding](/images/code.jpg)
 

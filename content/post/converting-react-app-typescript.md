@@ -1,10 +1,11 @@
----
-title: 'Converting a React App to TypeScript'
-date: '2018-04-20'
-showDate: true
-draft: false
-tags: ['programming', 'react', 'typescript']
----
++++
+title = 'Converting a React App to TypeScript'
+date = '2018-04-20'
+showDate = true
+draft = false
+tags = ['programming', 'react', 'typescript']
+type = "post"
++++
 
 ![TypeScript](/images/i_heart_typescript.png)
 

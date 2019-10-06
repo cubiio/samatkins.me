@@ -5,6 +5,7 @@ author = "Sam Atkins"
 date = 2019-03-17T17:17:10Z
 tags = ["programming", "python", "vs-code", "productivity"]
 draft = false
+type = "post"
 +++
 Adding code snippets in your IDE are a great way of saving key strokes on code that you often use.
 

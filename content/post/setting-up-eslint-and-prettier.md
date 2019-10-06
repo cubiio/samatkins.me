@@ -1,10 +1,11 @@
----
-title: "Setting up ESLint and Prettier"
-date: "2018-02-10"
-showDate: true
-draft: false
-tags: ["programming", "javascript", "eslint", "prettier", "linting"]
----
++++
+title = "Setting up ESLint and Prettier"
+date = "2018-02-10"
+showDate = true
+draft = false
+tags = ["programming", "javascript", "eslint", "prettier", "linting"]
+type = "post"
++++
 
 ![Prettier.io](/images/prettier.png)
 

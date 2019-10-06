@@ -5,6 +5,7 @@ author = "Sam Atkins"
 date = 2019-09-18T20:13:56+01:00
 tags = ["programming", "git", "CI", "DevOps"]
 draft = false
+type = "post"
 +++
 Some build pipelines have steps which are only triggered if a certain phrase is contained in the commit message. The problem is sometimes e.g. after a code review there may be nothing to commit but you need to start this build process.
 
