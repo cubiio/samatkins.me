@@ -1,10 +1,11 @@
----
-title: "Becoming a professional web developer"
-date: "2017-11-08"
-showDate: true
-draft: false
-tags: ["programming", "career", "learning", "udacity", "freecodecamp"]
----
++++
+title = "Becoming a professional web developer"
+date = "2017-11-08"
+showDate = true
+draft = false
+tags = ["programming", "career", "learning", "udacity", "freecodecamp"]
+type = "post"
++++
 ![mountain](/images/mountain.jpg)
 
 Photo by [Rohit Tandon](https://unsplash.com/@rohittandon) on Unsplash

@@ -1,10 +1,11 @@
----
-title: "Python Getters and Setters"
-date: 2018-10-08T20:31:40+01:00
-showDate: true
-draft: false
-tags: ["programming", "python"]
----
++++
+title = "Python Getters and Setters"
+date = 2018-10-08T20:31:40+01:00
+showDate = true
+draft = false
+tags = ["programming", "python"]
+type = "post"
++++
 At work recently I had to add some getters and setters to enable user's responses to a question being persisted to the database. A few new things came up so to reinforce my learning, I decided to write this.
 
 ## Context

@@ -1,10 +1,11 @@
----
-title: "Udacity React NanoDegree reflections"
-date: "2018-03-23"
-showDate: true
-draft: false
-tags: ["programming", "learning", "udacity", "nanodegree", "react", "react-native"]
----
++++
+title = "Udacity React NanoDegree reflections"
+date = "2018-03-23"
+showDate = true
+draft = false
+tags = ["programming", "learning", "udacity", "nanodegree", "react", "react-native"]
+type = "post"
++++
 
 ![React.js](/images/react-nanodegree.png)
 

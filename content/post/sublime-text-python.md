@@ -1,10 +1,11 @@
----
-title: "Sublime Text 3 and Python"
-date: "2017-01-08T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["tools", "python", "sublimeText3"]
----
++++
+title = "Sublime Text 3 and Python"
+date = "2017-01-08T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["tools", "python", "sublimeText3"]
+type = "post"
++++
 
 As I wrote [recently](/100daysofcode.html), after jumping between Javascript, GoLang and Python, I've decided to heed some good advice and focus on one language for awhile. And that language is Python.
 

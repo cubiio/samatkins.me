@@ -5,6 +5,7 @@ author = "Sam Atkins"
 date = 2019-04-14T09:09:58+01:00
 tags = ["programming", "python", "package managers"]
 draft = false
+type = "post"
 +++
 Python is a wonderful language for beginners but I remember when starting out how Pip, the defacto package manager for Python (at least at the time) didn't seem as fully featured as others such as npm. Having to manually update `requirements.txt` or remember some other command to get it updated seemed an oversight. Add to that the need for virtual environments due to the whole Python 2 vs Python 3 thing and it can hinder new programmers from getting up and running with a Python project.
 

@@ -5,6 +5,7 @@ author = "Sam Atkins"
 date = 2019-02-11T19:39:18Z
 tags = ['bash', 'command-line', 'git', 'linux', 'macOS', 'programming']
 draft = false
+type = "post"
 +++
 Working with version control is a must for good software development. I use git personally and at work. The GUI in VS Code is good for some git work e.g. viewing diffs. However, for some tasks it is fast and productive to use the command line.
 

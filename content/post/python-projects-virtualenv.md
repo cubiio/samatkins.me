@@ -1,12 +1,11 @@
----
-title: "Managing Python projects with Virtualenv"
-date: "2016-12-30T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["programming", "python", "virtualenv"]
----
-
-
++++
+title = "Managing Python projects with Virtualenv"
+date = "2016-12-30T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["programming", "python", "virtualenv"]
+type = "post"
++++
 ## Python 2 versus 3
 
 To summarise the Python wiki:

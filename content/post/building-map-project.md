@@ -1,10 +1,11 @@
----
-title: "Neighbourhood Map Project"
-date: "2017-02-18T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["programming", "javascript", "udacity", "knockoutjs", "api"]
----
++++
+title = "Neighbourhood Map Project"
+date = "2017-02-18T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["programming", "javascript", "udacity", "knockoutjs", "api"]
+type = "post"
++++
 
 ![map project](/images/map_medium.png)
 

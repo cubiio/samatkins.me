@@ -5,4 +5,5 @@ author = ""
 date = {{ .Date }}
 tags = []
 draft = true
+type = ""
 +++

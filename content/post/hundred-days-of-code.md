@@ -1,10 +1,11 @@
----
-title: "100 Days of Code"
-date: "2017-01-01T10:15:16.408Z"
-showDate: true
-draft: false
-tags: ["python", "programming", "udacity", "oneHundredDaysOfCode"]
----
++++
+title = "100 Days of Code"
+date = "2017-01-01T10:15:16.408Z"
+showDate = true
+draft = false
+tags = ["python", "programming", "udacity", "oneHundredDaysOfCode"]
+type = "post"
++++
 
 I've joined the #100DaysOfCode Challenge. Over Christmas I decided to focus in Q1 2017 on completing Udacity's Full-Stack Nanodegree. As part of this, a complementary objective is I want to really get to grips with Python.
 
