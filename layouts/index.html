@@ -8,8 +8,8 @@
         {{ range where .Site.Pages "Params.type" "post" }}
             {{ partial "post-stub.html" . }}
         {{ end }}
-
     </ol>
+
 </div>
 
 {{ partial "footer.html" . }}
