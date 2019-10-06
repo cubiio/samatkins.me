@@ -4,6 +4,7 @@
         {{ if .Description }}
             <p class="post-stub-description">{{ .Description }}</p>
         {{ end }}
+            <p class="post-stub-date">{{ .PublishDate.Format "2006 Jan 02" }}</p>
         {{ with .Params.featured }}
             <span class="post-stub-tag">Featured</span>
         {{ end }}
