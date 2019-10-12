@@ -3,6 +3,7 @@ title = "3 Recommended Programming Books"
 description = "The programming books I read and most enjoyed from 2018"
 author = "Sam Atkins"
 date = 2019-01-23T07:00:27Z
+categories = "Career"
 tags = ["programming", "books"]
 draft = false
 type = "post"

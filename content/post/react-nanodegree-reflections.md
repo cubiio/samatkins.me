@@ -5,6 +5,7 @@ showDate = true
 draft = false
 tags = ["programming", "learning", "udacity", "nanodegree", "react", "react-native"]
 type = "post"
+categories = "Career"
 +++
 
 ![React.js](/images/react-nanodegree.png)

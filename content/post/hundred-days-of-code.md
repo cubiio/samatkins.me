@@ -3,6 +3,7 @@ title = "100 Days of Code"
 date = "2017-01-01T10:15:16.408Z"
 showDate = true
 draft = false
+categories = ["Career"]
 tags = ["python", "programming", "udacity", "oneHundredDaysOfCode"]
 type = "post"
 +++

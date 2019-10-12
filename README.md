@@ -9,16 +9,20 @@ The code for my personal site and blog.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-- [Develop](#develop)
-  - [How to run](#how-to-run)
-  - [Style Guide](#style-guide)
-  - [Adding blogpost content](#adding-blogpost-content)
-  - [Develop troubleshooting](#develop-troubleshooting)
-- [Release](#release)
-  - [Build](#build)
-  - [Deploy](#deploy)
+- [My Site: samatkins.me](#my-site-samatkinsme)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+    - [Installation](#installation)
+  - [Develop](#develop)
+    - [How to run](#how-to-run)
+    - [Images](#images)
+    - [Style Guide](#style-guide)
+    - [Adding blogpost content](#adding-blogpost-content)
+    - [Develop troubleshooting](#develop-troubleshooting)
+  - [Release](#release)
+    - [Build](#build)
+    - [Deploy](#deploy)
 
 ## Getting started
 

@@ -156,6 +156,13 @@
 }
 
 .post-content {
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     a:hover {
         border-bottom: 1px dotted $primary;
         padding: 0 0 2px;

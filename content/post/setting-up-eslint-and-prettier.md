@@ -3,6 +3,7 @@ title = "Setting up ESLint and Prettier"
 date = "2018-02-10"
 showDate = true
 draft = false
+categories = ["Front End"]
 tags = ["programming", "javascript", "eslint", "prettier", "linting"]
 type = "post"
 +++

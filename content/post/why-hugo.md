@@ -3,6 +3,7 @@ title = "Why I'm using Hugo static site generator"
 date = "2016-09-18T10:15:16.408Z"
 showDate = true
 draft = false
+categories = ["Career"]
 tags = ["programming", "blogging", "Hugo", "staticSiteGenerator"]
 type = "post"
 +++

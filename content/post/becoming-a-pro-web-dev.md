@@ -3,8 +3,9 @@ title = "Becoming a professional web developer"
 date = "2017-11-08"
 showDate = true
 draft = false
-tags = ["programming", "career", "learning", "udacity", "freecodecamp"]
+tags = ["programming", "learning", "udacity", "freecodecamp"]
 type = "post"
+categories = ["Career"]
 +++
 ![mountain](/images/mountain.jpg)
 

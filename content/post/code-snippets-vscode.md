@@ -3,6 +3,7 @@ title = "Code Snippets in VS Code"
 description = "Adding your own code snippets is a small but powerful way to increase your productivity"
 author = "Sam Atkins"
 date = 2019-03-17T17:17:10Z
+categories = ["Productivity"]
 tags = ["programming", "python", "vs-code", "productivity"]
 draft = false
 type = "post"

@@ -3,6 +3,7 @@ title = "Pipenv and Poetry package managers"
 description = "Overview of Pipenv and Poetry Python package managers"
 author = "Sam Atkins"
 date = 2019-04-14T09:09:58+01:00
+categories = ["Back End"]
 tags = ["programming", "python", "package managers"]
 draft = false
 type = "post"

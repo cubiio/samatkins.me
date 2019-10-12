@@ -22,7 +22,9 @@ pygmentsStyle = "monokai"
   name = "Sam Atkins"
   profile = "https://github.com/sam-atkins"
 
+# these are Hugo defaults but including anyway so it's explicit
 [Taxonomies]
+  category = "categories"
   tag = "tags"
 
 [Params]
@@ -36,6 +38,7 @@ pygmentsStyle = "monokai"
   shareFacebook = true
   shareLinkedIn = true
   dateFormat = "2006 Jan 2"
+
 
 [Permalinks]
   post = "/post/:filename/"
@@ -51,6 +54,11 @@ pygmentsStyle = "monokai"
   weight = 2
 
 [[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
+
+[[menu.main]]
   name = "About"
   url = "/page/about/"
-  weight = 3
+  weight = 4
