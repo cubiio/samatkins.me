@@ -3,6 +3,7 @@ title = "Python Getters and Setters"
 date = 2018-10-08T20:31:40+01:00
 showDate = true
 draft = false
+categories = ["Back End"]
 tags = ["programming", "python"]
 type = "post"
 +++

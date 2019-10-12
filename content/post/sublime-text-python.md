@@ -3,6 +3,7 @@ title = "Sublime Text 3 and Python"
 date = "2017-01-08T10:15:16.408Z"
 showDate = true
 draft = false
+categories = ["Productivity"]
 tags = ["tools", "python", "sublimeText3"]
 type = "post"
 +++

@@ -5,6 +5,7 @@ showDate = true
 draft = false
 tags = ["programming", "javascript", "udacity", "knockoutjs", "api"]
 type = "post"
+categories = ["Front End"]
 +++
 
 ![map project](/images/map_medium.png)

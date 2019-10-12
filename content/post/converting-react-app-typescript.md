@@ -3,6 +3,7 @@ title = 'Converting a React App to TypeScript'
 date = '2018-04-20'
 showDate = true
 draft = false
+categories = ["Front End"]
 tags = ['programming', 'react', 'typescript']
 type = "post"
 +++

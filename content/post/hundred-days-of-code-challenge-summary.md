@@ -3,6 +3,7 @@ title = "100 Days of Code Challenge Summary"
 date = "2017-08-28T08:15:16.408Z"
 showDate = true
 draft = false
+categories = ["Career"]
 tags = ["javascript", "oneHundredDaysOfCode", "programming", "python", "udacity"]
 type = "post"
 +++

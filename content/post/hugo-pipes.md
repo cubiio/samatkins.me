@@ -3,7 +3,8 @@ title = "Hugo Pipes"
 description = "Replacing webpack with Hugo Pipes to process Sass files"
 author = "Sam Atkins"
 date = 2019-09-28T13:47:05+01:00
-tags = ["Hugo", "assetProcessing", "staticSiteGenerator"]
+categories = ["DevOps", "Front End"]
+tags = ["Hugo", "assetProcessing", "staticSiteGenerator", "DevOps"]
 draft = false
 type = "post"
 +++

@@ -3,6 +3,7 @@ title = "Why I'm blogging again"
 date = "2016-09-17T10:15:16.408Z"
 showDate = true
 draft = false
+categories = ["Career"]
 tags = ["programming", "blog", "jrDevForLife"]
 type = "post"
 +++

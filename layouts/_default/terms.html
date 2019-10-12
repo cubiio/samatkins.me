@@ -3,7 +3,8 @@
 <div id="post-index" class="container">
     {{ partial "intro.html" . }}
     <ol class="post-list">
-        {{ range .Site.Taxonomies.tags }}
+        {{/*  {{ range $key,$value := .Data.Terms.ByCount }}  */}}
+        {{ range $key,$value := .Data.Terms }}
             {{ partial "term-stub.html" . }}
         {{ end }}
     </ol>

@@ -1,9 +1,10 @@
 +++
 title = "{{ humanize .Name | title }}"
 description = ""
-author = ""
+author = "Sam Atkins"
 date = {{ .Date }}
+categories = []
 tags = []
 draft = true
-type = ""
+type = "post"
 +++

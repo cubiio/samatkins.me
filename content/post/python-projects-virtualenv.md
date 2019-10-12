@@ -3,6 +3,7 @@ title = "Managing Python projects with Virtualenv"
 date = "2016-12-30T10:15:16.408Z"
 showDate = true
 draft = false
+categories = ["Back End"]
 tags = ["programming", "python", "virtualenv"]
 type = "post"
 +++

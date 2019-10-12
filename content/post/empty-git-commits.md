@@ -3,6 +3,7 @@ title = "Empty Git Commits"
 description = "How to make an empty git commit"
 author = "Sam Atkins"
 date = 2019-09-18T20:13:56+01:00
+categories = ["DevOps"]
 tags = ["programming", "git", "CI", "DevOps"]
 draft = false
 type = "post"
