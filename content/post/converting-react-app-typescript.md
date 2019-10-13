@@ -4,7 +4,7 @@ date = '2018-04-20'
 showDate = true
 draft = false
 categories = ["Front End"]
-tags = ['programming', 'react', 'typescript']
+tags = ['programming', 'react', 'typescript', 'VS Code']
 type = "post"
 +++
 
