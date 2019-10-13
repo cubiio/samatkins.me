@@ -4,7 +4,7 @@ description = "How to add git aliases to use in the command line"
 author = "Sam Atkins"
 date = 2019-02-11T19:39:18Z
 categories = ["Productivity"]
-tags = ['bash', 'command-line', 'git', 'linux', 'macOS', 'programming']
+tags = ['bash', 'command line', 'git', 'linux', 'macOS', 'programming', 'productivity']
 draft = false
 type = "post"
 +++

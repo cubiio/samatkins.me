@@ -4,7 +4,7 @@ description = "To aid productivity use aliases and bash functions for Docker com
 author = "Sam Atkins"
 date = 2019-10-13T07:06:45+01:00
 categories = ["DevOps", "Productivity"]
-tags = ["Docker", "bash", "command line", "DevOps", "Productivity"]
+tags = ["Docker", "bash", "command line", "DevOps", "productivity"]
 draft = false
 type = "post"
 +++

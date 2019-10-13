@@ -4,7 +4,7 @@ date = "2016-09-19T10:15:16.408Z"
 showDate = true
 draft = false
 categories = ["Productivity"]
-tags = ["programming", "macOS", "linux", "command-line"]
+tags = ["programming", "macOS", "linux", "command line", "bash"]
 type = "post"
 +++
 

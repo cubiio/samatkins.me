@@ -4,7 +4,7 @@ description = "Adding your own code snippets is a small but powerful way to incr
 author = "Sam Atkins"
 date = 2019-03-17T17:17:10Z
 categories = ["Productivity"]
-tags = ["programming", "python", "vs-code", "productivity"]
+tags = ["programming", "python", "VS Code", "productivity"]
 draft = false
 type = "post"
 +++
