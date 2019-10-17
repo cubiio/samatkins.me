@@ -9,6 +9,6 @@ help track activity across a website.
 
 This site uses cookies for the following purpose:
 
-### Google Analytics
+### Clicky
 
-Google Analytics is used on my site to help provide anonymous web analytics for the website.
+clicky.com is used on my site to help provide anonymous web analytics for the website.
