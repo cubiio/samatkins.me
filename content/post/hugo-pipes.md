@@ -8,7 +8,7 @@ tags = ["Hugo", "assetProcessing", "staticSiteGenerator", "DevOps"]
 draft = false
 type = "post"
 +++
-Hugo version 0.43 introduced [Hugo Pipes]([https://gohugo.io/hugo-pipes/introduction/](https://gohugo.io/hugo-pipes/introduction/)) which process assets e.g. save preprocessed Sass files to CSS files. I finally got round to adding this as part of adapting the Ghostwriter theme I use on my site (a forked Ghostwriter theme by [Juraj Bubniak]([https://github.com/jbub/ghostwriter](https://github.com/jbub/ghostwriter))).
+Hugo version 0.43 introduced [Hugo Pipes]([https://gohugo.io/hugo-pipes/introduction/](https://gohugo.io/hugo-pipes/introduction/)) which processes assets e.g. save preprocessed Sass files to CSS files. I finally got round to adding this as part of adapting the Ghostwriter theme I use on my site (a forked Ghostwriter theme by [Juraj Bubniak]([https://github.com/jbub/ghostwriter](https://github.com/jbub/ghostwriter))).
 
 ## Why Hugo Pipes and not Webpack
 
