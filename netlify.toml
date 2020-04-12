@@ -25,6 +25,11 @@ to = "https://www.samatkins.me/:splat"
 status = 301
 
 [[redirects]]
+from = "https://samatkinsme.netlify.app/*"
+to = "https://www.samatkins.me/:splat"
+status = 301
+
+[[redirects]]
 from = "/becoming-a-pro-web-dev"
 to = "/post/becoming-a-pro-web-dev"
 status = 301
