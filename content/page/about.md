@@ -2,9 +2,9 @@
 title: "about"
 date: 2019-03-17T17:17:10Z
 ---
-Hi, I’m Sam. I live in London with my family. I’m a Software Engineer at [Big Health](https://www.bighealth.com).
+Hi, I’m Sam. I live in London with my family. I’m a Software Engineer at [Eigen Technologies](https://www.eigentech.com/).
 
-I'm self-taught and an alumnus of [Udacity](https://www.udacity.com). I'm happiest working on DevOps, Cloud and Back-End. I enjoy automating stuff and helping the team be more productive, shipping with resilience and speed.
+I'm self-taught and an alumnus of [Udacity](https://www.udacity.com). I'm happiest working on Back-End, Cloud and DevOps. I enjoy automating stuff and helping the team be more productive, shipping with resilience and speed.
 
 ## Background
 
