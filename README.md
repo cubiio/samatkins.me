@@ -104,12 +104,8 @@ hugo
 
 ### Deploy
 
-The site is hosted on Netlify. Netlify deploy config is in the `netlify.toml` file.
+The site is hosted on Netlify. Netlify deploy config is in the `netlify.toml` file. A push triggers a build on Netlify. If on a branch, it builds and deploys a preview.
 
-A push triggers a build on Netlify. If on a branch, it builds and deploys a preview.
-
- A push to the master branch will trigger a new deploy to `production`.
-
- This is why all development should take place on a feature branch, and only when ready, merge to master.
+ A push to the main branch will trigger a new deploy to `production`. This is why all development should take place on a feature branch, and only when ready, merge to main.
 
 Refer to the [Netlify docs](https://www.netlify.com/docs/) for more info.
