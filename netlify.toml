@@ -3,21 +3,21 @@ command = "hugo"
 publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.58.2"
+HUGO_VERSION = "0.69.0"
 
 [context.branch-deploy]
 command = "hugo --buildFuture"
 publish = "public"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.58.2"
+HUGO_VERSION = "0.69.0"
 
 [context.deploy-preview]
 command = "hugo --buildFuture"
 publish = "public"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.58.2"
+HUGO_VERSION = "0.69.0"
 
 [[redirects]]
 from = "https://samatkinsme.netlify.com/*"
