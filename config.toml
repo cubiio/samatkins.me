@@ -4,18 +4,13 @@ title = "Sam Atkins"
 
 # Code Blocks
 pygmentsCodeFences = true
-pygmentsStyle = "monokai"
-
+pygmentsStyle = "vs"
+pygmentsOptions = "linenos=table"
 
 [Privacy]
 
 [Privacy.disqus]
   disable = true
-
-[Privacy.googleAnalytics]
-  anonymizeIP = true
-  respectDoNotTrack = true
-  useSessionStorage = false
 
 [Author]
   name = "Sam Atkins"
