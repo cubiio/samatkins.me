@@ -15,10 +15,8 @@
         {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
         {{ end -}}
-        {{ partial "clicky-tracking.html" }}
         {{ partial "extra-in-head.html" . }}
         {{ partial "exponea.html" . }}
-        {{ partial "cookie-consent.html" . }}
     </head>
         <div id="wrapper">
             <header class="site-header">
