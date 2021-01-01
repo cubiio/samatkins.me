@@ -16,8 +16,6 @@ The code for my personal site and blog.
     - [Installation](#installation)
   - [Develop](#develop)
     - [How to run](#how-to-run)
-    - [Images](#images)
-    - [Style Guide](#style-guide)
     - [Adding blogpost content](#adding-blogpost-content)
     - [Develop troubleshooting](#develop-troubleshooting)
   - [Release](#release)
@@ -53,14 +51,6 @@ hugo help
 ```
 
 The `-D` flag serves all draft blog posts.
-
-### Images
-
-To process jpeg and png images, place the images in `src/images/pending` and run `gulp`.
-
-### Style Guide
-
-This repo uses [Prettier](https://github.com/prettier/prettier) formatting, where it is available for the language.
 
 ### Adding blogpost content
 
