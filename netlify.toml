@@ -19,6 +19,11 @@ publish = "public"
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.69.0"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
+
 [[redirects]]
 from = "https://samatkinsme.netlify.com/*"
 to = "https://www.samatkins.me/:splat"
